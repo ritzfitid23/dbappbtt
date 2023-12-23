@@ -1,0 +1,4111 @@
+[
+  {
+    "id": "1",
+    "norak": "0b",
+    "hanzhi": "大枫子",
+    "pinyin": "dà fēng zi",
+    "img": "0b1.jpg"
+  },
+  {
+    "id": "2",
+    "norak": "0b",
+    "hanzhi": "使君子",
+    "pinyin": "shǐ jūn zi",
+    "img": "0b2.jpg"
+  },
+  {
+    "id": "3",
+    "norak": "0b",
+    "hanzhi": "潞潞通",
+    "pinyin": "lù lù tōng",
+    "img": "0b3.jpg"
+  },
+  {
+    "id": "4",
+    "norak": "0b",
+    "hanzhi": "木别子",
+    "pinyin": "mù bié zi",
+    "img": "0b4.jpg"
+  },
+  {
+    "id": "5",
+    "norak": "0b",
+    "hanzhi": "山棕子",
+    "pinyin": "shān zōng zi",
+    "img": "0b5.jpg"
+  },
+  {
+    "id": "6",
+    "norak": "0b",
+    "hanzhi": "柯子",
+    "pinyin": "kē zi",
+    "img": "0b6.jpg"
+  },
+  {
+    "id": "7",
+    "norak": "0c",
+    "hanzhi": "萆麻子",
+    "pinyin": "bì má zi",
+    "img": "0c1.jpg"
+  },
+  {
+    "id": "8",
+    "norak": "0c",
+    "hanzhi": "耒菔子",
+    "pinyin": "lěi fú zi",
+    "img": "0c2.jpg"
+  },
+  {
+    "id": "9",
+    "norak": "0c",
+    "hanzhi": "桑椹子",
+    "pinyin": "sāng shèn zi",
+    "img": "0c3.jpg"
+  },
+  {
+    "id": "10",
+    "norak": "0c",
+    "hanzhi": "青箱子",
+    "pinyin": "qīng xiāng zi",
+    "img": "0c4.jpg"
+  },
+  {
+    "id": "11",
+    "norak": "0c",
+    "hanzhi": "蒼耳子",
+    "pinyin": "cāng ěr zi",
+    "img": "0c5.jpg"
+  },
+  {
+    "id": "12",
+    "norak": "0c",
+    "hanzhi": "蛇床子",
+    "pinyin": "shé chuáng zi",
+    "img": "0c6.jpg"
+  },
+  {
+    "id": "13",
+    "norak": "0d",
+    "hanzhi": "宁力子",
+    "pinyin": "níng lì zi",
+    "img": "0d1.jpg"
+  },
+  {
+    "id": "14",
+    "norak": "0d",
+    "hanzhi": "五倍子",
+    "pinyin": "wǔ bèi zi",
+    "img": "0d2.jpg"
+  },
+  {
+    "id": "15",
+    "norak": "0d",
+    "hanzhi": "谷精子",
+    "pinyin": "gǔ jīng zǐ",
+    "img": "0d3.jpg"
+  },
+  {
+    "id": "16",
+    "norak": "0d",
+    "hanzhi": "地夫子",
+    "pinyin": "dì fū zǐ",
+    "img": "0d4.jpg"
+  },
+  {
+    "id": "17",
+    "norak": "0d",
+    "hanzhi": "牛旁子",
+    "pinyin": "niú páng zi",
+    "img": "0d5.jpg"
+  },
+  {
+    "id": "18",
+    "norak": "0d",
+    "hanzhi": "女貞子",
+    "pinyin": "nǚ zhēn zi",
+    "img": "0d6.jpg"
+  },
+  {
+    "id": "19",
+    "norak": "0e",
+    "hanzhi": "岗念根",
+    "pinyin": "gǎng niàn gēn",
+    "img": "0e1.jpg"
+  },
+  {
+    "id": "20",
+    "norak": "0e",
+    "hanzhi": "伏地菊",
+    "pinyin": "fú dì jú",
+    "img": "0e2.jpg"
+  },
+  {
+    "id": "21",
+    "norak": "0e",
+    "hanzhi": "紅紫草",
+    "pinyin": "hóng zǐ cǎo",
+    "img": "0e3.jpg"
+  },
+  {
+    "id": "22",
+    "norak": "0e",
+    "hanzhi": "蒼耳根",
+    "pinyin": "cāng ěr gēn",
+    "img": "0e4.jpg"
+  },
+  {
+    "id": "23",
+    "norak": "0e",
+    "hanzhi": "小茴香",
+    "pinyin": "xiǎo huí xiāng",
+    "img": "0e5.jpg"
+  },
+  {
+    "id": "24",
+    "norak": "0e",
+    "hanzhi": "云台子",
+    "pinyin": "yún tái zi",
+    "img": "0e6.jpg"
+  },
+  {
+    "id": "25",
+    "norak": "0f",
+    "hanzhi": "必仔草",
+    "pinyin": "bì zǐ cǎo",
+    "img": "0f1.jpg"
+  },
+  {
+    "id": "26",
+    "norak": "0f",
+    "hanzhi": "荷莲房",
+    "pinyin": "hé lián fáng",
+    "img": "0f2.jpg"
+  },
+  {
+    "id": "27",
+    "norak": "0f",
+    "hanzhi": "炒神粬",
+    "pinyin": "chǎo shén qū",
+    "img": "0f3.jpg"
+  },
+  {
+    "id": "28",
+    "norak": "0f",
+    "hanzhi": "枳实",
+    "pinyin": "zhǐ shí",
+    "img": "0f4.jpg"
+  },
+  {
+    "id": "29",
+    "norak": "0f",
+    "hanzhi": "皂刺尖",
+    "pinyin": "zào cì jiān",
+    "img": "0f5.jpg"
+  },
+  {
+    "id": "30",
+    "norak": "0g",
+    "hanzhi": "金牛草",
+    "pinyin": "jīn niú cǎo",
+    "img": "0g1.jpg"
+  },
+  {
+    "id": "31",
+    "norak": "0g",
+    "hanzhi": "风尾草",
+    "pinyin": "fēng wěi cǎo",
+    "img": "0g2.jpg"
+  },
+  {
+    "id": "32",
+    "norak": "0g",
+    "hanzhi": "毛冬青",
+    "pinyin": "máo dōng qīng",
+    "img": "0g3.jpg"
+  },
+  {
+    "id": "33",
+    "norak": "0g",
+    "hanzhi": "蜀羊泉",
+    "pinyin": "shǔ yáng quán",
+    "img": "0g4.jpg"
+  },
+  {
+    "id": "34",
+    "norak": "0h",
+    "hanzhi": "石上栢",
+    "pinyin": "shí shàng bǎi",
+    "img": "0h1.jpg"
+  },
+  {
+    "id": "35",
+    "norak": "0h",
+    "hanzhi": "刺五加参",
+    "pinyin": "cì wǔ jiā cān",
+    "img": "0h2.jpg"
+  },
+  {
+    "id": "36",
+    "norak": "0h",
+    "hanzhi": "鸡冠花",
+    "pinyin": "jī guān huā",
+    "img": "0h3.jpg"
+  },
+  {
+    "id": "37",
+    "norak": "0h",
+    "hanzhi": "赤茯芩",
+    "pinyin": "chì fú qín",
+    "img": "0h4.jpg"
+  },
+  {
+    "id": "38",
+    "norak": "1a",
+    "hanzhi": "金蒙石",
+    "pinyin": "jīn méng shí",
+    "img": "1a1.jpg"
+  },
+  {
+    "id": "39",
+    "norak": "1a",
+    "hanzhi": "花 蕊 石",
+    "pinyin": "huā ruǐ shí",
+    "img": "1a2.jpg"
+  },
+  {
+    "id": "40",
+    "norak": "1a",
+    "hanzhi": "磁 石",
+    "pinyin": "cí shí",
+    "img": "1a3.jpg"
+  },
+  {
+    "id": "41",
+    "norak": "1a",
+    "hanzhi": "蜂 巢 石",
+    "pinyin": "fēng cháo shí",
+    "img": "1a4.jpg"
+  },
+  {
+    "id": "42",
+    "norak": "1a",
+    "hanzhi": "生 石 燕",
+    "pinyin": "shēng shí yàn",
+    "img": "1a5.jpg"
+  },
+  {
+    "id": "43",
+    "norak": "1a",
+    "hanzhi": "浮 海 石",
+    "pinyin": "fú hǎi shí",
+    "img": "1a6.jpg"
+  },
+  {
+    "id": "44",
+    "norak": "1a",
+    "hanzhi": "寒 水 石",
+    "pinyin": "hán shuǐ shí",
+    "img": "1a7.jpg"
+  },
+  {
+    "id": "45",
+    "norak": "1a",
+    "hanzhi": "蠏 石",
+    "pinyin": "xiè shí",
+    "img": "1a8.jpg"
+  },
+  {
+    "id": "46",
+    "norak": "1a",
+    "hanzhi": "代 者 石",
+    "pinyin": "dài zhě shí",
+    "img": "1a9.jpg"
+  },
+  {
+    "id": "47",
+    "norak": "1b",
+    "hanzhi": "寬根藤",
+    "pinyin": "kuān gēn téng",
+    "img": "1b1.jpg"
+  },
+  {
+    "id": "48",
+    "norak": "1b",
+    "hanzhi": "海风藤",
+    "pinyin": "hǎi fēng téng",
+    "img": "1b2.jpg"
+  },
+  {
+    "id": "49",
+    "norak": "1b",
+    "hanzhi": "血风藤",
+    "pinyin": "xuè fēng téng",
+    "img": "1b3.jpg"
+  },
+  {
+    "id": "50",
+    "norak": "1b",
+    "hanzhi": "清风藤",
+    "pinyin": "qīng fēng téng",
+    "img": "1b4.jpg"
+  },
+  {
+    "id": "51",
+    "norak": "1b",
+    "hanzhi": "洛石藤",
+    "pinyin": "luò shí téng",
+    "img": "1b5.jpg"
+  },
+  {
+    "id": "52",
+    "norak": "1b",
+    "hanzhi": "石楠藤",
+    "pinyin": "shí nán téng",
+    "img": "1b6.jpg"
+  },
+  {
+    "id": "53",
+    "norak": "1b",
+    "hanzhi": "春根藤",
+    "pinyin": "chūn gēn téng",
+    "img": "1b7.jpg"
+  },
+  {
+    "id": "54",
+    "norak": "1b",
+    "hanzhi": "板兰根",
+    "pinyin": "bǎn lán gēn",
+    "img": "1b8.jpg"
+  },
+  {
+    "id": "55",
+    "norak": "1c",
+    "hanzhi": "煅石膏",
+    "pinyin": "duàn shí gāo",
+    "img": "1c1.jpg"
+  },
+  {
+    "id": "56",
+    "norak": "1c",
+    "hanzhi": "生石膏",
+    "pinyin": "shēng shí gāo",
+    "img": "1c2.jpg"
+  },
+  {
+    "id": "57",
+    "norak": "1c",
+    "hanzhi": "毛将軍",
+    "pinyin": "máo jiàng jūn",
+    "img": "1c3.jpg"
+  },
+  {
+    "id": "58",
+    "norak": "1c",
+    "hanzhi": "猫爪草",
+    "pinyin": "māo zhǎo cǎo",
+    "img": "1c4.jpg"
+  },
+  {
+    "id": "59",
+    "norak": "1c",
+    "hanzhi": "全瓜蒌",
+    "pinyin": "quán guā lóu",
+    "img": "1c5.jpg"
+  },
+  {
+    "id": "60",
+    "norak": "1c",
+    "hanzhi": "金英根",
+    "pinyin": "jīn yīng gēn",
+    "img": "1c6.jpg"
+  },
+  {
+    "id": "61",
+    "norak": "1c",
+    "hanzhi": "求必应",
+    "pinyin": "qiú bì yìng",
+    "img": "1c7.jpg"
+  },
+  {
+    "id": "62",
+    "norak": "1c",
+    "hanzhi": "紅藤",
+    "pinyin": "hóng téng",
+    "img": "1c8.jpg"
+  },
+  {
+    "id": "63",
+    "norak": "1d",
+    "hanzhi": "川百歩",
+    "pinyin": "chuān bǎi bù",
+    "img": "1d1.jpg"
+  },
+  {
+    "id": "64",
+    "norak": "1d",
+    "hanzhi": "双鈎藤",
+    "pinyin": "shuāng gōu téng",
+    "img": "1d2.jpg"
+  },
+  {
+    "id": "65",
+    "norak": "1d",
+    "hanzhi": "紫京皮",
+    "pinyin": "zǐ jīng pí",
+    "img": "1d3.jpg"
+  },
+  {
+    "id": "66",
+    "norak": "1d",
+    "hanzhi": "落得打",
+    "pinyin": "luò de dǎ",
+    "img": "1d4.jpg"
+  },
+  {
+    "id": "67",
+    "norak": "1d",
+    "hanzhi": "銀才胡",
+    "pinyin": "yín cái hú",
+    "img": "1d5.jpg"
+  },
+  {
+    "id": "68",
+    "norak": "1d",
+    "hanzhi": "穿山龙",
+    "pinyin": "chuān shān lóng",
+    "img": "1d6.jpg"
+  },
+  {
+    "id": "69",
+    "norak": "1d",
+    "hanzhi": "白槿皮",
+    "pinyin": "bái jǐn pí",
+    "img": "1d7.jpg"
+  },
+  {
+    "id": "70",
+    "norak": "1d",
+    "hanzhi": "化石草",
+    "pinyin": "huà shí cǎo",
+    "img": "1d8.jpg"
+  },
+  {
+    "id": "71",
+    "norak": "1e",
+    "hanzhi": "牡利粉",
+    "pinyin": "mǔ lì fěn",
+    "img": "1e1.jpg"
+  },
+  {
+    "id": "72",
+    "norak": "1e",
+    "hanzhi": "龙骨粉",
+    "pinyin": "lóng gǔ fěn",
+    "img": "1e2.jpg"
+  },
+  {
+    "id": "73",
+    "norak": "1e",
+    "hanzhi": "活石粉",
+    "pinyin": "huó shí fěn",
+    "img": "1e3.jpg"
+  },
+  {
+    "id": "74",
+    "norak": "1e",
+    "hanzhi": "珍珠母",
+    "pinyin": "zhēn zhū mǔ",
+    "img": "1e4.jpg"
+  },
+  {
+    "id": "75",
+    "norak": "1e",
+    "hanzhi": "生牡利",
+    "pinyin": "shēng mǔ lì",
+    "img": "1e5.jpg"
+  },
+  {
+    "id": "76",
+    "norak": "1e",
+    "hanzhi": "生龙骨",
+    "pinyin": "shēng lóng gǔ",
+    "img": "1e6.jpg"
+  },
+  {
+    "id": "77",
+    "norak": "1e",
+    "hanzhi": "生石决",
+    "pinyin": "shēng shí jué",
+    "img": "1e7.jpg"
+  },
+  {
+    "id": "78",
+    "norak": "1e",
+    "hanzhi": "雄黃角",
+    "pinyin": "xióng huáng jiǎo",
+    "img": "1e8.jpg"
+  },
+  {
+    "id": "79",
+    "norak": "1e",
+    "hanzhi": "鹿角霜",
+    "pinyin": "lù jiǎo shuāng",
+    "img": "1e9.jpg"
+  },
+  {
+    "id": "80",
+    "norak": "1f",
+    "hanzhi": "鹤虱子",
+    "pinyin": "hè shī zi",
+    "img": "1f1.jpg"
+  },
+  {
+    "id": "81",
+    "norak": "1f",
+    "hanzhi": "双面刺",
+    "pinyin": "shuāng miàn cì",
+    "img": "1f2.jpg"
+  },
+  {
+    "id": "82",
+    "norak": "1f",
+    "hanzhi": "木賊",
+    "pinyin": "mù zéi",
+    "img": "1f3.jpg"
+  },
+  {
+    "id": "83",
+    "norak": "1f",
+    "hanzhi": "益智仁",
+    "pinyin": "yì zhì rén",
+    "img": "1f4.jpg"
+  },
+  {
+    "id": "84",
+    "norak": "1f",
+    "hanzhi": "赤芍",
+    "pinyin": "chì sháo",
+    "img": "1f5.jpg"
+  },
+  {
+    "id": "85",
+    "norak": "1f",
+    "hanzhi": "川楝子",
+    "pinyin": "chuān liàn zi",
+    "img": "1f6.jpg"
+  },
+  {
+    "id": "86",
+    "norak": "1g",
+    "hanzhi": "果本",
+    "pinyin": "guǒ běn",
+    "img": "1g1.jpg"
+  },
+  {
+    "id": "87",
+    "norak": "1g",
+    "hanzhi": "绿升麻",
+    "pinyin": "lǜ shēng má",
+    "img": "1g2.jpg"
+  },
+  {
+    "id": "88",
+    "norak": "1g",
+    "hanzhi": "苏梗",
+    "pinyin": "sū gěng",
+    "img": "1g3.jpg"
+  },
+  {
+    "id": "89",
+    "norak": "1g",
+    "hanzhi": "猪苓",
+    "pinyin": "zhū líng",
+    "img": "1g4.jpg"
+  },
+  {
+    "id": "90",
+    "norak": "1g",
+    "hanzhi": "桂枝",
+    "pinyin": "guì zhī",
+    "img": "1g5.jpg"
+  },
+  {
+    "id": "91",
+    "norak": "1g",
+    "hanzhi": "莲召",
+    "pinyin": "lián zhào",
+    "img": "1g6.jpg"
+  },
+  {
+    "id": "92",
+    "norak": "1h",
+    "hanzhi": "川大片",
+    "pinyin": "chuān dà piàn",
+    "img": "1h1.jpg"
+  },
+  {
+    "id": "93",
+    "norak": "1h",
+    "hanzhi": "威灵仙",
+    "pinyin": "wēi líng xiān",
+    "img": "1h2.jpg"
+  },
+  {
+    "id": "94",
+    "norak": "1h",
+    "hanzhi": "蒲公英",
+    "pinyin": "pú gōng yīng",
+    "img": "1h3.jpg"
+  },
+  {
+    "id": "95",
+    "norak": "1h",
+    "hanzhi": "山查",
+    "pinyin": "shān zhā",
+    "img": "1h4.jpg"
+  },
+  {
+    "id": "96",
+    "norak": "1h",
+    "hanzhi": "泽舍",
+    "pinyin": "zé shè",
+    "img": "1h5.jpg"
+  },
+  {
+    "id": "97",
+    "norak": "1h",
+    "hanzhi": "木通",
+    "pinyin": "mù tōng",
+    "img": "1h6.jpg"
+  },
+  {
+    "id": "98",
+    "norak": "1i",
+    "hanzhi": "益母草",
+    "pinyin": "yì mǔ cǎo",
+    "img": "1i1.jpg"
+  },
+  {
+    "id": "99",
+    "norak": "1i",
+    "hanzhi": "具麦草",
+    "pinyin": "jù mài cǎo",
+    "img": "1i2.jpg"
+  },
+  {
+    "id": "100",
+    "norak": "1i",
+    "hanzhi": "扁畜草",
+    "pinyin": "biǎn chù cǎo",
+    "img": "1i3.jpg"
+  },
+  {
+    "id": "101",
+    "norak": "1i",
+    "hanzhi": "地龙干",
+    "pinyin": "dì lóng gān",
+    "img": "1i4.jpg"
+  },
+  {
+    "id": "102",
+    "norak": "1i",
+    "hanzhi": "敗醬草",
+    "pinyin": "bài jiàng cǎo",
+    "img": "1i5.jpg"
+  },
+  {
+    "id": "103",
+    "norak": "1i",
+    "hanzhi": "旱连草",
+    "pinyin": "hàn lián cǎo",
+    "img": "1i6.jpg"
+  },
+  {
+    "id": "104",
+    "norak": "1i",
+    "hanzhi": "石韋",
+    "pinyin": "shí wéi",
+    "img": "1i7.jpg"
+  },
+  {
+    "id": "105",
+    "norak": "1i",
+    "hanzhi": "桑叶",
+    "pinyin": "sāng yè",
+    "img": "1i8.jpg"
+  },
+  {
+    "id": "106",
+    "norak": "1i",
+    "hanzhi": "竹茹",
+    "pinyin": "zhú rú",
+    "img": "1i9.jpg"
+  },
+  {
+    "id": "107",
+    "norak": "1i",
+    "hanzhi": "马蹄金",
+    "pinyin": "mǎ tí jīn",
+    "img": "1i10.jpg"
+  },
+  {
+    "id": "108",
+    "norak": "1i",
+    "hanzhi": "白通草",
+    "pinyin": "bái tōng cǎo",
+    "img": "1i11.jpg"
+  },
+  {
+    "id": "109",
+    "norak": "1i",
+    "hanzhi": "卜荷叶",
+    "pinyin": "bǔ hé yè",
+    "img": "1i12.jpg"
+  },
+  {
+    "id": "110",
+    "norak": "2a",
+    "hanzhi": "生川烏",
+    "pinyin": "shēng chuān wū",
+    "img": "2a1.jpg"
+  },
+  {
+    "id": "111",
+    "norak": "2a",
+    "hanzhi": "生草烏",
+    "pinyin": "shēng cǎo wū",
+    "img": "2a2.jpg"
+  },
+  {
+    "id": "112",
+    "norak": "2a",
+    "hanzhi": "生半夏",
+    "pinyin": "shēng bàn xià",
+    "img": "2a3.jpg"
+  },
+  {
+    "id": "113",
+    "norak": "2a",
+    "hanzhi": "生南星",
+    "pinyin": "shēng nán xīng",
+    "img": "2a4.jpg"
+  },
+  {
+    "id": "114",
+    "norak": "2a",
+    "hanzhi": "入骨丹",
+    "pinyin": "rù gǔ dān",
+    "img": "2a5.jpg"
+  },
+  {
+    "id": "115",
+    "norak": "2a",
+    "hanzhi": "水茄根",
+    "pinyin": "shuǐ qié gēn",
+    "img": "2a6.jpg"
+  },
+  {
+    "id": "116",
+    "norak": "2a",
+    "hanzhi": "一枝香",
+    "pinyin": "yī zhī xiāng",
+    "img": "2a7.jpg"
+  },
+  {
+    "id": "117",
+    "norak": "2a",
+    "hanzhi": "紅大戟",
+    "pinyin": "hóng dà jǐ",
+    "img": "2a8.jpg"
+  },
+  {
+    "id": "118",
+    "norak": "2b",
+    "hanzhi": "苦練根",
+    "pinyin": "kǔ liàn gēn",
+    "img": "2b1.jpg"
+  },
+  {
+    "id": "119",
+    "norak": "2b",
+    "hanzhi": "胡椒根",
+    "pinyin": "hú jiāo gēn",
+    "img": "2b2.jpg"
+  },
+  {
+    "id": "120",
+    "norak": "2b",
+    "hanzhi": "蒲銀头",
+    "pinyin": "pú yín tóu",
+    "img": "2b3.jpg"
+  },
+  {
+    "id": "121",
+    "norak": "2b",
+    "hanzhi": "象牙須",
+    "pinyin": "xiàng yá xū",
+    "img": "2b4.jpg"
+  },
+  {
+    "id": "122",
+    "norak": "2b",
+    "hanzhi": "鵝管石",
+    "pinyin": "é guǎn shí",
+    "img": "2b5.jpg"
+  },
+  {
+    "id": "123",
+    "norak": "2b",
+    "hanzhi": "胡芦巴",
+    "pinyin": "hú lú bā",
+    "img": "2b6.jpg"
+  },
+  {
+    "id": "124",
+    "norak": "2b",
+    "hanzhi": "常山根",
+    "pinyin": "cháng shān gēn",
+    "img": "2b7.jpg"
+  },
+  {
+    "id": "125",
+    "norak": "2b",
+    "hanzhi": "甘遂",
+    "pinyin": "gān suì",
+    "img": "2b8.jpg"
+  },
+  {
+    "id": "126",
+    "norak": "2c",
+    "hanzhi": "芦竹根",
+    "pinyin": "lú zhú gēn",
+    "img": "2c1.jpg"
+  },
+  {
+    "id": "127",
+    "norak": "2c",
+    "hanzhi": "穿心連",
+    "pinyin": "chuān xīn lián",
+    "img": "2c2.jpg"
+  },
+  {
+    "id": "128",
+    "norak": "2c",
+    "hanzhi": "紫碗",
+    "pinyin": "zǐ wǎn",
+    "img": "2c3.jpg"
+  },
+  {
+    "id": "129",
+    "norak": "2c",
+    "hanzhi": "茜 草根",
+    "pinyin": "qiàn cǎo gēn",
+    "img": "2c4.jpg"
+  },
+  {
+    "id": "130",
+    "norak": "2c",
+    "hanzhi": "山豆根",
+    "pinyin": "shān dòu gēn",
+    "img": "2c5.jpg"
+  },
+  {
+    "id": "131",
+    "norak": "2c",
+    "hanzhi": "商陸",
+    "pinyin": "shāng lù",
+    "img": "2c6.jpg"
+  },
+  {
+    "id": "132",
+    "norak": "2d",
+    "hanzhi": "麻黄根",
+    "pinyin": "má huáng gēn",
+    "img": "2d1.jpg"
+  },
+  {
+    "id": "133",
+    "norak": "2d",
+    "hanzhi": "白眉根",
+    "pinyin": "bái méi gēn",
+    "img": "2d2.jpg"
+  },
+  {
+    "id": "134",
+    "norak": "2d",
+    "hanzhi": "大丁癀",
+    "pinyin": "dà dīng huáng",
+    "img": "2d3.jpg"
+  },
+  {
+    "id": "135",
+    "norak": "2d",
+    "hanzhi": "一条根",
+    "pinyin": "yī tiáo gēn",
+    "img": "2d4.jpg"
+  },
+  {
+    "id": "136",
+    "norak": "2d",
+    "hanzhi": "儿茶",
+    "pinyin": "r chá",
+    "img": "2d5.jpg"
+  },
+  {
+    "id": "137",
+    "norak": "2d",
+    "hanzhi": "苦参根",
+    "pinyin": "kǔ shēn gēn",
+    "img": "2d6.jpg"
+  },
+  {
+    "id": "138",
+    "norak": "2d",
+    "hanzhi": "夜交藤",
+    "pinyin": "yè jiāo téng",
+    "img": "2d7.jpg"
+  },
+  {
+    "id": "139",
+    "norak": "2d",
+    "hanzhi": "别甲",
+    "pinyin": "bié jiǎ",
+    "img": "2d8.jpg"
+  },
+  {
+    "id": "140",
+    "norak": "2d",
+    "hanzhi": "龟板",
+    "pinyin": "guī bǎn",
+    "img": "2d9.jpg"
+  },
+  {
+    "id": "141",
+    "norak": "2e",
+    "hanzhi": "巴豆",
+    "pinyin": "bā dòu",
+    "img": "2e1.jpg"
+  },
+  {
+    "id": "142",
+    "norak": "2e",
+    "hanzhi": "黄皮核",
+    "pinyin": "huáng pí hé",
+    "img": "2e2.jpg"
+  },
+  {
+    "id": "143",
+    "norak": "2e",
+    "hanzhi": "荔枝核",
+    "pinyin": "lì zhī hé",
+    "img": "2e3.jpg"
+  },
+  {
+    "id": "144",
+    "norak": "2e",
+    "hanzhi": "龙眼核",
+    "pinyin": "lóng yǎn hé",
+    "img": "2e4.jpg"
+  },
+  {
+    "id": "145",
+    "norak": "2e",
+    "hanzhi": "柑桔核",
+    "pinyin": "gān jú hé",
+    "img": "2e5.jpg"
+  },
+  {
+    "id": "146",
+    "norak": "2e",
+    "hanzhi": "瓦弄子",
+    "pinyin": "wǎ nòng zi",
+    "img": "2e6.jpg"
+  },
+  {
+    "id": "147",
+    "norak": "2e",
+    "hanzhi": "炒鸡内金",
+    "pinyin": "chǎo jī nèi jīn",
+    "img": "2e7.jpg"
+  },
+  {
+    "id": "148",
+    "norak": "2e",
+    "hanzhi": "大腹皮",
+    "pinyin": "dà fù pí",
+    "img": "2e8.jpg"
+  },
+  {
+    "id": "149",
+    "norak": "2e",
+    "hanzhi": "台烏",
+    "pinyin": "tái wū",
+    "img": "2e9.jpg"
+  },
+  {
+    "id": "150",
+    "norak": "2f",
+    "hanzhi": "烏豆",
+    "pinyin": "wū dòu",
+    "img": "2f1.jpg"
+  },
+  {
+    "id": "151",
+    "norak": "2f",
+    "hanzhi": "二丁金泉斛",
+    "pinyin": "èr dīng jīn quán hú",
+    "img": "2f2.jpg"
+  },
+  {
+    "id": "152",
+    "norak": "2f",
+    "hanzhi": "欠实",
+    "pinyin": "qiàn shí",
+    "img": "2f3.jpg"
+  },
+  {
+    "id": "153",
+    "norak": "2f",
+    "hanzhi": "百合",
+    "pinyin": "bǎi hé",
+    "img": "2f4.jpg"
+  },
+  {
+    "id": "154",
+    "norak": "2f",
+    "hanzhi": "意米",
+    "pinyin": "yì mǐ",
+    "img": "2f5.jpg"
+  },
+  {
+    "id": "155",
+    "norak": "2f",
+    "hanzhi": "沙参",
+    "pinyin": "shā shēn",
+    "img": "2f6.jpg"
+  },
+  {
+    "id": "156",
+    "norak": "2g",
+    "hanzhi": "海藻",
+    "pinyin": "hǎi zǎo",
+    "img": "2g1.jpg"
+  },
+  {
+    "id": "157",
+    "norak": "2g",
+    "hanzhi": "海带",
+    "pinyin": "hǎi dài",
+    "img": "2g2.jpg"
+  },
+  {
+    "id": "158",
+    "norak": "2g",
+    "hanzhi": "昆布",
+    "pinyin": "kūn bù",
+    "img": "2g3.jpg"
+  },
+  {
+    "id": "159",
+    "norak": "2g",
+    "hanzhi": "淡竹叶",
+    "pinyin": "dàn zhú yè",
+    "img": "2g4.jpg"
+  },
+  {
+    "id": "160",
+    "norak": "2g",
+    "hanzhi": "京芥",
+    "pinyin": "jīng jiè",
+    "img": "2g5.jpg"
+  },
+  {
+    "id": "161",
+    "norak": "2g",
+    "hanzhi": "覀牛皮",
+    "pinyin": "覀 niú pí",
+    "img": "2g6.jpg"
+  },
+  {
+    "id": "162",
+    "norak": "2h",
+    "hanzhi": "枇杷叶",
+    "pinyin": "pí pá yè",
+    "img": "2h1.jpg"
+  },
+  {
+    "id": "163",
+    "norak": "2h",
+    "hanzhi": "罗布麻",
+    "pinyin": "luó bù má",
+    "img": "2h2.jpg"
+  },
+  {
+    "id": "164",
+    "norak": "2h",
+    "hanzhi": "乙金",
+    "pinyin": "yǐ jīn",
+    "img": "2h3.jpg"
+  },
+  {
+    "id": "165",
+    "norak": "2h",
+    "hanzhi": "大海子",
+    "pinyin": "dà hǎi zi",
+    "img": "2h4.jpg"
+  },
+  {
+    "id": "166",
+    "norak": "2h",
+    "hanzhi": "土茯苓",
+    "pinyin": "tǔ fú líng",
+    "img": "2h5.jpg"
+  },
+  {
+    "id": "167",
+    "norak": "2h",
+    "hanzhi": "淮山",
+    "pinyin": "huái shān",
+    "img": "2h6.jpg"
+  },
+  {
+    "id": "168",
+    "norak": "2i",
+    "hanzhi": "定經草",
+    "pinyin": "dìng jīng cǎo",
+    "img": "2i1.jpg"
+  },
+  {
+    "id": "169",
+    "norak": "2i",
+    "hanzhi": "鳮骨草",
+    "pinyin": "鳮 gǔ cǎo",
+    "img": "2i2.jpg"
+  },
+  {
+    "id": "170",
+    "norak": "2i",
+    "hanzhi": "仙鹤草",
+    "pinyin": "xiān hè cǎo",
+    "img": "2i3.jpg"
+  },
+  {
+    "id": "171",
+    "norak": "2i",
+    "hanzhi": "佛耳草",
+    "pinyin": "fó ěr cǎo",
+    "img": "2i4.jpg"
+  },
+  {
+    "id": "172",
+    "norak": "2i",
+    "hanzhi": "伸筋草",
+    "pinyin": "shēn jīn cǎo",
+    "img": "2i5.jpg"
+  },
+  {
+    "id": "173",
+    "norak": "2i",
+    "hanzhi": "藿香",
+    "pinyin": "huò xiāng",
+    "img": "2i6.jpg"
+  },
+  {
+    "id": "174",
+    "norak": "2i",
+    "hanzhi": "谷精草",
+    "pinyin": "gǔ jīng cǎo",
+    "img": "2i7.jpg"
+  },
+  {
+    "id": "175",
+    "norak": "2i",
+    "hanzhi": "鹿含草",
+    "pinyin": "lù hán cǎo",
+    "img": "2i8.jpg"
+  },
+  {
+    "id": "176",
+    "norak": "2i",
+    "hanzhi": "艾叶",
+    "pinyin": "ài yè",
+    "img": "2i9.jpg"
+  },
+  {
+    "id": "177",
+    "norak": "2i",
+    "hanzhi": "才胡",
+    "pinyin": "cái hú",
+    "img": "2i10.jpg"
+  },
+  {
+    "id": "178",
+    "norak": "2i",
+    "hanzhi": "浮萍",
+    "pinyin": "fú píng",
+    "img": "2i11.jpg"
+  },
+  {
+    "id": "179",
+    "norak": "2i(1)",
+    "hanzhi": "魚腥草",
+    "pinyin": "yú xīng cǎo",
+    "img": "2i11.jpg"
+  },
+  {
+    "id": "180",
+    "norak": "2i(1)",
+    "hanzhi": "泽兰",
+    "pinyin": "zé lán",
+    "img": "2i12.jpg"
+  },
+  {
+    "id": "181",
+    "norak": "3a",
+    "hanzhi": "鍾乳石",
+    "pinyin": "zhōng rǔ shí",
+    "img": "3a1.jpg"
+  },
+  {
+    "id": "182",
+    "norak": "3a",
+    "hanzhi": "白凢",
+    "pinyin": "bái fán",
+    "img": "3a2.jpg"
+  },
+  {
+    "id": "183",
+    "norak": "3a",
+    "hanzhi": "硼砂",
+    "pinyin": "péng shā",
+    "img": "3a3.jpg"
+  },
+  {
+    "id": "184",
+    "norak": "3a",
+    "hanzhi": "煅枯凣",
+    "pinyin": "duàn kū 凣",
+    "img": "3a4.jpg"
+  },
+  {
+    "id": "185",
+    "norak": "3a",
+    "hanzhi": "紫石英",
+    "pinyin": "zǐ shí yīng",
+    "img": "3a5.jpg"
+  },
+  {
+    "id": "186",
+    "norak": "3a",
+    "hanzhi": "赤石脂",
+    "pinyin": "chì shí zhī",
+    "img": "3a6.jpg"
+  },
+  {
+    "id": "187",
+    "norak": "3a",
+    "hanzhi": "两头尖",
+    "pinyin": "liǎng tóu jiān",
+    "img": "3a7.jpg"
+  },
+  {
+    "id": "188",
+    "norak": "3a",
+    "hanzhi": "马鞍藤",
+    "pinyin": "mǎ ān téng",
+    "img": "3a8.jpg"
+  },
+  {
+    "id": "189",
+    "norak": "3b",
+    "hanzhi": "雷公藤",
+    "pinyin": "léi gōng téng",
+    "img": "3b1.jpg"
+  },
+  {
+    "id": "190",
+    "norak": "3b",
+    "hanzhi": "陽起石",
+    "pinyin": "yáng qǐ shí",
+    "img": "3b2.jpg"
+  },
+  {
+    "id": "191",
+    "norak": "3b",
+    "hanzhi": "武化藤",
+    "pinyin": "wǔ huà téng",
+    "img": "3b3.jpg"
+  },
+  {
+    "id": "192",
+    "norak": "3b",
+    "hanzhi": "冇砂参",
+    "pinyin": "mǎo shā cān",
+    "img": "3b4.jpg"
+  },
+  {
+    "id": "193",
+    "norak": "3b",
+    "hanzhi": "虎舌癀",
+    "pinyin": "hǔ shé huáng",
+    "img": "3b5.jpg"
+  },
+  {
+    "id": "194",
+    "norak": "3b",
+    "hanzhi": "柳枝癀",
+    "pinyin": "liǔ zhī huáng",
+    "img": "3b6.jpg"
+  },
+  {
+    "id": "195",
+    "norak": "3b",
+    "hanzhi": "天仙藤",
+    "pinyin": "tiān xiān téng",
+    "img": "3b7.jpg"
+  },
+  {
+    "id": "196",
+    "norak": "3c",
+    "hanzhi": "生蒲黄",
+    "pinyin": "shēng pú huáng",
+    "img": "3c1.jpg"
+  },
+  {
+    "id": "197",
+    "norak": "3c",
+    "hanzhi": "山羊血",
+    "pinyin": "shān yáng xuè",
+    "img": "3c2.jpg"
+  },
+  {
+    "id": "198",
+    "norak": "3c",
+    "hanzhi": "黑白丑",
+    "pinyin": "hēi bái chǒu",
+    "img": "3c3.jpg"
+  },
+  {
+    "id": "199",
+    "norak": "3c",
+    "hanzhi": "海金砂",
+    "pinyin": "hǎi jīn shā",
+    "img": "3c4.jpg"
+  },
+  {
+    "id": "200",
+    "norak": "3c",
+    "hanzhi": "五灵脂",
+    "pinyin": "wǔ líng zhī",
+    "img": "3c5.jpg"
+  },
+  {
+    "id": "201",
+    "norak": "3c",
+    "hanzhi": "复盆子",
+    "pinyin": "fù pén zi",
+    "img": "3c6.jpg"
+  },
+  {
+    "id": "202",
+    "norak": "3c",
+    "hanzhi": "鎖阳",
+    "pinyin": "suǒ yáng",
+    "img": "3c7.jpg"
+  },
+  {
+    "id": "203",
+    "norak": "3d",
+    "hanzhi": "白芨",
+    "pinyin": "bái jí",
+    "img": "3d1.jpg"
+  },
+  {
+    "id": "204",
+    "norak": "3d",
+    "hanzhi": "白薟",
+    "pinyin": "bái 薟",
+    "img": "3d2.jpg"
+  },
+  {
+    "id": "205",
+    "norak": "3d",
+    "hanzhi": "山查核",
+    "pinyin": "shān chá hé",
+    "img": "3d3.jpg"
+  },
+  {
+    "id": "206",
+    "norak": "3d",
+    "hanzhi": "虎骨",
+    "pinyin": "hǔ gǔ",
+    "img": "3d4.jpg"
+  },
+  {
+    "id": "207",
+    "norak": "3d",
+    "hanzhi": "梹榔",
+    "pinyin": "bīng láng",
+    "img": "3d5.jpg"
+  },
+  {
+    "id": "208",
+    "norak": "3d",
+    "hanzhi": "血结",
+    "pinyin": "xuè jié",
+    "img": "3d6.jpg"
+  },
+  {
+    "id": "209",
+    "norak": "3d",
+    "hanzhi": "川牛七",
+    "pinyin": "chuān niú qī",
+    "img": "3d7.jpg"
+  },
+  {
+    "id": "210",
+    "norak": "3d",
+    "hanzhi": "牡丹皮",
+    "pinyin": "mǔ dan pí",
+    "img": "3d8.jpg"
+  },
+  {
+    "id": "211",
+    "norak": "3e",
+    "hanzhi": "三菱",
+    "pinyin": "sān líng",
+    "img": "3e1.jpg"
+  },
+  {
+    "id": "212",
+    "norak": "3e",
+    "hanzhi": "莪术",
+    "pinyin": "é shù",
+    "img": "3e2.jpg"
+  },
+  {
+    "id": "213",
+    "norak": "3e",
+    "hanzhi": "归尾",
+    "pinyin": "guī wěi",
+    "img": "3e3.jpg"
+  },
+  {
+    "id": "214",
+    "norak": "3e",
+    "hanzhi": "苏木",
+    "pinyin": "sū mù",
+    "img": "3e4.jpg"
+  },
+  {
+    "id": "215",
+    "norak": "3e",
+    "hanzhi": "木瓜",
+    "pinyin": "mù guā",
+    "img": "3e5.jpg"
+  },
+  {
+    "id": "216",
+    "norak": "3e",
+    "hanzhi": "红花",
+    "pinyin": "hóng huā",
+    "img": "3e6.jpg"
+  },
+  {
+    "id": "217",
+    "norak": "3e",
+    "hanzhi": "砂仁",
+    "pinyin": "shā rén",
+    "img": "3e7.jpg"
+  },
+  {
+    "id": "218",
+    "norak": "3e",
+    "hanzhi": "巴戟",
+    "pinyin": "bā jǐ",
+    "img": "3e8.jpg"
+  },
+  {
+    "id": "219",
+    "norak": "3f",
+    "hanzhi": "葛根",
+    "pinyin": "gé gēn",
+    "img": "3f1.jpg"
+  },
+  {
+    "id": "220",
+    "norak": "3f",
+    "hanzhi": "炒白芍",
+    "pinyin": "chǎo bái sháo",
+    "img": "3f2.jpg"
+  },
+  {
+    "id": "221",
+    "norak": "3f",
+    "hanzhi": "吐丝并",
+    "pinyin": "tǔ sī bìng",
+    "img": "3f3.jpg"
+  },
+  {
+    "id": "222",
+    "norak": "3f",
+    "hanzhi": "只壳",
+    "pinyin": "zhǐ ké",
+    "img": "3f4.jpg"
+  },
+  {
+    "id": "223",
+    "norak": "3f",
+    "hanzhi": "川芎",
+    "pinyin": "chuān xiōng",
+    "img": "3f5.jpg"
+  },
+  {
+    "id": "224",
+    "norak": "3f",
+    "hanzhi": "白芍",
+    "pinyin": "bái sháo",
+    "img": "3f6.jpg"
+  },
+  {
+    "id": "225",
+    "norak": "3g",
+    "hanzhi": "草菓",
+    "pinyin": "cǎo guǒ",
+    "img": "3g1.jpg"
+  },
+  {
+    "id": "226",
+    "norak": "3g",
+    "hanzhi": "川三七",
+    "pinyin": "chuān sān qī",
+    "img": "3g2.jpg"
+  },
+  {
+    "id": "227",
+    "norak": "3g",
+    "hanzhi": "天花粉",
+    "pinyin": "tiān huā fěn",
+    "img": "3g3.jpg"
+  },
+  {
+    "id": "228",
+    "norak": "3g",
+    "hanzhi": "淮牛七",
+    "pinyin": "huái niú qī",
+    "img": "3g4.jpg"
+  },
+  {
+    "id": "229",
+    "norak": "3g",
+    "hanzhi": "白芷",
+    "pinyin": "bái zhǐ",
+    "img": "3g5.jpg"
+  },
+  {
+    "id": "230",
+    "norak": "3g",
+    "hanzhi": "菊花",
+    "pinyin": "jú huā",
+    "img": "3g6.jpg"
+  },
+  {
+    "id": "231",
+    "norak": "3h",
+    "hanzhi": "龙葵",
+    "pinyin": "lóng kuí",
+    "img": "3h1.jpg"
+  },
+  {
+    "id": "232",
+    "norak": "3h",
+    "hanzhi": "青蒿草",
+    "pinyin": "qīng hāo cǎo",
+    "img": "3h2.jpg"
+  },
+  {
+    "id": "233",
+    "norak": "3h",
+    "hanzhi": "蜀羊泉",
+    "pinyin": "shǔ yáng quán",
+    "img": "3h3.jpg"
+  },
+  {
+    "id": "234",
+    "norak": "3h",
+    "hanzhi": "半边莲草",
+    "pinyin": "bàn biān lián cǎo",
+    "img": "3h4.jpg"
+  },
+  {
+    "id": "235",
+    "norak": "3h",
+    "hanzhi": "龙胆草",
+    "pinyin": "lóng dǎn cǎo",
+    "img": "3h5.jpg"
+  },
+  {
+    "id": "236",
+    "norak": "3h",
+    "hanzhi": "苏叶",
+    "pinyin": "sū yè",
+    "img": "3h6.jpg"
+  },
+  {
+    "id": "237",
+    "norak": "3i",
+    "hanzhi": "甘草",
+    "pinyin": "gān cǎo",
+    "img": "3i1.jpg"
+  },
+  {
+    "id": "238",
+    "norak": "3i",
+    "hanzhi": "茅根",
+    "pinyin": "máo gēn",
+    "img": "3i2.jpg"
+  },
+  {
+    "id": "239",
+    "norak": "3i",
+    "hanzhi": "夏枯草",
+    "pinyin": "xià kū cǎo",
+    "img": "3i3.jpg"
+  },
+  {
+    "id": "240",
+    "norak": "3i",
+    "hanzhi": "綠茵陈",
+    "pinyin": "lǜ yīn chén",
+    "img": "3i4.jpg"
+  },
+  {
+    "id": "241",
+    "norak": "4a",
+    "hanzhi": "安息香",
+    "pinyin": "ān xī xiāng",
+    "img": "4a1.jpg"
+  },
+  {
+    "id": "242",
+    "norak": "4a",
+    "hanzhi": "皂凢",
+    "pinyin": "zào fán",
+    "img": "4a2.jpg"
+  },
+  {
+    "id": "243",
+    "norak": "4a",
+    "hanzhi": "光慈姑",
+    "pinyin": "guāng cí gū",
+    "img": "4a3.jpg"
+  },
+  {
+    "id": "244",
+    "norak": "4a",
+    "hanzhi": "肉桂子",
+    "pinyin": "ròu guì zi",
+    "img": "4a4.jpg"
+  },
+  {
+    "id": "245",
+    "norak": "4a",
+    "hanzhi": "餘桹石",
+    "pinyin": "yú láng shí",
+    "img": "4a5.jpg"
+  },
+  {
+    "id": "246",
+    "norak": "4a",
+    "hanzhi": "紅豆叩",
+    "pinyin": "hóng dòu kòu",
+    "img": "4a6.jpg"
+  },
+  {
+    "id": "247",
+    "norak": "4a",
+    "hanzhi": "小金英",
+    "pinyin": "xiǎo jīn yīng",
+    "img": "4a7.jpg"
+  },
+  {
+    "id": "248",
+    "norak": "4a",
+    "hanzhi": "蒲美头",
+    "pinyin": "pú měi tóu",
+    "img": "4a8.jpg"
+  },
+  {
+    "id": "249",
+    "norak": "4b",
+    "hanzhi": "铁针砂",
+    "pinyin": "tiě zhēn shā",
+    "img": "4b1.jpg"
+  },
+  {
+    "id": "250",
+    "norak": "4b",
+    "hanzhi": "硫黄",
+    "pinyin": "liú huáng",
+    "img": "4b2.jpg"
+  },
+  {
+    "id": "251",
+    "norak": "4b",
+    "hanzhi": "马全子",
+    "pinyin": "mǎ quán zi",
+    "img": "4b3.jpg"
+  },
+  {
+    "id": "252",
+    "norak": "4b",
+    "hanzhi": "白石英",
+    "pinyin": "bái shí yīng",
+    "img": "4b4.jpg"
+  },
+  {
+    "id": "253",
+    "norak": "4b",
+    "hanzhi": "绿豆衣",
+    "pinyin": "lǜ dòu yī",
+    "img": "4b5.jpg"
+  },
+  {
+    "id": "254",
+    "norak": "4b",
+    "hanzhi": "马刁苓",
+    "pinyin": "mǎ diāo líng",
+    "img": "4b6.jpg"
+  },
+  {
+    "id": "255",
+    "norak": "4b",
+    "hanzhi": "降真香",
+    "pinyin": "jiàng zhēn xiāng",
+    "img": "4b7.jpg"
+  },
+  {
+    "id": "256",
+    "norak": "4b",
+    "hanzhi": "威生仁",
+    "pinyin": "wēi shēng rén",
+    "img": "4b8.jpg"
+  },
+  {
+    "id": "257",
+    "norak": "4c",
+    "hanzhi": "油松节",
+    "pinyin": "yóu sōng jié",
+    "img": "4c1.jpg"
+  },
+  {
+    "id": "258",
+    "norak": "4c",
+    "hanzhi": "法半下",
+    "pinyin": "fǎ bàn xià",
+    "img": "4c2.jpg"
+  },
+  {
+    "id": "259",
+    "norak": "4c",
+    "hanzhi": "砂碗",
+    "pinyin": "shā wǎn",
+    "img": "4c3.jpg"
+  },
+  {
+    "id": "260",
+    "norak": "4c",
+    "hanzhi": "甘松香",
+    "pinyin": "gān sōng xiāng",
+    "img": "4c4.jpg"
+  },
+  {
+    "id": "261",
+    "norak": "4c",
+    "hanzhi": "射干",
+    "pinyin": "shè gān",
+    "img": "4c5.jpg"
+  },
+  {
+    "id": "262",
+    "norak": "4c",
+    "hanzhi": "夜明砂",
+    "pinyin": "yè míng shā",
+    "img": "4c6.jpg"
+  },
+  {
+    "id": "263",
+    "norak": "4c",
+    "hanzhi": "白豆叩",
+    "pinyin": "bái dòu kòu",
+    "img": "4c7.jpg"
+  },
+  {
+    "id": "264",
+    "norak": "4c",
+    "hanzhi": "久白干",
+    "pinyin": "jiǔ bái gān",
+    "img": "4c8.jpg"
+  },
+  {
+    "id": "265",
+    "norak": "4d",
+    "hanzhi": "瓜蒌皮",
+    "pinyin": "guā lóu pí",
+    "img": "4d1.jpg"
+  },
+  {
+    "id": "266",
+    "norak": "4d",
+    "hanzhi": "川破石",
+    "pinyin": "chuān pò shí",
+    "img": "4d2.jpg"
+  },
+  {
+    "id": "267",
+    "norak": "4d",
+    "hanzhi": "贯众 ",
+    "pinyin": "guàn zhòng",
+    "img": "4d3.jpg"
+  },
+  {
+    "id": "268",
+    "norak": "4d",
+    "hanzhi": "防?",
+    "pinyin": "fáng ?",
+    "img": "4d4.jpg"
+  },
+  {
+    "id": "269",
+    "norak": "4d",
+    "hanzhi": "草决明",
+    "pinyin": "cǎo jué míng",
+    "img": "4d5.jpg"
+  },
+  {
+    "id": "270",
+    "norak": "4d",
+    "hanzhi": "干姜",
+    "pinyin": "gān jiāng",
+    "img": "4d6.jpg"
+  },
+  {
+    "id": "271",
+    "norak": "4d",
+    "hanzhi": "双枝",
+    "pinyin": "shuāng zhī",
+    "img": "4d7.jpg"
+  },
+  {
+    "id": "272",
+    "norak": "4d",
+    "hanzhi": "元胡",
+    "pinyin": "yuán hú",
+    "img": "4d8.jpg"
+  },
+  {
+    "id": "273",
+    "norak": "4d",
+    "hanzhi": "黄莲",
+    "pinyin": "huáng lián",
+    "img": "4d9.jpg"
+  },
+  {
+    "id": "274",
+    "norak": "4e",
+    "hanzhi": "楜椒",
+    "pinyin": "楜 jiāo",
+    "img": "4e1.jpg"
+  },
+  {
+    "id": "275",
+    "norak": "4e",
+    "hanzhi": "三奈香",
+    "pinyin": "sān nài xiāng",
+    "img": "4e2.jpg"
+  },
+  {
+    "id": "276",
+    "norak": "4e",
+    "hanzhi": "丁香",
+    "pinyin": "dīng xiāng",
+    "img": "4e3.jpg"
+  },
+  {
+    "id": "277",
+    "norak": "4e",
+    "hanzhi": "花椒",
+    "pinyin": "huā jiāo",
+    "img": "4e4.jpg"
+  },
+  {
+    "id": "278",
+    "norak": "4e",
+    "hanzhi": "八角",
+    "pinyin": "bā jiǎo",
+    "img": "4e5.jpg"
+  },
+  {
+    "id": "279",
+    "norak": "4e",
+    "hanzhi": "槐角",
+    "pinyin": "huái jiǎo",
+    "img": "4e6.jpg"
+  },
+  {
+    "id": "280",
+    "norak": "4e",
+    "hanzhi": "破故子",
+    "pinyin": "pò gù zi",
+    "img": "4e7.jpg"
+  },
+  {
+    "id": "281",
+    "norak": "4e",
+    "hanzhi": "浙貝",
+    "pinyin": "zhè bèi",
+    "img": "4e8.jpg"
+  },
+  {
+    "id": "282",
+    "norak": "4e",
+    "hanzhi": "首烏",
+    "pinyin": "shǒu wū",
+    "img": "4e9.jpg"
+  },
+  {
+    "id": "283",
+    "norak": "4f",
+    "hanzhi": "山慈姑",
+    "pinyin": "shān cí gū",
+    "img": "4f1.jpg"
+  },
+  {
+    "id": "284",
+    "norak": "4f",
+    "hanzhi": "子草絨",
+    "pinyin": "zi cǎo róng",
+    "img": "4f2.jpg"
+  },
+  {
+    "id": "285",
+    "norak": "4f",
+    "hanzhi": "山枝子",
+    "pinyin": "shān zhī zi",
+    "img": "4f3.jpg"
+  },
+  {
+    "id": "286",
+    "norak": "4f",
+    "hanzhi": "黄芩",
+    "pinyin": "huáng qín",
+    "img": "4f4.jpg"
+  },
+  {
+    "id": "287",
+    "norak": "4f",
+    "hanzhi": "桔梗",
+    "pinyin": "jié gěng",
+    "img": "4f5.jpg"
+  },
+  {
+    "id": "288",
+    "norak": "4f",
+    "hanzhi": "金银花",
+    "pinyin": "jīn yín huā",
+    "img": "4f6.jpg"
+  },
+  {
+    "id": "289",
+    "norak": "4g",
+    "hanzhi": "川芎",
+    "pinyin": "chuān xiōng",
+    "img": "4g1.jpg"
+  },
+  {
+    "id": "290",
+    "norak": "4g",
+    "hanzhi": "乌北芪",
+    "pinyin": "wū běi qí",
+    "img": "4g2.jpg"
+  },
+  {
+    "id": "291",
+    "norak": "4g",
+    "hanzhi": "远志",
+    "pinyin": "yuǎn zhì",
+    "img": "4g3.jpg"
+  },
+  {
+    "id": "292",
+    "norak": "4g",
+    "hanzhi": "丹参",
+    "pinyin": "dān shēn",
+    "img": "4g4.jpg"
+  },
+  {
+    "id": "293",
+    "norak": "4g",
+    "hanzhi": "北芪",
+    "pinyin": "běi qí",
+    "img": "4g5.jpg"
+  },
+  {
+    "id": "294",
+    "norak": "4g",
+    "hanzhi": "防党",
+    "pinyin": "fáng dǎng",
+    "img": "4g6.jpg"
+  },
+  {
+    "id": "295",
+    "norak": "4h",
+    "hanzhi": "双白皮",
+    "pinyin": "shuāng bái pí",
+    "img": "4h1.jpg"
+  },
+  {
+    "id": "296",
+    "norak": "4h",
+    "hanzhi": "黄栢",
+    "pinyin": "huáng bǎi",
+    "img": "4h2.jpg"
+  },
+  {
+    "id": "297",
+    "norak": "4h",
+    "hanzhi": "麦冬",
+    "pinyin": "mài dōng",
+    "img": "4h3.jpg"
+  },
+  {
+    "id": "298",
+    "norak": "4h",
+    "hanzhi": "六汗",
+    "pinyin": "liù hàn",
+    "img": "4h4.jpg"
+  },
+  {
+    "id": "299",
+    "norak": "4h",
+    "hanzhi": "炒白术",
+    "pinyin": "chǎo bái zhú",
+    "img": "4h5.jpg"
+  },
+  {
+    "id": "300",
+    "norak": "4h",
+    "hanzhi": "防丰",
+    "pinyin": "fáng fēng",
+    "img": "4h6.jpg"
+  },
+  {
+    "id": "301",
+    "norak": "4i",
+    "hanzhi": "金钱草",
+    "pinyin": "jīn qián cǎo",
+    "img": "4i1.jpg"
+  },
+  {
+    "id": "302",
+    "norak": "4i",
+    "hanzhi": "猫須草",
+    "pinyin": "māo xū cǎo",
+    "img": "4i2.jpg"
+  },
+  {
+    "id": "303",
+    "norak": "4i",
+    "hanzhi": "益母草",
+    "pinyin": "yì mǔ cǎo",
+    "img": "4i3.jpg"
+  },
+  {
+    "id": "304",
+    "norak": "4i",
+    "hanzhi": "京芥",
+    "pinyin": "jīng jiè",
+    "img": "4i4.jpg"
+  },
+  {
+    "id": "305",
+    "norak": "4i",
+    "hanzhi": "桑寄生",
+    "pinyin": "sāng jì shēng",
+    "img": "4i5.jpg"
+  },
+  {
+    "id": "306",
+    "norak": "4i",
+    "hanzhi": "棉茵陈",
+    "pinyin": "mián yīn chén",
+    "img": "4i6.jpg"
+  },
+  {
+    "id": "307",
+    "norak": "5a",
+    "hanzhi": "芦会",
+    "pinyin": "lú huì",
+    "img": "5a1.jpg"
+  },
+  {
+    "id": "308",
+    "norak": "5a",
+    "hanzhi": "紫草膠",
+    "pinyin": "zǐ cǎo jiāo",
+    "img": "5a2.jpg"
+  },
+  {
+    "id": "309",
+    "norak": "5a",
+    "hanzhi": "干㯃",
+    "pinyin": "gān 㯃",
+    "img": "5a3.jpg"
+  },
+  {
+    "id": "310",
+    "norak": "5a",
+    "hanzhi": "蜂房",
+    "pinyin": "fēng fáng",
+    "img": "5a4.jpg"
+  },
+  {
+    "id": "311",
+    "norak": "5a",
+    "hanzhi": "无名異",
+    "pinyin": "wú míng yì",
+    "img": "5a5.jpg"
+  },
+  {
+    "id": "312",
+    "norak": "5a",
+    "hanzhi": "仙茅",
+    "pinyin": "xiān máo",
+    "img": "5a6.jpg"
+  },
+  {
+    "id": "313",
+    "norak": "5a",
+    "hanzhi": "卷栢",
+    "pinyin": "juǎn bǎi",
+    "img": "5a7.jpg"
+  },
+  {
+    "id": "314",
+    "norak": "5a",
+    "hanzhi": "双螵蛸",
+    "pinyin": "shuāng piāo xiāo",
+    "img": "5a8.jpg"
+  },
+  {
+    "id": "315",
+    "norak": "5b",
+    "hanzhi": "刘寄奴",
+    "pinyin": "liú jì nú",
+    "img": "5b1.jpg"
+  },
+  {
+    "id": "316",
+    "norak": "5b",
+    "hanzhi": "充慰子",
+    "pinyin": "chōng wèi zi",
+    "img": "5b2.jpg"
+  },
+  {
+    "id": "317",
+    "norak": "5b",
+    "hanzhi": "鳯凰退",
+    "pinyin": "fèng huáng tuì",
+    "img": "5b3.jpg"
+  },
+  {
+    "id": "318",
+    "norak": "5b",
+    "hanzhi": "金莲須",
+    "pinyin": "jīn lián xū",
+    "img": "5b4.jpg"
+  },
+  {
+    "id": "319",
+    "norak": "5b",
+    "hanzhi": "忍冬籐",
+    "pinyin": "rěn dōng téng",
+    "img": "5b5.jpg"
+  },
+  {
+    "id": "320",
+    "norak": "5b",
+    "hanzhi": "伏龙干",
+    "pinyin": "fú lóng gān",
+    "img": "5b6.jpg"
+  },
+  {
+    "id": "321",
+    "norak": "5b",
+    "hanzhi": "七厘",
+    "pinyin": "qī lí",
+    "img": "5b7.jpg"
+  },
+  {
+    "id": "322",
+    "norak": "5b",
+    "hanzhi": "海螵蛸",
+    "pinyin": "hǎi piāo xiāo",
+    "img": "5b8.jpg"
+  },
+  {
+    "id": "323",
+    "norak": "5c",
+    "hanzhi": "前胡",
+    "pinyin": "qián hú",
+    "img": "5c1.jpg"
+  },
+  {
+    "id": "324",
+    "norak": "5c",
+    "hanzhi": "麻黄",
+    "pinyin": "má huáng",
+    "img": "5c2.jpg"
+  },
+  {
+    "id": "325",
+    "norak": "5c",
+    "hanzhi": "槐花",
+    "pinyin": "huái huā",
+    "img": "5c3.jpg"
+  },
+  {
+    "id": "326",
+    "norak": "5c",
+    "hanzhi": "細辛",
+    "pinyin": "xì xīn",
+    "img": "5c4.jpg"
+  },
+  {
+    "id": "327",
+    "norak": "5c",
+    "hanzhi": "秦艽",
+    "pinyin": "qín jiāo",
+    "img": "5c5.jpg"
+  },
+  {
+    "id": "328",
+    "norak": "5c",
+    "hanzhi": "香付",
+    "pinyin": "xiāng fù",
+    "img": "5c6.jpg"
+  },
+  {
+    "id": "329",
+    "norak": "5d",
+    "hanzhi": "瓜娄仁",
+    "pinyin": "guā lóu rén",
+    "img": "5d1.jpg"
+  },
+  {
+    "id": "330",
+    "norak": "5d",
+    "hanzhi": "才京子",
+    "pinyin": "cái jīng zi",
+    "img": "5d2.jpg"
+  },
+  {
+    "id": "331",
+    "norak": "5d",
+    "hanzhi": "平貝",
+    "pinyin": "píng bèi",
+    "img": "5d3.jpg"
+  },
+  {
+    "id": "332",
+    "norak": "5d",
+    "hanzhi": "蒼术",
+    "pinyin": "cāng shù",
+    "img": "5d4.jpg"
+  },
+  {
+    "id": "333",
+    "norak": "5d",
+    "hanzhi": "木香",
+    "pinyin": "mù xiāng",
+    "img": "5d5.jpg"
+  },
+  {
+    "id": "334",
+    "norak": "5d",
+    "hanzhi": "半下",
+    "pinyin": "bàn xià",
+    "img": "5d6.jpg"
+  },
+  {
+    "id": "335",
+    "norak": "5e",
+    "hanzhi": "草豆叩",
+    "pinyin": "cǎo dòu kòu",
+    "img": "5e1.jpg"
+  },
+  {
+    "id": "336",
+    "norak": "5e",
+    "hanzhi": "莲藕",
+    "pinyin": "lián ǒu",
+    "img": "5e2.jpg"
+  },
+  {
+    "id": "337",
+    "norak": "5e",
+    "hanzhi": "川朴",
+    "pinyin": "chuān pǔ",
+    "img": "5e3.jpg"
+  },
+  {
+    "id": "338",
+    "norak": "5e",
+    "hanzhi": "天麻",
+    "pinyin": "tiān má",
+    "img": "5e4.jpg"
+  },
+  {
+    "id": "339",
+    "norak": "5e",
+    "hanzhi": "姜活",
+    "pinyin": "jiāng huó",
+    "img": "5e5.jpg"
+  },
+  {
+    "id": "340",
+    "norak": "5e",
+    "hanzhi": "独活",
+    "pinyin": "dú huó",
+    "img": "5e6.jpg"
+  },
+  {
+    "id": "341",
+    "norak": "5f",
+    "hanzhi": "蓯蓉",
+    "pinyin": "cōng róng",
+    "img": "5f1.jpg"
+  },
+  {
+    "id": "342",
+    "norak": "5f",
+    "hanzhi": "大黄",
+    "pinyin": "dà huáng",
+    "img": "5f2.jpg"
+  },
+  {
+    "id": "343",
+    "norak": "5f",
+    "hanzhi": "党参",
+    "pinyin": "dǎng shēn",
+    "img": "5f3.jpg"
+  },
+  {
+    "id": "344",
+    "norak": "5f",
+    "hanzhi": "生地",
+    "pinyin": "shēng dì",
+    "img": "5f4.jpg"
+  },
+  {
+    "id": "345",
+    "norak": "5f",
+    "hanzhi": "熟地",
+    "pinyin": "shú dì",
+    "img": "5f5.jpg"
+  },
+  {
+    "id": "346",
+    "norak": "5f",
+    "hanzhi": "茯苓",
+    "pinyin": "fú líng",
+    "img": "5f6.jpg"
+  },
+  {
+    "id": "347",
+    "norak": "5g",
+    "hanzhi": "茯神",
+    "pinyin": "fú shén",
+    "img": "5g1.jpg"
+  },
+  {
+    "id": "348",
+    "norak": "5g",
+    "hanzhi": "潞党参",
+    "pinyin": "lù dǎng shēn",
+    "img": "5g2.jpg"
+  },
+  {
+    "id": "349",
+    "norak": "5g",
+    "hanzhi": "地骨皮",
+    "pinyin": "dì gǔ pí",
+    "img": "5g3.jpg"
+  },
+  {
+    "id": "350",
+    "norak": "5g",
+    "hanzhi": "五加皮",
+    "pinyin": "wǔ jiā pí",
+    "img": "5g4.jpg"
+  },
+  {
+    "id": "351",
+    "norak": "5g",
+    "hanzhi": "元参",
+    "pinyin": "yuán cān",
+    "img": "5g5.jpg"
+  },
+  {
+    "id": "352",
+    "norak": "5g",
+    "hanzhi": "知母",
+    "pinyin": "zhī mǔ",
+    "img": "5g6.jpg"
+  },
+  {
+    "id": "353",
+    "norak": "5h",
+    "hanzhi": "半边莲只",
+    "pinyin": "bàn biān lián zhǐ",
+    "img": "5h1.jpg"
+  },
+  {
+    "id": "354",
+    "norak": "5h",
+    "hanzhi": "仙人草",
+    "pinyin": "xiān rén cǎo",
+    "img": "5h2.jpg"
+  },
+  {
+    "id": "355",
+    "norak": "5h",
+    "hanzhi": "透骨草",
+    "pinyin": "tòu gǔ cǎo",
+    "img": "5h3.jpg"
+  },
+  {
+    "id": "356",
+    "norak": "5h",
+    "hanzhi": "羊斛叶",
+    "pinyin": "yáng hú yè",
+    "img": "5h4.jpg"
+  },
+  {
+    "id": "357",
+    "norak": "5h",
+    "hanzhi": "車前草",
+    "pinyin": "chē qián cǎo",
+    "img": "5h5.jpg"
+  },
+  {
+    "id": "358",
+    "norak": "5i",
+    "hanzhi": "蛇舌草",
+    "pinyin": "shé shé cǎo",
+    "img": "5i1.jpg"
+  },
+  {
+    "id": "359",
+    "norak": "5i",
+    "hanzhi": "半枝莲",
+    "pinyin": "bàn zhī lián",
+    "img": "5i2.jpg"
+  },
+  {
+    "id": "360",
+    "norak": "5i",
+    "hanzhi": "毛丹草",
+    "pinyin": "máo dān cǎo",
+    "img": "5i3.jpg"
+  },
+  {
+    "id": "361",
+    "norak": "5i",
+    "hanzhi": "千張纸",
+    "pinyin": "qiān zhāng zhǐ",
+    "img": "5i4.jpg"
+  },
+  {
+    "id": "362",
+    "norak": "5i",
+    "hanzhi": "金石斛",
+    "pinyin": "jīn shí hú",
+    "img": "5i5.jpg"
+  },
+  {
+    "id": "363",
+    "norak": "5i",
+    "hanzhi": "无根草",
+    "pinyin": "wú gēn cǎo",
+    "img": "5i6.jpg"
+  },
+  {
+    "id": "364",
+    "norak": "5i",
+    "hanzhi": "千張纸",
+    "pinyin": "qiān zhāng zhǐ",
+    "img": "5i7.jpg"
+  },
+  {
+    "id": "365",
+    "norak": "5i",
+    "hanzhi": "金石斛",
+    "pinyin": "jīn shí hú",
+    "img": "5i8.jpg"
+  },
+  {
+    "id": "366",
+    "norak": "5i",
+    "hanzhi": "无根草",
+    "pinyin": "wú gēn cǎo",
+    "img": "5i9.jpg"
+  },
+  {
+    "id": "367",
+    "norak": "6a",
+    "hanzhi": "秦皮",
+    "pinyin": "qín pí",
+    "img": "6a1.jpg"
+  },
+  {
+    "id": "368",
+    "norak": "6a",
+    "hanzhi": "白㾌皮",
+    "pinyin": "bái 㾌 pí",
+    "img": "6a2.jpg"
+  },
+  {
+    "id": "369",
+    "norak": "6a",
+    "hanzhi": "贊地风",
+    "pinyin": "zàn dì fēng",
+    "img": "6a3.jpg"
+  },
+  {
+    "id": "370",
+    "norak": "6a",
+    "hanzhi": "半下粬",
+    "pinyin": "bàn xià qū",
+    "img": "6a4.jpg"
+  },
+  {
+    "id": "371",
+    "norak": "6b",
+    "hanzhi": "樟木柴",
+    "pinyin": "zhāng mù chái",
+    "img": "6b1.jpg"
+  },
+  {
+    "id": "372",
+    "norak": "6b",
+    "hanzhi": "白蚕衣",
+    "pinyin": "bái cán yī",
+    "img": "6b2.jpg"
+  },
+  {
+    "id": "373",
+    "norak": "6b",
+    "hanzhi": "必拨",
+    "pinyin": "bì bō",
+    "img": "6b3.jpg"
+  },
+  {
+    "id": "374",
+    "norak": "6b",
+    "hanzhi": "石榴壳",
+    "pinyin": "shí liu ké",
+    "img": "6b4.jpg"
+  },
+  {
+    "id": "375",
+    "norak": "6b",
+    "hanzhi": "白椿根",
+    "pinyin": "bái chūn gēn",
+    "img": "6b5.jpg"
+  },
+  {
+    "id": "376",
+    "norak": "6b",
+    "hanzhi": "柿帝",
+    "pinyin": "shì dì",
+    "img": "6b6.jpg"
+  },
+  {
+    "id": "377",
+    "norak": "6c",
+    "hanzhi": "白椿皮",
+    "pinyin": "bái chūn pí",
+    "img": "6c1.jpg"
+  },
+  {
+    "id": "378",
+    "norak": "6c",
+    "hanzhi": "俞白皮",
+    "pinyin": "yú bái pí",
+    "img": "6c2.jpg"
+  },
+  {
+    "id": "379",
+    "norak": "6c",
+    "hanzhi": "白前根",
+    "pinyin": "bái qián gēn",
+    "img": "6c3.jpg"
+  },
+  {
+    "id": "380",
+    "norak": "6c",
+    "hanzhi": "潘胡莲",
+    "pinyin": "pān hú lián",
+    "img": "6c4.jpg"
+  },
+  {
+    "id": "381",
+    "norak": "6c",
+    "hanzhi": "合欢皮",
+    "pinyin": "hé huān pí",
+    "img": "6c5.jpg"
+  },
+  {
+    "id": "382",
+    "norak": "6c",
+    "hanzhi": "琥珀",
+    "pinyin": "hǔ pò",
+    "img": "6c6.jpg"
+  },
+  {
+    "id": "383",
+    "norak": "6d",
+    "hanzhi": "桔絡",
+    "pinyin": "jú luò",
+    "img": "6d1.jpg"
+  },
+  {
+    "id": "384",
+    "norak": "6d",
+    "hanzhi": "白芥子",
+    "pinyin": "bái jiè zi",
+    "img": "6d2.jpg"
+  },
+  {
+    "id": "385",
+    "norak": "6d",
+    "hanzhi": "冬葵子",
+    "pinyin": "dōng kuí zi",
+    "img": "6d3.jpg"
+  },
+  {
+    "id": "386",
+    "norak": "6d",
+    "hanzhi": "油虫砂",
+    "pinyin": "yóu chóng shā",
+    "img": "6d4.jpg"
+  },
+  {
+    "id": "387",
+    "norak": "6e",
+    "hanzhi": "茶叶",
+    "pinyin": "chá yè",
+    "img": "6e1.jpg"
+  },
+  {
+    "id": "388",
+    "norak": "6e",
+    "hanzhi": "竹壳茶",
+    "pinyin": "zhú ké chá",
+    "img": "6e2.jpg"
+  },
+  {
+    "id": "389",
+    "norak": "6e",
+    "hanzhi": "神粬茶",
+    "pinyin": "shén qū chá",
+    "img": "6e3.jpg"
+  },
+  {
+    "id": "390",
+    "norak": "6e",
+    "hanzhi": "青皮",
+    "pinyin": "qīng pí",
+    "img": "6e4.jpg"
+  },
+  {
+    "id": "391",
+    "norak": "6e",
+    "hanzhi": "癀陈皮",
+    "pinyin": "huáng chén pí",
+    "img": "6e5.jpg"
+  },
+  {
+    "id": "392",
+    "norak": "6e",
+    "hanzhi": "陈皮",
+    "pinyin": "chén pí",
+    "img": "6e6.jpg"
+  },
+  {
+    "id": "393",
+    "norak": "6f",
+    "hanzhi": "香茹草",
+    "pinyin": "xiāng rú cǎo",
+    "img": "6f1.jpg"
+  },
+  {
+    "id": "394",
+    "norak": "6f",
+    "hanzhi": "側柏叶",
+    "pinyin": "cè bǎi yè",
+    "img": "6f2.jpg"
+  },
+  {
+    "id": "395",
+    "norak": "6f",
+    "hanzhi": "九層塔",
+    "pinyin": "jiǔ céng tǎ",
+    "img": "6f3.jpg"
+  },
+  {
+    "id": "396",
+    "norak": "6f",
+    "hanzhi": "鵝不食草",
+    "pinyin": "é bù shí cǎo",
+    "img": "6f4.jpg"
+  },
+  {
+    "id": "397",
+    "norak": "6g",
+    "hanzhi": "金不煥",
+    "pinyin": "jīn bù huàn",
+    "img": "6g1.jpg"
+  },
+  {
+    "id": "398",
+    "norak": "6g",
+    "hanzhi": "公石松",
+    "pinyin": "gōng shí sōng",
+    "img": "6g2.jpg"
+  },
+  {
+    "id": "399",
+    "norak": "6g",
+    "hanzhi": "金鎖时",
+    "pinyin": "jīn suǒ shí",
+    "img": "6g3.jpg"
+  },
+  {
+    "id": "400",
+    "norak": "6h",
+    "hanzhi": "淡豆豉",
+    "pinyin": "dàn dòu chǐ",
+    "img": "6h1.jpg"
+  },
+  {
+    "id": "401",
+    "norak": "6h",
+    "hanzhi": "苦参子",
+    "pinyin": "kǔ shēn zi",
+    "img": "6h2.jpg"
+  },
+  {
+    "id": "402",
+    "norak": "6h",
+    "hanzhi": "想思草",
+    "pinyin": "xiǎng sī cǎo",
+    "img": "6h3.jpg"
+  },
+  {
+    "id": "403",
+    "norak": "6i",
+    "hanzhi": "狼毒根",
+    "pinyin": "láng dú gēn",
+    "img": "6i1.jpg"
+  },
+  {
+    "id": "404",
+    "norak": "6i",
+    "hanzhi": "覌音串",
+    "pinyin": "guān yīn chuàn",
+    "img": "6i2.jpg"
+  },
+  {
+    "id": "405",
+    "norak": "6i",
+    "hanzhi": "錦地罗",
+    "pinyin": "jǐn dì luó",
+    "img": "6i3.jpg"
+  },
+  {
+    "id": "406",
+    "norak": "6i",
+    "hanzhi": "金笑梅",
+    "pinyin": "jīn xiào méi",
+    "img": "6i4.jpg"
+  },
+  {
+    "id": "407",
+    "norak": "6i",
+    "hanzhi": "完花",
+    "pinyin": "wán huā",
+    "img": "6i5.jpg"
+  },
+  {
+    "id": "408",
+    "norak": "6i",
+    "hanzhi": "柳树枝",
+    "pinyin": "liǔ shù zhī",
+    "img": "6i6.jpg"
+  },
+  {
+    "id": "409",
+    "norak": "6i",
+    "hanzhi": "马齒莧",
+    "pinyin": "mǎ chǐ xiàn",
+    "img": "6i7.jpg"
+  },
+  {
+    "id": "410",
+    "norak": "6i",
+    "hanzhi": "紫天葵",
+    "pinyin": "zǐ tiān kuí",
+    "img": "6i8.jpg"
+  },
+  {
+    "id": "411",
+    "norak": "6i",
+    "hanzhi": "覀河柳",
+    "pinyin": "覀 hé liǔ",
+    "img": "6i9.jpg"
+  },
+  {
+    "id": "412",
+    "norak": "6i",
+    "hanzhi": "垂覀柳",
+    "pinyin": "chuí 覀 liǔ",
+    "img": "6i10.jpg"
+  },
+  {
+    "id": "413",
+    "norak": "6i",
+    "hanzhi": "漏芦根",
+    "pinyin": "lòu lú gēn",
+    "img": "6i11.jpg"
+  },
+  {
+    "id": "414",
+    "norak": "7a",
+    "hanzhi": "樵石溪",
+    "pinyin": "qiáo shí xī",
+    "img": "7a1.jpg"
+  },
+  {
+    "id": "415",
+    "norak": "7a",
+    "hanzhi": "榕树須",
+    "pinyin": "róng shù xū",
+    "img": "7a2.jpg"
+  },
+  {
+    "id": "416",
+    "norak": "7a",
+    "hanzhi": "牛入石",
+    "pinyin": "niú rù shí",
+    "img": "7a3.jpg"
+  },
+  {
+    "id": "417",
+    "norak": "7a",
+    "hanzhi": "柑兰根",
+    "pinyin": "gān lán gēn",
+    "img": "7a4.jpg"
+  },
+  {
+    "id": "418",
+    "norak": "7a",
+    "hanzhi": "鸭脚皮",
+    "pinyin": "yā jiǎo pí",
+    "img": "7a5.jpg"
+  },
+  {
+    "id": "419",
+    "norak": "7a",
+    "hanzhi": "石榴根",
+    "pinyin": "shí liu gēn",
+    "img": "7a6.jpg"
+  },
+  {
+    "id": "420",
+    "norak": "7b",
+    "hanzhi": "白檀香",
+    "pinyin": "bái tán xiāng",
+    "img": "7b1.jpg"
+  },
+  {
+    "id": "421",
+    "norak": "7b",
+    "hanzhi": "風不动",
+    "pinyin": "fēng bù dòng",
+    "img": "7b2.jpg"
+  },
+  {
+    "id": "422",
+    "norak": "7b",
+    "hanzhi": "龙利叶",
+    "pinyin": "lóng lì yè",
+    "img": "7b3.jpg"
+  },
+  {
+    "id": "423",
+    "norak": "7b",
+    "hanzhi": "鬼羽剪",
+    "pinyin": "guǐ yǔ jiǎn",
+    "img": "7b4.jpg"
+  },
+  {
+    "id": "424",
+    "norak": "7c",
+    "hanzhi": "南砂参",
+    "pinyin": "nán shā cān",
+    "img": "7c1.jpg"
+  },
+  {
+    "id": "425",
+    "norak": "7c",
+    "hanzhi": "大小計",
+    "pinyin": "dà xiǎo jì",
+    "img": "7c2.jpg"
+  },
+  {
+    "id": "426",
+    "norak": "7c",
+    "hanzhi": "由柑根",
+    "pinyin": "yóu gān gēn",
+    "img": "7c3.jpg"
+  },
+  {
+    "id": "427",
+    "norak": "7c",
+    "hanzhi": "牛大力",
+    "pinyin": "niú dà lì",
+    "img": "7c4.jpg"
+  },
+  {
+    "id": "428",
+    "norak": "7c",
+    "hanzhi": "山枝根",
+    "pinyin": "shān zhī gēn",
+    "img": "7c5.jpg"
+  },
+  {
+    "id": "429",
+    "norak": "7c",
+    "hanzhi": "沉香",
+    "pinyin": "chén xiāng",
+    "img": "7c6.jpg"
+  },
+  {
+    "id": "430",
+    "norak": "7d",
+    "hanzhi": "石莧穿",
+    "pinyin": "shí xiàn chuān",
+    "img": "7d1.jpg"
+  },
+  {
+    "id": "431",
+    "norak": "7d",
+    "hanzhi": "菜豆壳",
+    "pinyin": "cài dòu ké",
+    "img": "7d2.jpg"
+  },
+  {
+    "id": "432",
+    "norak": "7d",
+    "hanzhi": "白头翁",
+    "pinyin": "bái tóu wēng",
+    "img": "7d3.jpg"
+  },
+  {
+    "id": "433",
+    "norak": "7d",
+    "hanzhi": "地丁草",
+    "pinyin": "dì dīng cǎo",
+    "img": "7d4.jpg"
+  },
+  {
+    "id": "434",
+    "norak": "7e",
+    "hanzhi": "马尾須",
+    "pinyin": "mǎ wěi xū",
+    "img": "7e1.jpg"
+  },
+  {
+    "id": "435",
+    "norak": "7e",
+    "hanzhi": "苦瓜干",
+    "pinyin": "kǔ guā gān",
+    "img": "7e2.jpg"
+  },
+  {
+    "id": "436",
+    "norak": "7e",
+    "hanzhi": "佛手干",
+    "pinyin": "fó shǒu gān",
+    "img": "7e3.jpg"
+  },
+  {
+    "id": "437",
+    "norak": "7e",
+    "hanzhi": "化桔紅",
+    "pinyin": "huà jú hóng",
+    "img": "7e4.jpg"
+  },
+  {
+    "id": "438",
+    "norak": "7f",
+    "hanzhi": "小牙皂",
+    "pinyin": "xiǎo yá zào",
+    "img": "7f1.jpg"
+  },
+  {
+    "id": "439",
+    "norak": "7f",
+    "hanzhi": "大牙皂",
+    "pinyin": "dà yá zào",
+    "img": "7f2.jpg"
+  },
+  {
+    "id": "440",
+    "norak": "7f",
+    "hanzhi": "冬瓜皮",
+    "pinyin": "dōng guā pí",
+    "img": "7f3.jpg"
+  },
+  {
+    "id": "441",
+    "norak": "7f",
+    "hanzhi": "烏梅",
+    "pinyin": "wū méi",
+    "img": "7f4.jpg"
+  },
+  {
+    "id": "442",
+    "norak": "7f",
+    "hanzhi": "龙齒",
+    "pinyin": "lóng chǐ",
+    "img": "7f5.jpg"
+  },
+  {
+    "id": "443",
+    "norak": "7f",
+    "hanzhi": "茯苓皮",
+    "pinyin": "fú líng pí",
+    "img": "7f6.jpg"
+  },
+  {
+    "id": "444",
+    "norak": "7g",
+    "hanzhi": "冇骨梢",
+    "pinyin": "mǎo gǔ shāo",
+    "img": "7g1.jpg"
+  },
+  {
+    "id": "445",
+    "norak": "7g",
+    "hanzhi": "千里光",
+    "pinyin": "qiān lǐ guāng",
+    "img": "7g2.jpg"
+  },
+  {
+    "id": "446",
+    "norak": "7g",
+    "hanzhi": "马鞭草",
+    "pinyin": "mǎ biān cǎo",
+    "img": "7g3.jpg"
+  },
+  {
+    "id": "447",
+    "norak": "7g",
+    "hanzhi": "接骨草",
+    "pinyin": "jiē gǔ cǎo",
+    "img": "7g4.jpg"
+  },
+  {
+    "id": "448",
+    "norak": "7h",
+    "hanzhi": "黒附片",
+    "pinyin": "hēi fù piàn",
+    "img": "7h1.jpg"
+  },
+  {
+    "id": "449",
+    "norak": "7h",
+    "hanzhi": "焙附片",
+    "pinyin": "bèi fù piàn",
+    "img": "7h2.jpg"
+  },
+  {
+    "id": "450",
+    "norak": "7h",
+    "hanzhi": "白付子",
+    "pinyin": "bái fù zi",
+    "img": "7h3.jpg"
+  },
+  {
+    "id": "451",
+    "norak": "7h",
+    "hanzhi": "海桐皮",
+    "pinyin": "hǎi tóng pí",
+    "img": "7h4.jpg"
+  },
+  {
+    "id": "452",
+    "norak": "7h",
+    "hanzhi": "八月扎",
+    "pinyin": "bā yuè zhā",
+    "img": "7h5.jpg"
+  },
+  {
+    "id": "453",
+    "norak": "7h",
+    "hanzhi": "千年見",
+    "pinyin": "qiān nián jiàn",
+    "img": "7h6.jpg"
+  },
+  {
+    "id": "454",
+    "norak": "8a",
+    "hanzhi": "云母石",
+    "pinyin": "yún mǔ shí",
+    "img": "8a1.jpg"
+  },
+  {
+    "id": "455",
+    "norak": "8a",
+    "hanzhi": "没石子",
+    "pinyin": "méi shí zǐ",
+    "img": "8a2.jpg"
+  },
+  {
+    "id": "456",
+    "norak": "8a",
+    "hanzhi": "姜黄",
+    "pinyin": "jiāng huáng",
+    "img": "8a3.jpg"
+  },
+  {
+    "id": "457",
+    "norak": "8a",
+    "hanzhi": "自然銅",
+    "pinyin": "zì rán tóng",
+    "img": "8a4.jpg"
+  },
+  {
+    "id": "458",
+    "norak": "8b",
+    "hanzhi": "高良姜",
+    "pinyin": "gāo liáng jiāng",
+    "img": "8b1.jpg"
+  },
+  {
+    "id": "459",
+    "norak": "8b",
+    "hanzhi": "赤小豆",
+    "pinyin": "chì xiǎo dòu",
+    "img": "8b2.jpg"
+  },
+  {
+    "id": "460",
+    "norak": "8b",
+    "hanzhi": "王不留行",
+    "pinyin": "wáng bù liú xíng",
+    "img": "8b3.jpg"
+  },
+  {
+    "id": "461",
+    "norak": "8c",
+    "hanzhi": "血餘炭",
+    "pinyin": "xuè yú tàn",
+    "img": "8c1.jpg"
+  },
+  {
+    "id": "462",
+    "norak": "8c",
+    "hanzhi": "炒莲房",
+    "pinyin": "chǎo lián fáng",
+    "img": "8c2.jpg"
+  },
+  {
+    "id": "463",
+    "norak": "8c",
+    "hanzhi": "黑蒲黄",
+    "pinyin": "hēi pú huáng",
+    "img": "8c3.jpg"
+  },
+  {
+    "id": "464",
+    "norak": "8c",
+    "hanzhi": "辛夷花",
+    "pinyin": "xīn yí huā",
+    "img": "8c4.jpg"
+  },
+  {
+    "id": "465",
+    "norak": "8c",
+    "hanzhi": "乳香",
+    "pinyin": "rǔ xiāng",
+    "img": "8c5.jpg"
+  },
+  {
+    "id": "466",
+    "norak": "8c",
+    "hanzhi": "没葯",
+    "pinyin": "méi yào",
+    "img": "8c6.jpg"
+  },
+  {
+    "id": "467",
+    "norak": "8d",
+    "hanzhi": "黑棕衣",
+    "pinyin": "hēi zōng yī",
+    "img": "8d1.jpg"
+  },
+  {
+    "id": "468",
+    "norak": "8d",
+    "hanzhi": "炒側柏",
+    "pinyin": "chǎo cè bǎi",
+    "img": "8d2.jpg"
+  },
+  {
+    "id": "469",
+    "norak": "8d",
+    "hanzhi": "炒槐花",
+    "pinyin": "chǎo huái huā",
+    "img": "8d3.jpg"
+  },
+  {
+    "id": "470",
+    "norak": "8d",
+    "hanzhi": "炒京芥",
+    "pinyin": "chǎo jīng jiè",
+    "img": "8d4.jpg"
+  },
+  {
+    "id": "471",
+    "norak": "8d",
+    "hanzhi": "黑枝子",
+    "pinyin": "hēi zhī zi",
+    "img": "8d5.jpg"
+  },
+  {
+    "id": "472",
+    "norak": "8d",
+    "hanzhi": "炒山查",
+    "pinyin": "chǎo shān zhā",
+    "img": "8d6.jpg"
+  },
+  {
+    "id": "473",
+    "norak": "8e",
+    "hanzhi": "黑莲藕",
+    "pinyin": "hēi lián ǒu",
+    "img": "8e1.jpg"
+  },
+  {
+    "id": "474",
+    "norak": "8e",
+    "hanzhi": "炒卷栢",
+    "pinyin": "chǎo juǎn bǎi",
+    "img": "8e2.jpg"
+  },
+  {
+    "id": "475",
+    "norak": "8e",
+    "hanzhi": "炒黄芩",
+    "pinyin": "chǎo huáng qín",
+    "img": "8e3.jpg"
+  },
+  {
+    "id": "476",
+    "norak": "8e",
+    "hanzhi": "炒地榆",
+    "pinyin": "chǎo dì yú",
+    "img": "8e4.jpg"
+  },
+  {
+    "id": "477",
+    "norak": "8e",
+    "hanzhi": "炒黄栢",
+    "pinyin": "chǎo huáng bǎi",
+    "img": "8e5.jpg"
+  },
+  {
+    "id": "478",
+    "norak": "8e",
+    "hanzhi": "黑姜",
+    "pinyin": "hēi jiāng",
+    "img": "8e6.jpg"
+  },
+  {
+    "id": "479",
+    "norak": "8f",
+    "hanzhi": "炒艾叶",
+    "pinyin": "chǎo ài yè",
+    "img": "8f1.jpg"
+  },
+  {
+    "id": "480",
+    "norak": "8f",
+    "hanzhi": "田基癀",
+    "pinyin": "tián jī huáng",
+    "img": "8f2.jpg"
+  },
+  {
+    "id": "481",
+    "norak": "8f",
+    "hanzhi": "炒杜仲",
+    "pinyin": "chǎo dù zhòng",
+    "img": "8f3.jpg"
+  },
+  {
+    "id": "482",
+    "norak": "8f",
+    "hanzhi": "石菖蒲",
+    "pinyin": "shí chāng pú",
+    "img": "8f4.jpg"
+  },
+  {
+    "id": "483",
+    "norak": "8g",
+    "hanzhi": "人中白",
+    "pinyin": "rén zhōng bái",
+    "img": "8g1.jpg"
+  },
+  {
+    "id": "484",
+    "norak": "8g",
+    "hanzhi": "川菖蒲",
+    "pinyin": "chuān chāng pú",
+    "img": "8g2.jpg"
+  },
+  {
+    "id": "485",
+    "norak": "8g",
+    "hanzhi": "白姜蚕",
+    "pinyin": "bái jiāng cán",
+    "img": "8g3.jpg"
+  },
+  {
+    "id": "486",
+    "norak": "8g",
+    "hanzhi": "天竹瀇",
+    "pinyin": "tiān zhú 瀇",
+    "img": "8g4.jpg"
+  },
+  {
+    "id": "487",
+    "norak": "8g",
+    "hanzhi": "制南星",
+    "pinyin": "zhì nán xīng",
+    "img": "8g5.jpg"
+  },
+  {
+    "id": "488",
+    "norak": "8g",
+    "hanzhi": "吳茱于",
+    "pinyin": "wú zhū yú",
+    "img": "8g6.jpg"
+  },
+  {
+    "id": "489",
+    "norak": "8h",
+    "hanzhi": "甘菊花",
+    "pinyin": "gān jú huā",
+    "img": "8h1.jpg"
+  },
+  {
+    "id": "490",
+    "norak": "8h",
+    "hanzhi": "走马胎",
+    "pinyin": "zǒu mǎ tāi",
+    "img": "8h2.jpg"
+  },
+  {
+    "id": "491",
+    "norak": "8h",
+    "hanzhi": "制川烏",
+    "pinyin": "zhì chuān wū",
+    "img": "8h3.jpg"
+  },
+  {
+    "id": "492",
+    "norak": "8h",
+    "hanzhi": "制草鳥",
+    "pinyin": "zhì cǎo niǎo",
+    "img": "8h4.jpg"
+  },
+  {
+    "id": "493",
+    "norak": "8h",
+    "hanzhi": "地榆",
+    "pinyin": "dì yú",
+    "img": "8h5.jpg"
+  },
+  {
+    "id": "494",
+    "norak": "8h",
+    "hanzhi": "黄精",
+    "pinyin": "huáng jīng",
+    "img": "8h6.jpg"
+  },
+  {
+    "id": "495",
+    "norak": "9a",
+    "hanzhi": "大青叶",
+    "pinyin": "dà qīng yè",
+    "img": "9a1.jpg"
+  },
+  {
+    "id": "496",
+    "norak": "9a",
+    "hanzhi": "烏甜叶",
+    "pinyin": "wū tián yè",
+    "img": "9a2.jpg"
+  },
+  {
+    "id": "497",
+    "norak": "9a",
+    "hanzhi": "荷莲叶",
+    "pinyin": "hé lián yè",
+    "img": "9a3.jpg"
+  },
+  {
+    "id": "498",
+    "norak": "9a",
+    "hanzhi": "人参叶",
+    "pinyin": "rén shēn yè",
+    "img": "9a4.jpg"
+  },
+  {
+    "id": "499",
+    "norak": "9b",
+    "hanzhi": "豆叩花",
+    "pinyin": "dòu kòu huā",
+    "img": "9b1.jpg"
+  },
+  {
+    "id": "500",
+    "norak": "9b",
+    "hanzhi": "布查叶",
+    "pinyin": "bù chá yè",
+    "img": "9b2.jpg"
+  },
+  {
+    "id": "501",
+    "norak": "9b",
+    "hanzhi": "梧桐子",
+    "pinyin": "wú tóng zi",
+    "img": "9b3.jpg"
+  },
+  {
+    "id": "502",
+    "norak": "9b",
+    "hanzhi": "鳮蛋花",
+    "pinyin": "鳮 dàn huā",
+    "img": "9b4.jpg"
+  },
+  {
+    "id": "503",
+    "norak": "9b",
+    "hanzhi": "佩兰叶",
+    "pinyin": "pèi lán yè",
+    "img": "9b5.jpg"
+  },
+  {
+    "id": "504",
+    "norak": "9c",
+    "hanzhi": "枳棋子",
+    "pinyin": "zhǐ qí zǐ",
+    "img": "9c1.jpg"
+  },
+  {
+    "id": "505",
+    "norak": "9c",
+    "hanzhi": "芫花",
+    "pinyin": "yuán huā",
+    "img": "9c2.jpg"
+  },
+  {
+    "id": "506",
+    "norak": "9c",
+    "hanzhi": "石莲子",
+    "pinyin": "shí lián zǐ",
+    "img": "9c3.jpg"
+  },
+  {
+    "id": "507",
+    "norak": "9c",
+    "hanzhi": "肉桂",
+    "pinyin": "ròu guì",
+    "img": "9c4.jpg"
+  },
+  {
+    "id": "508",
+    "norak": "9c",
+    "hanzhi": "莲子心",
+    "pinyin": "lián zi xīn",
+    "img": "9c5.jpg"
+  },
+  {
+    "id": "509",
+    "norak": "9c",
+    "hanzhi": "金英",
+    "pinyin": "jīn yīng",
+    "img": "9c6.jpg"
+  },
+  {
+    "id": "510",
+    "norak": "9d",
+    "hanzhi": "川朴花",
+    "pinyin": "chuān pǔ huā",
+    "img": "9d1.jpg"
+  },
+  {
+    "id": "511",
+    "norak": "9d",
+    "hanzhi": "木棉花",
+    "pinyin": "mù mián huā",
+    "img": "9d2.jpg"
+  },
+  {
+    "id": "512",
+    "norak": "9d",
+    "hanzhi": "佛手花",
+    "pinyin": "fó shǒu huā",
+    "img": "9d3.jpg"
+  },
+  {
+    "id": "513",
+    "norak": "9d",
+    "hanzhi": "黄药子",
+    "pinyin": "huáng yào zi",
+    "img": "9d4.jpg"
+  },
+  {
+    "id": "514",
+    "norak": "9d",
+    "hanzhi": "胡桃肉",
+    "pinyin": "hú táo ròu",
+    "img": "9d5.jpg"
+  },
+  {
+    "id": "515",
+    "norak": "9e",
+    "hanzhi": "扁豆花",
+    "pinyin": "biǎn dòu huā",
+    "img": "9e1.jpg"
+  },
+  {
+    "id": "516",
+    "norak": "9e",
+    "hanzhi": "葛花",
+    "pinyin": "gě huā",
+    "img": "9e2.jpg"
+  },
+  {
+    "id": "517",
+    "norak": "9e",
+    "hanzhi": "人字草",
+    "pinyin": "rén zì cǎo",
+    "img": "9e3.jpg"
+  },
+  {
+    "id": "518",
+    "norak": "9e",
+    "hanzhi": "芙蓉花",
+    "pinyin": "fú róng huā",
+    "img": "9e4.jpg"
+  },
+  {
+    "id": "519",
+    "norak": "9e",
+    "hanzhi": "地胆草",
+    "pinyin": "dì dǎn cǎo",
+    "img": "9e5.jpg"
+  },
+  {
+    "id": "520",
+    "norak": "9e",
+    "hanzhi": "合欢花",
+    "pinyin": "hé huān huā",
+    "img": "9e6.jpg"
+  },
+  {
+    "id": "521",
+    "norak": "9f",
+    "hanzhi": "刁豆壳",
+    "pinyin": "diāo dòu ké",
+    "img": "9f1.jpg"
+  },
+  {
+    "id": "522",
+    "norak": "9f",
+    "hanzhi": "虎杖",
+    "pinyin": "hǔ zhàng",
+    "img": "9f2.jpg"
+  },
+  {
+    "id": "523",
+    "norak": "9f",
+    "hanzhi": "白茅花",
+    "pinyin": "bái máo huā",
+    "img": "9f3.jpg"
+  },
+  {
+    "id": "524",
+    "norak": "9f",
+    "hanzhi": "希劍草",
+    "pinyin": "xī jiàn cǎo",
+    "img": "9f4.jpg"
+  },
+  {
+    "id": "525",
+    "norak": "9g",
+    "hanzhi": "龙眼花",
+    "pinyin": "lóng yǎn huā",
+    "img": "9g1.jpg"
+  },
+  {
+    "id": "526",
+    "norak": "9g",
+    "hanzhi": "兰香草",
+    "pinyin": "lán xiāng cǎo",
+    "img": "9g2.jpg"
+  },
+  {
+    "id": "527",
+    "norak": "9g",
+    "hanzhi": "复花",
+    "pinyin": "fù huā",
+    "img": "9g3.jpg"
+  },
+  {
+    "id": "528",
+    "norak": "9g",
+    "hanzhi": "款冬花",
+    "pinyin": "kuǎn dōng huā",
+    "img": "9g4.jpg"
+  },
+  {
+    "id": "529",
+    "norak": "9g",
+    "hanzhi": "蒙花",
+    "pinyin": "méng huā",
+    "img": "9g5.jpg"
+  },
+  {
+    "id": "530",
+    "norak": "9g",
+    "hanzhi": "油菜子",
+    "pinyin": "yóu cài zi",
+    "img": "9g6.jpg"
+  },
+  {
+    "id": "531",
+    "norak": "9h",
+    "hanzhi": "丝瓜络",
+    "pinyin": "sī guā luò",
+    "img": "9h1.jpg"
+  },
+  {
+    "id": "532",
+    "norak": "9h",
+    "hanzhi": "骨碎布",
+    "pinyin": "gǔ suì bù",
+    "img": "9h2.jpg"
+  },
+  {
+    "id": "533",
+    "norak": "9h",
+    "hanzhi": "狗脊",
+    "pinyin": "gǒu jǐ",
+    "img": "9h3.jpg"
+  },
+  {
+    "id": "534",
+    "norak": "9h",
+    "hanzhi": "鸡血藤",
+    "pinyin": "jī xuè téng",
+    "img": "9h4.jpg"
+  },
+  {
+    "id": "535",
+    "norak": "aa",
+    "hanzhi": "桔梗",
+    "pinyin": "jié gěng",
+    "img": "4f5.jpg"
+  },
+  {
+    "id": "536",
+    "norak": "aa",
+    "hanzhi": "羚羊丝",
+    "pinyin": "líng yáng sī",
+    "img": "aa.jpg"
+  },
+  {
+    "id": "537",
+    "norak": "aa",
+    "hanzhi": "犀角丝",
+    "pinyin": "xī jiǎo sī",
+    "img": "aa.jpg"
+  },
+  {
+    "id": "538",
+    "norak": "aa",
+    "hanzhi": "五香粉",
+    "pinyin": "wǔ xiāng fěn",
+    "img": "aa.jpg"
+  },
+  {
+    "id": "539",
+    "norak": "bb",
+    "hanzhi": "砂仁",
+    "pinyin": "shā rén",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "540",
+    "norak": "bb",
+    "hanzhi": "黃莲",
+    "pinyin": "huáng lián",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "541",
+    "norak": "bb",
+    "hanzhi": "巴戟",
+    "pinyin": "bā jǐ",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "542",
+    "norak": "bb",
+    "hanzhi": "灯心",
+    "pinyin": "dēng xīn",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "543",
+    "norak": "bb",
+    "hanzhi": "灵芝",
+    "pinyin": "líng zhī",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "544",
+    "norak": "bb",
+    "hanzhi": "百合",
+    "pinyin": "bǎi hé",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "545",
+    "norak": "bb",
+    "hanzhi": "蛇衣",
+    "pinyin": "shé yī",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "546",
+    "norak": "bb",
+    "hanzhi": "莲子",
+    "pinyin": "lián zǐ",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "547",
+    "norak": "bb",
+    "hanzhi": "乙金",
+    "pinyin": "yǐ jīn",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "548",
+    "norak": "bb",
+    "hanzhi": "硃茯神",
+    "pinyin": "zhū fú shén",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "549",
+    "norak": "bb",
+    "hanzhi": "桑螵蛸",
+    "pinyin": "sāng piāo shāo",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "550",
+    "norak": "bb",
+    "hanzhi": "生白术",
+    "pinyin": "shēng bái zhú",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "551",
+    "norak": "bb",
+    "hanzhi": "天仙子",
+    "pinyin": "tiān xiān zi",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "552",
+    "norak": "bb",
+    "hanzhi": "麦芽",
+    "pinyin": "mài yá",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "553",
+    "norak": "bb",
+    "hanzhi": "谷芽",
+    "pinyin": "gǔ yá",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "554",
+    "norak": "bb",
+    "hanzhi": "元胡",
+    "pinyin": "yuán hú",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "555",
+    "norak": "bb",
+    "hanzhi": "阿膠珠",
+    "pinyin": "ē jiāo zhū",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "556",
+    "norak": "bb",
+    "hanzhi": "炒淮山",
+    "pinyin": "chǎo huái shān",
+    "img": "bb.jpg"
+  },
+  {
+    "id": "557",
+    "norak": "C",
+    "hanzhi": "首烏",
+    "pinyin": "shǒu wū",
+    "img": "C.jpg"
+  },
+  {
+    "id": "558",
+    "norak": "cc",
+    "hanzhi": "肉豆叩",
+    "pinyin": "ròu dòu kòu",
+    "img": "cc.jpg"
+  },
+  {
+    "id": "559",
+    "norak": "cc",
+    "hanzhi": "马勃",
+    "pinyin": "mǎ bó",
+    "img": "cc.jpg"
+  },
+  {
+    "id": "560",
+    "norak": "cc",
+    "hanzhi": "樟脑",
+    "pinyin": "zhāng nǎo",
+    "img": "cc.jpg"
+  },
+  {
+    "id": "561",
+    "norak": "cc",
+    "hanzhi": "首烏",
+    "pinyin": "shǒu wū",
+    "img": "cc.jpg"
+  },
+  {
+    "id": "562",
+    "norak": "cc",
+    "hanzhi": "五味子",
+    "pinyin": "wǔ wèi zǐ",
+    "img": "cc.jpg"
+  },
+  {
+    "id": "563",
+    "norak": "cc",
+    "hanzhi": "炒竹茹",
+    "pinyin": "chǎo zhú rú",
+    "img": "cc.jpg"
+  },
+  {
+    "id": "564",
+    "norak": "cc",
+    "hanzhi": "麦冬",
+    "pinyin": "mài dōng",
+    "img": "cc.jpg"
+  },
+  {
+    "id": "565",
+    "norak": "cc",
+    "hanzhi": "金銀花",
+    "pinyin": "jīn yín huā",
+    "img": "cc.jpg"
+  },
+  {
+    "id": "566",
+    "norak": "cc",
+    "hanzhi": "正淮山",
+    "pinyin": "zhèng huái shān",
+    "img": "cc.jpg"
+  },
+  {
+    "id": "567",
+    "norak": "cc",
+    "hanzhi": "龙眼肉",
+    "pinyin": "lóng yǎn ròu",
+    "img": "cc.jpg"
+  },
+  {
+    "id": "568",
+    "norak": "e",
+    "hanzhi": "蝉退",
+    "pinyin": "chán tuì",
+    "img": "e.jpg"
+  },
+  {
+    "id": "569",
+    "norak": "e",
+    "hanzhi": "冬瓜子",
+    "pinyin": "dōng guā zi",
+    "img": "e.jpg"
+  },
+  {
+    "id": "570",
+    "norak": "e",
+    "hanzhi": "白芨粉",
+    "pinyin": "bái jí fěn",
+    "img": "e.jpg"
+  },
+  {
+    "id": "571",
+    "norak": "e",
+    "hanzhi": "羚羊丝",
+    "pinyin": "líng yáng sī",
+    "img": "e.jpg"
+  },
+  {
+    "id": "572",
+    "norak": "f",
+    "hanzhi": "細辛",
+    "pinyin": "xì xīn",
+    "img": "f.jpg"
+  },
+  {
+    "id": "573",
+    "norak": "f",
+    "hanzhi": "人参叶",
+    "pinyin": "rén shēn yè",
+    "img": "f.jpg"
+  },
+  {
+    "id": "574",
+    "norak": "f",
+    "hanzhi": "益智仁",
+    "pinyin": "yì zhì rén",
+    "img": "f.jpg"
+  },
+  {
+    "id": "575",
+    "norak": "f",
+    "hanzhi": "川三七",
+    "pinyin": "chuān sān qī",
+    "img": "f.jpg"
+  },
+  {
+    "id": "576",
+    "norak": "f",
+    "hanzhi": "川朴",
+    "pinyin": "chuān pǔ",
+    "img": "f.jpg"
+  },
+  {
+    "id": "577",
+    "norak": "f",
+    "hanzhi": "入骨丹",
+    "pinyin": "rù gǔ dān",
+    "img": "f.jpg"
+  },
+  {
+    "id": "578",
+    "norak": "f",
+    "hanzhi": "炒杜仲",
+    "pinyin": "chǎo dù zhòng",
+    "img": "f.jpg"
+  },
+  {
+    "id": "579",
+    "norak": "g",
+    "hanzhi": "白蚕衣",
+    "pinyin": "bái cán yī",
+    "img": "g.jpg"
+  },
+  {
+    "id": "580",
+    "norak": "g",
+    "hanzhi": "无花果",
+    "pinyin": "wú huā guǒ",
+    "img": "g.jpg"
+  },
+  {
+    "id": "581",
+    "norak": "g",
+    "hanzhi": "合欢花",
+    "pinyin": "hé huān huā",
+    "img": "g.jpg"
+  },
+  {
+    "id": "582",
+    "norak": "g",
+    "hanzhi": "川菖蒲",
+    "pinyin": "chuān chāng pú",
+    "img": "g.jpg"
+  },
+  {
+    "id": "583",
+    "norak": "g",
+    "hanzhi": "桑螵蛸",
+    "pinyin": "sāng piāo shāo",
+    "img": "g.jpg"
+  },
+  {
+    "id": "584",
+    "norak": "h",
+    "hanzhi": "砂仁",
+    "pinyin": "shā rén",
+    "img": "h.jpg"
+  },
+  {
+    "id": "585",
+    "norak": "h",
+    "hanzhi": "辛夷花",
+    "pinyin": "xīn yí huā",
+    "img": "h.jpg"
+  },
+  {
+    "id": "586",
+    "norak": "h",
+    "hanzhi": "巴戟",
+    "pinyin": "bā jǐ",
+    "img": "h.jpg"
+  },
+  {
+    "id": "587",
+    "norak": "h",
+    "hanzhi": "白豆叩",
+    "pinyin": "bái dòu kòu",
+    "img": "h.jpg"
+  }
+]
