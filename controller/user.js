@@ -20,7 +20,7 @@ class Controller {
 
   static async login(request, response, next) {
     try {
-      const { currId } = request.headers;
+      // const { currId } = request.headers;
       const { username, password } = request.body;
       const user = await User.findOne({ where: { username } });
 

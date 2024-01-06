@@ -2,6 +2,8 @@ const { rows } = require("pg/lib/defaults");
 const { Rempah, RempahStared, Sequelize, Namalain } = require("../models");
 const { Op, sequelize } = Sequelize;
 
+const path = require("path");
+
 class Controller {
   static async create(request, response) {}
   static async update(request, response) {
@@ -86,6 +88,35 @@ class Controller {
       console.log(error);
       next(error);
     }
+  }
+
+  static async readbynorak(request, response, next) {
+    const { norak } = request.params;
+    try {
+      const rempah = await Rempah.findAll({
+        where: {
+          norak,
+        },
+        include: [
+          {
+            model: Namalain,
+            required: false, //supaya join namalain.id=rempah.id
+          },
+        ],
+      });
+      console.log(rempah);
+      response.status(200).json(rempah);
+    } catch (error) {
+      console.log(error);
+      next(error);
+    }
+  }
+
+  static async loadimage(req, res, next) {
+    const filename = req.params.filename;
+    console.log(filename);
+    const imagePath = path.resolve(__dirname, "../rempah", filename);
+    res.sendFile(imagePath);
   }
 
   static async readbyid(request, response, next) {

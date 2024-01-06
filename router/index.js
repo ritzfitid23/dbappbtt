@@ -74,6 +74,9 @@ router.post("/satuan/search", Satuan.search);
 // 3 route
 router.get("/rempah/byid/:id", RempahController.readbyid);
 router.put("/rempah/unstared/:id", RempahController.updaterempahstared);
+router.get("/rempah/norak/:norak", RempahController.readbynorak);
+
+router.get("/rempah/images/:filename", RempahController.loadimage);
 
 //------
 
