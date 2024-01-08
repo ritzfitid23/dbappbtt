@@ -2,6 +2,21 @@ const { rows } = require("pg/lib/defaults");
 const { Rempah, RempahStared, Sequelize, Namalain } = require("../models");
 const { Op, sequelize } = Sequelize;
 
+//----firebase
+const admin = require("firebase-admin");
+const Multer = require("multer");
+const sharp = require("sharp");
+const serviceAccount = require("../credentials.json");
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  storageBucket: "gs://bttmanagedec23.appspot.com",
+});
+
+const bucket = admin.storage().bucket();
+
+//firebase----
+
 const path = require("path");
 
 class Controller {
@@ -112,11 +127,31 @@ class Controller {
     }
   }
 
+  // static async loadimage(req, res, next) {
+  //   const filename = req.params.filename;
+  //   console.log(filename);
+  //   const imagePath = path.resolve(__dirname, "../rempah", filename);
+  //   res.sendFile(imagePath);
+  // }
+
   static async loadimage(req, res, next) {
-    const filename = req.params.filename;
-    console.log(filename);
-    const imagePath = path.resolve(__dirname, "../rempah", filename);
-    res.sendFile(imagePath);
+    try {
+      const filename = req.params.filename;
+      const file = bucket.file("rempah/" + filename);
+
+      // Check if the file exists
+      const [exists] = await file.exists();
+
+      if (!exists) {
+        return res.status(404).send("Image not found.");
+      }
+
+      // Get a readable stream of the file and pipe it to the response
+      file.createReadStream().pipe(res);
+    } catch (error) {
+      console.error(error);
+      res.status(500).send("Internal Server Error.");
+    }
   }
 
   static async readbyid(request, response, next) {
