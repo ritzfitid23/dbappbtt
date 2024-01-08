@@ -7,7 +7,11 @@ cara pakai ngrol
   ngrok http 3000
 
 supabase
+dbapp
 68A82!4awk29RAZ
+dbapp2
+gzZVF0GgOXTJ8NTA
+postgresql://postgres:gzZVF0GgOXTJ8NTA@db.rwrdeemiiwufmlkqbwfz.supabase.co:5432/postgres
 
 akun railway ritzfitid@gmail.com
 akun firebase arnold.pramudita.wewe@gmail.com

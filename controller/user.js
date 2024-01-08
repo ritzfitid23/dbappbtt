@@ -6,6 +6,12 @@ class Controller {
     try {
       const { username, password, role } = request.body;
 
+      if (role === "admin") {
+        throw {
+          err: "admin tidak boleh",
+        };
+      }
+
       const hashedpass = hashPass(password);
       const user = await User.create({
         username,
