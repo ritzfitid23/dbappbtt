@@ -1,5 +1,5 @@
 "use strict";
-const rempahs = require("./index.json");
+const rempahs = require("./rempah.json");
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
@@ -18,12 +18,6 @@ module.exports = {
   },
 
   async down(queryInterface, Sequelize) {
-    /**
-     * Add commands to revert seed here.
-     *
-     * Example:
-     *
-     */
     await queryInterface.bulkDelete("Rempahs", null, {});
   },
 };

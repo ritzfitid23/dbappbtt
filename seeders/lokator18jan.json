@@ -1,0 +1,2177 @@
+[
+  {
+    "idRak": 1,
+    "idBarang": 1,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 2,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 3,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 4,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 5,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 6,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 7,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 8,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 9,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 10,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 11,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 12,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 13,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 14,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 15,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 16,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 17,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 18,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 19,
+    "status": "aktif"
+  },
+  {
+    "idRak": 1,
+    "idBarang": 20,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 21,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 22,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 23,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 24,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 25,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 26,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 27,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 28,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 29,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 30,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 31,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 32,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 33,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 34,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 35,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 36,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 37,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 38,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 39,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 40,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 41,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 42,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 43,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 44,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 45,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 46,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 47,
+    "status": "aktif"
+  },
+  {
+    "idRak": 2,
+    "idBarang": 48,
+    "status": "aktif"
+  },
+  {
+    "idRak": 3,
+    "idBarang": 49,
+    "status": "aktif"
+  },
+  {
+    "idRak": 3,
+    "idBarang": 50,
+    "status": "aktif"
+  },
+  {
+    "idRak": 3,
+    "idBarang": 51,
+    "status": "aktif"
+  },
+  {
+    "idRak": 3,
+    "idBarang": 52,
+    "status": "aktif"
+  },
+  {
+    "idRak": 3,
+    "idBarang": 53,
+    "status": "aktif"
+  },
+  {
+    "idRak": 3,
+    "idBarang": 54,
+    "status": "aktif"
+  },
+  {
+    "idRak": 3,
+    "idBarang": 55,
+    "status": "aktif"
+  },
+  {
+    "idRak": 3,
+    "idBarang": 56,
+    "status": "aktif"
+  },
+  {
+    "idRak": 3,
+    "idBarang": 57,
+    "status": "aktif"
+  },
+  {
+    "idRak": 3,
+    "idBarang": 58,
+    "status": "aktif"
+  },
+  {
+    "idRak": 3,
+    "idBarang": 59,
+    "status": "aktif"
+  },
+  {
+    "idRak": 4,
+    "idBarang": 60,
+    "status": "aktif"
+  },
+  {
+    "idRak": 4,
+    "idBarang": 61,
+    "status": "aktif"
+  },
+  {
+    "idRak": 4,
+    "idBarang": 62,
+    "status": "aktif"
+  },
+  {
+    "idRak": 4,
+    "idBarang": 63,
+    "status": "aktif"
+  },
+  {
+    "idRak": 4,
+    "idBarang": 64,
+    "status": "aktif"
+  },
+  {
+    "idRak": 4,
+    "idBarang": 65,
+    "status": "aktif"
+  },
+  {
+    "idRak": 4,
+    "idBarang": 66,
+    "status": "aktif"
+  },
+  {
+    "idRak": 4,
+    "idBarang": 67,
+    "status": "aktif"
+  },
+  {
+    "idRak": 4,
+    "idBarang": 68,
+    "status": "aktif"
+  },
+  {
+    "idRak": 4,
+    "idBarang": 69,
+    "status": "aktif"
+  },
+  {
+    "idRak": 4,
+    "idBarang": 70,
+    "status": "aktif"
+  },
+  {
+    "idRak": 4,
+    "idBarang": 71,
+    "status": "aktif"
+  },
+  {
+    "idRak": 4,
+    "idBarang": 72,
+    "status": "aktif"
+  },
+  {
+    "idRak": 4,
+    "idBarang": 73,
+    "status": "aktif"
+  },
+  {
+    "idRak": 4,
+    "idBarang": 74,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 75,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 76,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 77,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 78,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 79,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 80,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 81,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 82,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 83,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 84,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 85,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 86,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 87,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 88,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 89,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 90,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 91,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 92,
+    "status": "aktif"
+  },
+  {
+    "idRak": 5,
+    "idBarang": 93,
+    "status": "aktif"
+  },
+  {
+    "idRak": 6,
+    "idBarang": 94,
+    "status": "aktif"
+  },
+  {
+    "idRak": 6,
+    "idBarang": 95,
+    "status": "aktif"
+  },
+  {
+    "idRak": 6,
+    "idBarang": 96,
+    "status": "aktif"
+  },
+  {
+    "idRak": 6,
+    "idBarang": 97,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 98,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 99,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 100,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 101,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 102,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 103,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 104,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 105,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 106,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 107,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 108,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 109,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 110,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 111,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 112,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 113,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 114,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 115,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 116,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 117,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 118,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 119,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 120,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 121,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 122,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 123,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 124,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 125,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 126,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 127,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 128,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 129,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 130,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 131,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 132,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 133,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 134,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 135,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 136,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 137,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 138,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 139,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 140,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 141,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 142,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 143,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 144,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 145,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 146,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 147,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 148,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 149,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 150,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 151,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 152,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 153,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 154,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 155,
+    "status": "aktif"
+  },
+  {
+    "idRak": 8,
+    "idBarang": 156,
+    "status": "aktif"
+  },
+  {
+    "idRak": 8,
+    "idBarang": 157,
+    "status": "aktif"
+  },
+  {
+    "idRak": 8,
+    "idBarang": 158,
+    "status": "aktif"
+  },
+  {
+    "idRak": 9,
+    "idBarang": 159,
+    "status": "aktif"
+  },
+  {
+    "idRak": 9,
+    "idBarang": 160,
+    "status": "aktif"
+  },
+  {
+    "idRak": 9,
+    "idBarang": 161,
+    "status": "aktif"
+  },
+  {
+    "idRak": 9,
+    "idBarang": 162,
+    "status": "aktif"
+  },
+  {
+    "idRak": 9,
+    "idBarang": 163,
+    "status": "aktif"
+  },
+  {
+    "idRak": 9,
+    "idBarang": 164,
+    "status": "aktif"
+  },
+  {
+    "idRak": 10,
+    "idBarang": 165,
+    "status": "aktif"
+  },
+  {
+    "idRak": 10,
+    "idBarang": 166,
+    "status": "aktif"
+  },
+  {
+    "idRak": 10,
+    "idBarang": 167,
+    "status": "aktif"
+  },
+  {
+    "idRak": 10,
+    "idBarang": 168,
+    "status": "aktif"
+  },
+  {
+    "idRak": 10,
+    "idBarang": 169,
+    "status": "aktif"
+  },
+  {
+    "idRak": 11,
+    "idBarang": 170,
+    "status": "aktif"
+  },
+  {
+    "idRak": 11,
+    "idBarang": 171,
+    "status": "aktif"
+  },
+  {
+    "idRak": 11,
+    "idBarang": 172,
+    "status": "aktif"
+  },
+  {
+    "idRak": 11,
+    "idBarang": 173,
+    "status": "aktif"
+  },
+  {
+    "idRak": 11,
+    "idBarang": 174,
+    "status": "aktif"
+  },
+  {
+    "idRak": 11,
+    "idBarang": 175,
+    "status": "aktif"
+  },
+  {
+    "idRak": 11,
+    "idBarang": 176,
+    "status": "aktif"
+  },
+  {
+    "idRak": 11,
+    "idBarang": 177,
+    "status": "aktif"
+  },
+  {
+    "idRak": 11,
+    "idBarang": 178,
+    "status": "aktif"
+  },
+  {
+    "idRak": 11,
+    "idBarang": 179,
+    "status": "aktif"
+  },
+  {
+    "idRak": 11,
+    "idBarang": 180,
+    "status": "aktif"
+  },
+  {
+    "idRak": 11,
+    "idBarang": 181,
+    "status": "aktif"
+  },
+  {
+    "idRak": 11,
+    "idBarang": 182,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 183,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 184,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 185,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 186,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 187,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 188,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 189,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 190,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 191,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 192,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 193,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 194,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 195,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 196,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 197,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 198,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 199,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 200,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 201,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 202,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 203,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 204,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 205,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 206,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 207,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 208,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 209,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 210,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 211,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 212,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 213,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 214,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 215,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 216,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 217,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 218,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 219,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 220,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 221,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 222,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 223,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 224,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 225,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 226,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 227,
+    "status": "aktif"
+  },
+  {
+    "idRak": 13,
+    "idBarang": 228,
+    "status": "aktif"
+  },
+  {
+    "idRak": 14,
+    "idBarang": 229,
+    "status": "aktif"
+  },
+  {
+    "idRak": 15,
+    "idBarang": 230,
+    "status": "aktif"
+  },
+  {
+    "idRak": 15,
+    "idBarang": 231,
+    "status": "aktif"
+  },
+  {
+    "idRak": 15,
+    "idBarang": 232,
+    "status": "aktif"
+  },
+  {
+    "idRak": 15,
+    "idBarang": 233,
+    "status": "aktif"
+  },
+  {
+    "idRak": 15,
+    "idBarang": 234,
+    "status": "aktif"
+  },
+  {
+    "idRak": 15,
+    "idBarang": 235,
+    "status": "aktif"
+  },
+  {
+    "idRak": 15,
+    "idBarang": 236,
+    "status": "aktif"
+  },
+  {
+    "idRak": 15,
+    "idBarang": 237,
+    "status": "aktif"
+  },
+  {
+    "idRak": 16,
+    "idBarang": 238,
+    "status": "aktif"
+  },
+  {
+    "idRak": 16,
+    "idBarang": 239,
+    "status": "aktif"
+  },
+  {
+    "idRak": 16,
+    "idBarang": 240,
+    "status": "aktif"
+  },
+  {
+    "idRak": 16,
+    "idBarang": 241,
+    "status": "aktif"
+  },
+  {
+    "idRak": 16,
+    "idBarang": 242,
+    "status": "aktif"
+  },
+  {
+    "idRak": 16,
+    "idBarang": 243,
+    "status": "aktif"
+  },
+  {
+    "idRak": 17,
+    "idBarang": 244,
+    "status": "aktif"
+  },
+  {
+    "idRak": 17,
+    "idBarang": 245,
+    "status": "aktif"
+  },
+  {
+    "idRak": 17,
+    "idBarang": 246,
+    "status": "aktif"
+  },
+  {
+    "idRak": 18,
+    "idBarang": 247,
+    "status": "aktif"
+  },
+  {
+    "idRak": 19,
+    "idBarang": 248,
+    "status": "aktif"
+  },
+  {
+    "idRak": 19,
+    "idBarang": 249,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 250,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 251,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 252,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 253,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 254,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 255,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 256,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 257,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 258,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 259,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 260,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 261,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 262,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 263,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 264,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 265,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 266,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 267,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 268,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 269,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 270,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 271,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 272,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 273,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 274,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 275,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 276,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 277,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 278,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 279,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 280,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 281,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 282,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 283,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 284,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 285,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 286,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 287,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 288,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 289,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 290,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 291,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 292,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 293,
+    "status": "aktif"
+  },
+  {
+    "idRak": 21,
+    "idBarang": 294,
+    "status": "aktif"
+  },
+  {
+    "idRak": 22,
+    "idBarang": 295,
+    "status": "aktif"
+  },
+  {
+    "idRak": 22,
+    "idBarang": 296,
+    "status": "aktif"
+  },
+  {
+    "idRak": 22,
+    "idBarang": 297,
+    "status": "aktif"
+  },
+  {
+    "idRak": 22,
+    "idBarang": 298,
+    "status": "aktif"
+  },
+  {
+    "idRak": 22,
+    "idBarang": 299,
+    "status": "aktif"
+  },
+  {
+    "idRak": 22,
+    "idBarang": 300,
+    "status": "aktif"
+  },
+  {
+    "idRak": 22,
+    "idBarang": 301,
+    "status": "aktif"
+  },
+  {
+    "idRak": 22,
+    "idBarang": 302,
+    "status": "aktif"
+  },
+  {
+    "idRak": 22,
+    "idBarang": 303,
+    "status": "aktif"
+  },
+  {
+    "idRak": 22,
+    "idBarang": 304,
+    "status": "aktif"
+  },
+  {
+    "idRak": 22,
+    "idBarang": 305,
+    "status": "aktif"
+  },
+  {
+    "idRak": 22,
+    "idBarang": 306,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 307,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 308,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 309,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 310,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 311,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 312,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 313,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 314,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 315,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 316,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 317,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 318,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 319,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 320,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 321,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 322,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 323,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 324,
+    "status": "aktif"
+  },
+  {
+    "idRak": 23,
+    "idBarang": 325,
+    "status": "aktif"
+  },
+  {
+    "idRak": 24,
+    "idBarang": 326,
+    "status": "aktif"
+  },
+  {
+    "idRak": 24,
+    "idBarang": 327,
+    "status": "aktif"
+  },
+  {
+    "idRak": 24,
+    "idBarang": 328,
+    "status": "aktif"
+  },
+  {
+    "idRak": 24,
+    "idBarang": 329,
+    "status": "aktif"
+  },
+  {
+    "idRak": 24,
+    "idBarang": 330,
+    "status": "aktif"
+  },
+  {
+    "idRak": 24,
+    "idBarang": 331,
+    "status": "aktif"
+  },
+  {
+    "idRak": 24,
+    "idBarang": 332,
+    "status": "aktif"
+  },
+  {
+    "idRak": 24,
+    "idBarang": 333,
+    "status": "aktif"
+  },
+  {
+    "idRak": 24,
+    "idBarang": 334,
+    "status": "aktif"
+  },
+  {
+    "idRak": 24,
+    "idBarang": 335,
+    "status": "aktif"
+  },
+  {
+    "idRak": 24,
+    "idBarang": 336,
+    "status": "aktif"
+  },
+  {
+    "idRak": 25,
+    "idBarang": 337,
+    "status": "aktif"
+  },
+  {
+    "idRak": 25,
+    "idBarang": 338,
+    "status": "aktif"
+  },
+  {
+    "idRak": 25,
+    "idBarang": 339,
+    "status": "aktif"
+  },
+  {
+    "idRak": 25,
+    "idBarang": 340,
+    "status": "aktif"
+  },
+  {
+    "idRak": 25,
+    "idBarang": 341,
+    "status": "aktif"
+  },
+  {
+    "idRak": 25,
+    "idBarang": 342,
+    "status": "aktif"
+  },
+  {
+    "idRak": 25,
+    "idBarang": 343,
+    "status": "aktif"
+  },
+  {
+    "idRak": 25,
+    "idBarang": 344,
+    "status": "aktif"
+  },
+  {
+    "idRak": 26,
+    "idBarang": 345,
+    "status": "aktif"
+  },
+  {
+    "idRak": 26,
+    "idBarang": 346,
+    "status": "aktif"
+  },
+  {
+    "idRak": 27,
+    "idBarang": 347,
+    "status": "aktif"
+  },
+  {
+    "idRak": 27,
+    "idBarang": 348,
+    "status": "aktif"
+  },
+  {
+    "idRak": 27,
+    "idBarang": 349,
+    "status": "aktif"
+  },
+  {
+    "idRak": 27,
+    "idBarang": 350,
+    "status": "aktif"
+  },
+  {
+    "idRak": 27,
+    "idBarang": 351,
+    "status": "aktif"
+  },
+  {
+    "idRak": 27,
+    "idBarang": 352,
+    "status": "aktif"
+  },
+  {
+    "idRak": 27,
+    "idBarang": 353,
+    "status": "aktif"
+  },
+  {
+    "idRak": 27,
+    "idBarang": 354,
+    "status": "aktif"
+  },
+  {
+    "idRak": 27,
+    "idBarang": 355,
+    "status": "aktif"
+  },
+  {
+    "idRak": 27,
+    "idBarang": 356,
+    "status": "aktif"
+  },
+  {
+    "idRak": 27,
+    "idBarang": 357,
+    "status": "aktif"
+  },
+  {
+    "idRak": 27,
+    "idBarang": 358,
+    "status": "aktif"
+  },
+  {
+    "idRak": 27,
+    "idBarang": 359,
+    "status": "aktif"
+  },
+  {
+    "idRak": 27,
+    "idBarang": 360,
+    "status": "aktif"
+  },
+  {
+    "idRak": 28,
+    "idBarang": 361,
+    "status": "aktif"
+  },
+  {
+    "idRak": 28,
+    "idBarang": 362,
+    "status": "aktif"
+  },
+  {
+    "idRak": 28,
+    "idBarang": 363,
+    "status": "aktif"
+  },
+  {
+    "idRak": 28,
+    "idBarang": 364,
+    "status": "aktif"
+  },
+  {
+    "idRak": 28,
+    "idBarang": 365,
+    "status": "aktif"
+  },
+  {
+    "idRak": 28,
+    "idBarang": 366,
+    "status": "aktif"
+  },
+  {
+    "idRak": 28,
+    "idBarang": 367,
+    "status": "aktif"
+  },
+  {
+    "idRak": 28,
+    "idBarang": 368,
+    "status": "aktif"
+  },
+  {
+    "idRak": 28,
+    "idBarang": 369,
+    "status": "aktif"
+  },
+  {
+    "idRak": 28,
+    "idBarang": 370,
+    "status": "aktif"
+  },
+  {
+    "idRak": 28,
+    "idBarang": 371,
+    "status": "aktif"
+  },
+  {
+    "idRak": 28,
+    "idBarang": 372,
+    "status": "aktif"
+  },
+  {
+    "idRak": 28,
+    "idBarang": 373,
+    "status": "aktif"
+  },
+  {
+    "idRak": 28,
+    "idBarang": 374,
+    "status": "aktif"
+  },
+  {
+    "idRak": 28,
+    "idBarang": 375,
+    "status": "aktif"
+  },
+  {
+    "idRak": 29,
+    "idBarang": 376,
+    "status": "aktif"
+  },
+  {
+    "idRak": 29,
+    "idBarang": 377,
+    "status": "aktif"
+  },
+  {
+    "idRak": 29,
+    "idBarang": 378,
+    "status": "aktif"
+  },
+  {
+    "idRak": 29,
+    "idBarang": 379,
+    "status": "aktif"
+  },
+  {
+    "idRak": 29,
+    "idBarang": 380,
+    "status": "aktif"
+  },
+  {
+    "idRak": 29,
+    "idBarang": 381,
+    "status": "aktif"
+  },
+  {
+    "idRak": 29,
+    "idBarang": 382,
+    "status": "aktif"
+  },
+  {
+    "idRak": 29,
+    "idBarang": 383,
+    "status": "aktif"
+  },
+  {
+    "idRak": 29,
+    "idBarang": 384,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 385,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 386,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 387,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 388,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 389,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 390,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 391,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 392,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 393,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 394,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 395,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 396,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 397,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 398,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 399,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 400,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 401,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 402,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 403,
+    "status": "aktif"
+  },
+  {
+    "idRak": 30,
+    "idBarang": 404,
+    "status": "aktif"
+  },
+  {
+    "idRak": 31,
+    "idBarang": 405,
+    "status": "aktif"
+  },
+  {
+    "idRak": 31,
+    "idBarang": 406,
+    "status": "aktif"
+  },
+  {
+    "idRak": 31,
+    "idBarang": 407,
+    "status": "aktif"
+  },
+  {
+    "idRak": 31,
+    "idBarang": 408,
+    "status": "aktif"
+  },
+  {
+    "idRak": 31,
+    "idBarang": 409,
+    "status": "aktif"
+  },
+  {
+    "idRak": 31,
+    "idBarang": 410,
+    "status": "aktif"
+  },
+  {
+    "idRak": 32,
+    "idBarang": 411,
+    "status": "aktif"
+  },
+  {
+    "idRak": 32,
+    "idBarang": 412,
+    "status": "aktif"
+  },
+  {
+    "idRak": 32,
+    "idBarang": 413,
+    "status": "aktif"
+  },
+  {
+    "idRak": 32,
+    "idBarang": 414,
+    "status": "aktif"
+  },
+  {
+    "idRak": 32,
+    "idBarang": 415,
+    "status": "aktif"
+  },
+  {
+    "idRak": 32,
+    "idBarang": 416,
+    "status": "aktif"
+  },
+  {
+    "idRak": 32,
+    "idBarang": 417,
+    "status": "aktif"
+  },
+  {
+    "idRak": 32,
+    "idBarang": 418,
+    "status": "aktif"
+  },
+  {
+    "idRak": 32,
+    "idBarang": 419,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 420,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 421,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 422,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 423,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 424,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 425,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 426,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 427,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 428,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 429,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 430,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 431,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 432,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 433,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 434,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 435,
+    "status": "aktif"
+  }
+]

@@ -2,17 +2,20 @@
 
 const { password } = require("pg/lib/defaults");
 const { route } = require("../router");
+const { hashPass } = require("../helper");
 
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.bulkInsert(
-      "People",
+      "Users",
       [
         {
-          username: "l0r64dm10",
-          password: "qw3r7yu10p",
+          username: "lord4dmin",
+          password: hashPass("4dm1n"),
           role: "admin",
+          createdAt: new Date(),
+          updatedAt: new Date(),
         },
       ],
       {}
@@ -20,11 +23,6 @@ module.exports = {
   },
 
   async down(queryInterface, Sequelize) {
-    /**
-     * Add commands to revert seed here.
-     *
-     * Example:
-     * await queryInterface.bulkDelete('People', null, {});
-     */
+    await queryInterface.bulkDelete("Users", null, {});
   },
 };

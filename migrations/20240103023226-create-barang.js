@@ -1,61 +1,60 @@
-'use strict';
+"use strict";
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('Barangs', {
+    await queryInterface.createTable("Barangs", {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       sku: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       namabarang: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       img1: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       img2: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       img3: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       deskripsi: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       stok: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       berat: {
-        type: Sequelize.INTEGER
-      },
-      idRak: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       hargajual: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       hargabeli: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       idSupplier: {
-        type: Sequelize.INTEGER
+        allowNull: true,
+        type: Sequelize.INTEGER,
+        references: { model: "Suppliers", type: Sequelize.INTEGER, key: "id" },
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
-      }
+        type: Sequelize.DATE,
+      },
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('Barangs');
-  }
+    await queryInterface.dropTable("Barangs");
+  },
 };

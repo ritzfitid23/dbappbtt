@@ -3,12 +3,12 @@ const { Satuan, Sequelize } = require("../models");
 const { Op } = Sequelize;
 class Controller {
   static async create(request, response, next) {
-    const { namahz, namalain, img } = request.body;
+    const { namahz, namalain, konversi } = request.body;
     try {
       const newSatuan = await Satuan.create({
         namahz,
         namalain,
-        img,
+        konversi,
       });
       // console.log(newSatuan);
       response.status(201).json(newSatuan);
@@ -32,13 +32,13 @@ class Controller {
   }
 
   static async update(request, response, next) {
-    const { namahz, namalain, img, id } = request.body;
+    const { namahz, namalain, konversi, id } = request.body;
     try {
       const [rowsUpdated] = await Satuan.update(
         {
           namahz,
           namalain,
-          img, // Replace with the new image URL or file path
+          konversi, // Replace with the new image URL or file path
         },
         {
           where: {

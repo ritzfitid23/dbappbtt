@@ -1,0 +1,50 @@
+[
+  {
+    "idSupplier": 1,
+    "perusahaan": "saras subur abadi",
+    "namakontak": "yeni",
+    "nohp": ""
+  },
+  {
+    "idSupplier": 2,
+    "perusahaan": "perdana sakti",
+    "namakontak": "",
+    "nohp": ""
+  },
+  {
+    "idSupplier": 3,
+    "perusahaan": "sinar herba radix",
+    "namakontak": "yenni / adi",
+    "nohp": ""
+  },
+  {
+    "idSupplier": 4,
+    "perusahaan": "cahaya biru",
+    "namakontak": "",
+    "nohp": ""
+  },
+  {
+    "idSupplier": 5,
+    "perusahaan": "intra aries",
+    "namakontak": "",
+    "nohp": ""
+  },
+  {
+    "idSupplier": 6,
+    "perusahaan": "nyonya mipis",
+    "namakontak": "",
+    "nohp": ""
+  },
+  {
+    "idSupplier": 7,
+    "perusahaan": "inti sehat utama",
+    "namakontak": "",
+    "nohp": ""
+  },
+  {
+    "idSupplier": 8,
+    "perusahaan": "rudy",
+    "namakontak": "",
+    "nohp": ""
+  }
+]

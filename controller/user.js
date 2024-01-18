@@ -12,10 +12,9 @@ class Controller {
         };
       }
 
-      const hashedpass = hashPass(password);
       const user = await User.create({
         username,
-        password: hashedpass,
+        password,
         role,
       });
       response.status(201).json({ user });
