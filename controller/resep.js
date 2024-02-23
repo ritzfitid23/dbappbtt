@@ -6,6 +6,7 @@ const {
   Satuan,
   Sequelize,
 } = require("../models");
+
 const { Op } = Sequelize;
 
 class Controller {
@@ -25,28 +26,7 @@ class Controller {
           returning: true,
         }
       );
-
-      // console.log(newResep, "-new-");
       if (newResep) {
-        // for (let i = 0; i < bahan.length; i++) {
-        //   const rempah = bahan[i];
-        //   const idResep = newResep.id;
-        //   const idRempah = rempah.idRempah;
-        //   const idSatuan = rempah.idSatuan;
-        //   const qty = rempah.qty;
-        //   const [newBahan, created] = await Bahan.upsert(
-        //     {
-        //       idResep,
-        //       idRempah,
-        //       idSatuan,
-        //       qty,
-        //     },
-        //     {
-        //       returning: true,
-        //       plain: true,
-        //     }
-        //   );
-        // }
         response.status(201).json(newResep);
       }
     } catch (error) {
@@ -71,6 +51,8 @@ class Controller {
           where: { id },
         }
       );
+
+      console.log(bahan);
 
       if (rowsUpdated > 0) {
         response
@@ -99,6 +81,7 @@ class Controller {
       next(error);
     }
   }
+
   static async readall(request, response, next) {
     const { offset, limit } = request.body;
     try {

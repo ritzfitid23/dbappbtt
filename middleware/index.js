@@ -2,10 +2,10 @@ const { readToken } = require("../helper");
 const { User } = require("../models");
 const authN = async (req, res, next) => {
   try {
-    console.log("masuk auth");
+    // console.log("masuk auth");
     //headers harus huruf kecil
     const { access_token } = req.headers;
-    console.log(req.headers);
+    // console.log(req.headers);
     // console.log(accessToken, "ini token");
 
     if (!access_token) {
@@ -13,7 +13,7 @@ const authN = async (req, res, next) => {
     }
 
     const payload = readToken(access_token);
-    console.log(payload, "ini paylod");
+    // console.log(payload, "ini paylod");
     const id = +payload.id;
     const selectedUser = await User.findByPk(id);
     // console.log(selectedUser, "selecteduser");

@@ -1,0 +1,65 @@
+[
+  {
+    "idBahan": 1,
+    "idResep": null,
+    "idRempah": null,
+    "idSatuan": null,
+    "qty": null
+  },
+  {
+    "idBahan": 2,
+    "idResep": null,
+    "idRempah": null,
+    "idSatuan": null,
+    "qty": null
+  },
+  {
+    "idBahan": 3,
+    "idResep": null,
+    "idRempah": null,
+    "idSatuan": null,
+    "qty": null
+  },
+  {
+    "idBahan": 10,
+    "idResep": 1,
+    "idRempah": 1,
+    "idSatuan": 1,
+    "qty": 500
+  },
+  {
+    "idBahan": 11,
+    "idResep": 1,
+    "idRempah": 116,
+    "idSatuan": 1,
+    "qty": 4
+  },
+  {
+    "idBahan": 12,
+    "idResep": 1,
+    "idRempah": 116,
+    "idSatuan": 1,
+    "qty": 4
+  },
+  {
+    "idBahan": 13,
+    "idResep": 1,
+    "idRempah": 116,
+    "idSatuan": 1,
+    "qty": 4
+  },
+  {
+    "idBahan": 14,
+    "idResep": 1,
+    "idRempah": 116,
+    "idSatuan": 1,
+    "qty": 4
+  },
+  {
+    "idBahan": 15,
+    "idResep": 1,
+    "idRempah": 116,
+    "idSatuan": 1,
+    "qty": 3
+  }
+]

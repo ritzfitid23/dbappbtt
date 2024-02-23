@@ -130,6 +130,34 @@ class SupplierController {
       next(error);
     }
   }
+
+  static async backupsupplier(request, response, next) {
+    //load barang
+
+    const suppliers = await Supplier.findAll();
+
+    const data = suppliers.map((supplier) => {
+      return supplier;
+    });
+
+    response.status(200).json(suppliers);
+
+    // Save the workbook to a file
+    const currentDate = new Date();
+    const formattedDate = format(currentDate, "yyyyMMddHHmmss");
+
+    // Convert JSON object to a string
+    const jsonString = JSON.stringify(data, null, 2); // The third parameter (2) adds indentation for better readability
+
+    const filePath2 = `./exporter/${formattedDate}_supplier.json`;
+    // Write to the file
+    try {
+      fs.writeFileSync(filePath2, jsonString, "utf-8");
+      console.log("File written successfully.");
+    } catch (error) {
+      console.error("Error writing to JSON file:", error.message);
+    }
+  }
 }
 
 module.exports = SupplierController;

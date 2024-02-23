@@ -11,6 +11,7 @@ const BarangController = require("../controller/barang.js");
 const UserController = require("../controller/user.js");
 const SupplierController = require("../controller/supplier.js");
 const RakController = require("../controller/rak.js");
+const BackUpController = require("../controller/backup.js");
 
 const { errorHandler } = require("../handler");
 const { authN, authZCRall, authZUD } = require("../middleware");
@@ -46,6 +47,7 @@ router.get("/satuan", Satuan.readall);
 // router.delete("/satuan", Satuan.delete); // berbahaya kalau ada
 
 //---BAHAN
+router.post("/bahan", BahanController.create);
 router.put("/bahan", BahanController.update);
 router.delete("/bahan", BahanController.delete);
 
@@ -54,7 +56,7 @@ router.post("/barang", BarangController.create);
 router.put("/barang", BarangController.update);
 
 //---REMPAH
-// router.post("/rempah", RempahController.create);
+router.post("/rempah", RempahController.create);
 router.put("/rempah", RempahController.update);
 // router.delete("/rempah", RempahController.delete);
 
@@ -79,6 +81,7 @@ router.delete("/satuan/:id", Satuan.delete);
 router.post("/satuan/search", Satuan.search);
 
 //------SUPPLIER
+
 router.get("/supplier/all", SupplierController.readAll);
 router.get("/supplier/:id", SupplierController.getById);
 router.delete("/supplier/:id", SupplierController.delete);
@@ -86,12 +89,14 @@ router.post("/supplier/search", SupplierController.search);
 
 //BARANG
 
+router.get("/barang/export", BarangController.exportbarang);
 //------NAMA LAIN
 // router.get("/nmlain/all", NamaLain.readall);
 router.put("/nmlain/:id", NamaLain.update);
 router.post("/nmlain/search", NamaLain.readsearch);
 
 //--------REMPAH
+router.post("/rempah/upload", upload.single("file"), RempahController.upload);
 router.get("/rempah/all", RempahController.readall);
 router.post("/rempah/search", RempahController.readsearch);
 router.post("/rempah/stared", RempahController.createrempahstared);
@@ -111,8 +116,17 @@ router.get("/rempah/images/:filename", RempahController.loadimage);
 //barang
 router.get("/barang/images/:filename", BarangController.loadimage);
 router.get("/barang/byid/:id", BarangController.readbyid);
-
 //
+
+router.get("backup/class/barang", BackUpController.backupbarang);
+router.get("backup/class/resep", BackUpController.backupresep);
+router.get("backup/class/bahan", BackUpController.backupbahan);
+
+// router.get("backup/class/satuan",BackUpController.backupsatuan);
+// router.get("backup/class/rak");
+// router.get("backup/class/lokator");
+// router.get("backup/class/supplier");
+router.post("backup/class/upload", BackUpController.uploadbackupresep);
 
 router.use(errorHandler);
 

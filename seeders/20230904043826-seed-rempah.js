@@ -9,7 +9,7 @@ module.exports = {
      * Example:
      */
     rempahs.forEach((el) => {
-      delete el.idRamuan;
+      delete el.id;
       el.createdAt = new Date();
       el.updatedAt = new Date();
       return el;

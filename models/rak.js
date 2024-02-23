@@ -4,7 +4,13 @@ module.exports = (sequelize, DataTypes) => {
   class Rak extends Model {
     static associate(models) {
       // define association here
-      this.hasOne(models.Lokator, { foreignKey: "idRak" });
+      this.hasOne(models.Lokator, { foreignKey: "idRak", as: "LokatorRak" });
+
+      this.belongsToMany(models.Barang, {
+        through: models.Lokator,
+        foreignKey: "idRak",
+        as: "BarangsRak",
+      });
     }
   }
   Rak.init(

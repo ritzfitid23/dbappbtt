@@ -10,6 +10,10 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // define association here
       this.hasOne(models.Bahan, { foreignKey: "idSatuan" });
+      this.hasOne(models.KartuStok, { foreignKey: "idSatuan" });
+
+      this.hasOne(models.VarianBarang, { foreignKey: "idSatuanA" });
+      this.hasOne(models.VarianBarang, { foreignKey: "idSatuanB" });
     }
   }
   Satuan.init(

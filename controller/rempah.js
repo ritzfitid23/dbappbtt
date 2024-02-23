@@ -5,18 +5,69 @@ const { bucket } = require("../config/firebaseConfig");
 
 const path = require("path");
 
+const uploadImageToFirebaseStorage = async (fileBuffer, filename) => {
+  try {
+    // Set the destination path in Firebase Storage
+    const filePath = `rempah/${filename}`;
+
+    // Create a write stream for Firebase Storage
+
+    const fileUploadStream = bucket.file(filePath).createWriteStream({
+      metadata: {
+        contentType: "image/jpeg", // Replace with the appropriate content type
+      },
+    });
+
+    // Handle errors during the upload
+    fileUploadStream.on("error", (error) => {
+      console.error(error);
+      throw new Error("Error uploading file to Firebase Storage.");
+    });
+
+    // Handle successful upload
+    fileUploadStream.on("finish", () => {
+      console.log("File uploaded successfully!");
+    });
+
+    // Pipe the file buffer to the write stream
+    fileUploadStream.end(fileBuffer);
+  } catch (error) {
+    console.error(error);
+    throw new Error("Internal server error.");
+  }
+};
 class Controller {
-  static async create(request, response) {}
-  static async update(request, response) {
-    const { namahz, namalain, fungsi, keterangan, harga, id } = request.body;
+  static async create(request, response, next) {
+    const { norak, hanzhi, pinyin, img } = request.body;
+
+    const newRempah = await Rempah.create(
+      {
+        norak,
+        hanzhi,
+        pinyin,
+        img,
+      },
+      {
+        returning: true,
+      }
+    );
+    console.log(newRempah + "||");
+
+    if (newRempah) {
+      response.status(201).json(newRempah);
+    } else {
+      response.status(400).json("No rows were updated.");
+    }
+  }
+  static async update(request, response, next) {
+    const { norak, hanzhi, pinyin, img, id } = request.body;
     try {
-      const rowsUpdated = await Resep.update(
+      const rowsUpdated = await Rempah.update(
         {
-          namahz,
-          namalain,
-          fungsi,
-          keterangan,
-          harga,
+          norak,
+          hanzhi,
+          pinyin,
+          img,
         },
         {
           where: {
@@ -34,7 +85,7 @@ class Controller {
       next(error);
     }
   }
-  static async delete(request, response) {}
+  static async delete(request, response, next) {}
   static async readall(request, response, next) {
     const { offset, limit } = request.body;
 
@@ -225,6 +276,25 @@ class Controller {
     } catch (error) {
       console.log(error);
       next(error);
+    }
+  }
+
+  static async upload(req, res, next) {
+    try {
+      if (!req.file) {
+        return res.status(400).json({ error: "No file uploaded." });
+      }
+
+      const fileBuffer = req.file.buffer;
+      const filename = req.file.originalname;
+
+      // Call the function to upload the image to Firebase Storage
+      await uploadImageToFirebaseStorage(fileBuffer, filename);
+
+      res.status(200).json({ message: "File uploaded successfully!" });
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({ error: "Internal server error." });
     }
   }
 }

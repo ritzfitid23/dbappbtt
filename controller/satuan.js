@@ -13,7 +13,7 @@ class Controller {
       // console.log(newSatuan);
       response.status(201).json(newSatuan);
     } catch (error) {
-      // console.log(error);
+      console.log(error);
       next(error);
     }
   }
@@ -73,7 +73,7 @@ class Controller {
       next(error);
     }
   }
-  static async readall(request, response) {
+  static async readall(request, response, next) {
     try {
       const satuans = await Satuan.findAll({});
       response.status(200).json(satuans);

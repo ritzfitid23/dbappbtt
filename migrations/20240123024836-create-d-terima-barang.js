@@ -2,27 +2,46 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable("Bahans", {
+    await queryInterface.createTable("DTerimaBarangs", {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      idResep: {
+      idHTerimaBarang: {
         type: Sequelize.INTEGER,
-        references: { model: "Reseps", type: Sequelize.INTEGER, key: "id" },
+        references: {
+          model: "HTerimaBarangs",
+          type: Sequelize.INTEGER,
+          key: "id",
+        },
       },
-      idRempah: {
+      idBarang: {
         type: Sequelize.INTEGER,
-        references: { model: "Rempahs", type: Sequelize.INTEGER, key: "id" },
+        references: { model: "Barangs", type: Sequelize.INTEGER, key: "id" },
       },
       idSatuan: {
         type: Sequelize.INTEGER,
         references: { model: "Satuans", type: Sequelize.INTEGER, key: "id" },
       },
-      qty: {
-        type: Sequelize.STRING,
+      qtyterima: {
+        type: Sequelize.INTEGER,
+      },
+      harga: {
+        type: Sequelize.INTEGER,
+      },
+      disc: {
+        type: Sequelize.INTEGER,
+      },
+      harganett: {
+        type: Sequelize.INTEGER,
+      },
+      subtotal: {
+        type: Sequelize.INTEGER,
+      },
+      subtotalnett: {
+        type: Sequelize.INTEGER,
       },
       createdAt: {
         allowNull: false,
@@ -35,6 +54,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable("Bahans");
+    await queryInterface.dropTable("DTerimaBarangs");
   },
 };

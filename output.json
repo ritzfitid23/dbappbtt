@@ -1,0 +1,14 @@
+[
+  {
+    "address": {
+      "street": "123 Main Street",
+      "zipCode": "12345"
+    }
+  },
+  {
+    "address": {
+      "street": "123 Main Street",
+      "zipCode": "12345"
+    }
+  }
+]

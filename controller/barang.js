@@ -1,6 +1,19 @@
-const { Barang, Supplier, Sequelize } = require("../models");
+const {
+  Barang,
+  Rak,
+  Lokator,
+  Supplier,
+  Sequelize,
+  sequelize,
+} = require("../models");
 const { Op } = Sequelize;
 const { bucket } = require("../config/firebaseConfig");
+const fs = require("fs");
+const path = require("path");
+const { format } = require("date-fns");
+
+//excel
+const ExcelJS = require("exceljs");
 
 const uploadImageToFirebaseStorage = async (fileBuffer, filename) => {
   try {
@@ -184,6 +197,17 @@ class BarangController {
             model: Supplier,
             required: false, //supaya join namalain.id=rempah.id
           },
+          {
+            model: Lokator,
+            as: "LokatorBarang",
+            attributes: ["id", "status"], // Include specific attributes if needed
+          },
+          {
+            model: Rak,
+            as: "RaksBarang",
+            through: { attributes: [] },
+            attributes: ["id", "kode", "letak", "status"], // Include specific attributes if needed
+          },
         ],
         order: [["namabarang", "ASC"]],
       });
@@ -226,6 +250,17 @@ class BarangController {
           {
             model: Supplier,
           },
+          {
+            model: Lokator,
+            as: "LokatorBarang",
+            attributes: ["id", "status"], // Include specific attributes if needed
+          },
+          {
+            model: Rak,
+            as: "RaksBarang",
+            through: { attributes: [] },
+            attributes: ["id", "kode", "letak", "status"], // Include specific attributes if needed
+          },
         ],
       });
       console.log(barang);
@@ -234,6 +269,60 @@ class BarangController {
       console.log(error);
       next(error);
     }
+  }
+
+  static async exportbarang(request, response, next) {
+    //load barang
+    const barangs = await Barang.findAll();
+    response.status(200).json(barangs);
+    barangs.forEach((barang) => {
+      barang.idSupplier = barang.idSupplier == null ? 0 : barang.idSupplier;
+      return barang;
+    });
+
+    //EXPORT WITH XLSX
+    const workbook = new ExcelJS.Workbook();
+    const worksheet = workbook.addWorksheet("Sheet 1");
+
+    const data = barangs;
+
+    // Define columns
+    const columns = [
+      { header: "id", key: "id", width: 10 },
+      { header: "sku", key: "sku", width: 200 },
+      { header: "namabarang", key: "namabarang", width: 200 },
+      { header: "img1", key: "img1", width: 200 },
+      { header: "img2", key: "img2", width: 200 },
+      { header: "img3", key: "img3", width: 200 },
+      { header: "deskripsi", key: "deskripsi", width: 200 },
+      { header: "stok", key: "stok", width: 200 },
+      { header: "berat", key: "berat", width: 200 },
+      { header: "hargajual", key: "hargajual", width: 200 },
+      { header: "hargabeli", key: "hargabeli", width: 200 },
+      { header: "idSupplier", key: "idSupplier", width: 200 },
+    ];
+
+    // Add columns to the worksheet
+    worksheet.columns = columns;
+
+    // Add data to the worksheet
+    data.forEach((row) => {
+      worksheet.addRow(row);
+    });
+
+    // Save the workbook to a file
+    const currentDate = new Date();
+    const formattedDate = format(currentDate, "yyyyMMddHHmmss");
+
+    const filePath1 = `./exporter/${formattedDate}_barang.xlsx`;
+    workbook.xlsx
+      .writeFile(filePath1)
+      .then(() => {
+        console.log("Excel file exported successfully:", filePath1);
+      })
+      .catch((error) => {
+        console.error("Error exporting to Excel:", error.message);
+      });
   }
 }
 
