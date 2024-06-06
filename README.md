@@ -12,5 +12,8 @@ dbappfebpostgres://postgres.lcnfmqglvcbhlvxwfdih:dWLDkJSZJoRS7bIv@aws-0-us-west-
 RAILWAY
 chestnut-cianide
 
+SUPABASE
+ritzfitid@gmail.com
+
 akun railway ritzfitid@gmail.com
 akun firebase arnold.pramudita.wewe@gmail.com

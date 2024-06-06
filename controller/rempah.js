@@ -76,16 +76,17 @@ class Controller {
         }
       );
 
-      if (rowsUpdated > 0) {
+      if (rowsUpdated) {
         response.status(200).json(rowsUpdated);
       } else {
-        response.status(200).json("No rows were updated.");
+        response.status(400).json("No rows were updated.");
       }
     } catch (error) {
       next(error);
     }
   }
   static async delete(request, response, next) {}
+
   static async readall(request, response, next) {
     const { offset, limit } = request.body;
 
@@ -100,6 +101,7 @@ class Controller {
       next(error);
     }
   }
+
   static async readsearch(request, response, next) {
     const { hanzhi, namaLain } = request.body;
     const idUser = request.currId;
@@ -295,6 +297,30 @@ class Controller {
     } catch (error) {
       console.error(error);
       res.status(500).json({ error: "Internal server error." });
+    }
+  }
+
+  static async updateimage(request, response, next) {
+    const { img, id } = request.body;
+    try {
+      const rowsUpdated = await Rempah.update(
+        {
+          img,
+        },
+        {
+          where: {
+            id,
+          },
+        }
+      );
+      console.log({ img, id }, "dari update image rempah");
+      if (rowsUpdated) {
+        response.status(200).json(request.body);
+      } else {
+        response.status(400).json("No rows were updated.");
+      }
+    } catch (error) {
+      next(error);
     }
   }
 }

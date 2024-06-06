@@ -18,6 +18,7 @@ const { authN, authZCRall, authZUD } = require("../middleware");
 
 //-- start upload file initialization
 const multer = require("multer");
+const { ro } = require("date-fns/locale");
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 //--------end upload file initialization
@@ -87,9 +88,6 @@ router.get("/supplier/:id", SupplierController.getById);
 router.delete("/supplier/:id", SupplierController.delete);
 router.post("/supplier/search", SupplierController.search);
 
-//BARANG
-
-router.get("/barang/export", BarangController.exportbarang);
 //------NAMA LAIN
 // router.get("/nmlain/all", NamaLain.readall);
 router.put("/nmlain/:id", NamaLain.update);
@@ -101,12 +99,15 @@ router.get("/rempah/all", RempahController.readall);
 router.post("/rempah/search", RempahController.readsearch);
 router.post("/rempah/stared", RempahController.createrempahstared);
 router.get("/rempah/stared", RempahController.getrempahstared);
+router.put("/rempah/updateimage", RempahController.updateimage);
 
 //-------BARANG
 router.post("/barang/upload", upload.single("file"), BarangController.upload);
 router.post("/barang/search", BarangController.readsearch);
-
+router.get("/barang/export", BarangController.exportbarang);
+router.put("/barang/updateimage", BarangController.updateimage);
 //----------------------------- 3 slash -------------------------------------
+
 //rempah
 router.get("/rempah/byid/:id", RempahController.readbyid);
 router.put("/rempah/unstared/:id", RempahController.updaterempahstared);
@@ -116,7 +117,7 @@ router.get("/rempah/images/:filename", RempahController.loadimage);
 //barang
 router.get("/barang/images/:filename", BarangController.loadimage);
 router.get("/barang/byid/:id", BarangController.readbyid);
-//
+router.get("/barang/norak/:kode", BarangController.readbynorak);
 
 router.get("backup/class/barang", BackUpController.backupbarang);
 router.get("backup/class/resep", BackUpController.backupresep);

@@ -1,3 +1,4 @@
+const { where } = require("sequelize");
 const {
   Resep,
   ResepStared,
@@ -54,12 +55,12 @@ class Controller {
 
       console.log(bahan);
 
-      if (rowsUpdated > 0) {
+      if (rowsUpdated) {
         response
           .status(200)
           .json({ data: `Resep dengan id ${id} telah diperbaharui` });
       } else {
-        response.status(200).json("No rows were updated.");
+        response.status(400).json("No rows were updated.");
       }
     } catch (error) {
       next(error);
@@ -92,6 +93,9 @@ class Controller {
           {
             model: Bahan,
             required: false,
+            where: {
+              exist: 1,
+            },
             include: [
               {
                 model: Rempah,
@@ -160,6 +164,9 @@ class Controller {
           {
             model: Bahan,
             required: false,
+            where: {
+              exist: 1,
+            },
             include: [
               {
                 model: Rempah,

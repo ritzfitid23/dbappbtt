@@ -28,6 +28,7 @@ module.exports = (sequelize, DataTypes) => {
       idRempah: DataTypes.INTEGER,
       idSatuan: DataTypes.INTEGER,
       qty: DataTypes.STRING,
+      exist: DataTypes.INTEGER,
     },
     {
       sequelize,

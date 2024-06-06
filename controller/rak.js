@@ -14,7 +14,9 @@ class RakController {
         keterangan,
       });
 
-      response.status(201).json(newRak);
+      if (newRak) {
+        response.status(201).json(newRak);
+      }
     } catch (error) {
       if (error.name === "SequelizeUniqueConstraintError") {
         // Handle unique constraint violation

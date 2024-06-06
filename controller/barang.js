@@ -14,6 +14,7 @@ const { format } = require("date-fns");
 
 //excel
 const ExcelJS = require("exceljs");
+const { where } = require("sequelize");
 
 const uploadImageToFirebaseStorage = async (fileBuffer, filename) => {
   try {
@@ -89,9 +90,6 @@ class BarangController {
     const {
       sku,
       namabarang,
-      img1,
-      img2,
-      img3,
       deskripsi,
       stok,
       berat,
@@ -100,14 +98,25 @@ class BarangController {
       idSupplier,
       id,
     } = request.body;
+    console.log(
+      {
+        sku,
+        namabarang,
+        deskripsi,
+        stok,
+        berat,
+        hargajual,
+        hargabeli,
+        idSupplier,
+        id,
+      },
+      "dari sini masuk"
+    );
     try {
-      const [rowsUpdated] = await Barang.update(
+      const rowsUpdated = await Barang.update(
         {
           sku,
           namabarang,
-          img1,
-          img2,
-          img3,
           deskripsi,
           stok,
           berat,
@@ -122,7 +131,34 @@ class BarangController {
         }
       );
 
-      if (rowsUpdated > 0) {
+      if (rowsUpdated) {
+        response.status(200).json(request.body);
+      } else {
+        response.status(400).json("No rows were updated.");
+      }
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  static async updateimage(request, response, next) {
+    const { img1, img2, img3, id } = request.body;
+    console.log({ img1, img2, img3, id }, "ini dari barang update image");
+    try {
+      const rowsUpdated = await Barang.update(
+        {
+          img1,
+          img2,
+          img3,
+        },
+        {
+          where: {
+            id,
+          },
+        }
+      );
+
+      if (rowsUpdated) {
         response.status(200).json(request.body);
       } else {
         response.status(400).json("No rows were updated.");
@@ -180,39 +216,60 @@ class BarangController {
   }
 
   static async readsearch(request, response, next) {
-    const { namabarang } = request.body;
-    try {
-      const rempahs = await Barang.findAll({
-        where: {
-          [Op.or]: [
-            {
-              namabarang: {
-                [Op.like]: `%${namabarang}%`, // Search for records with hanzhi containing the provided value
-              },
+    const { namabarang, supplier } = request.body;
+    let whereCondition = {};
+
+    if (namabarang != "" && supplier != "-1") {
+      whereCondition = {
+        [Op.and]: [
+          {
+            namabarang: {
+              [Op.like]: `%${namabarang}%`,
             },
-          ],
-        },
+          },
+          { idSupplier: supplier },
+        ],
+      };
+    } else if (supplier != "-1") {
+      whereCondition = {
+        idSupplier: supplier,
+      };
+    } else {
+      whereCondition = {
+        [Op.or]: [
+          {
+            namabarang: {
+              [Op.like]: `%${namabarang}%`,
+            },
+          },
+        ],
+      };
+    }
+
+    try {
+      const barang = await Barang.findAll({
+        where: whereCondition,
         include: [
           {
             model: Supplier,
-            required: false, //supaya join namalain.id=rempah.id
+            required: false,
           },
           {
             model: Lokator,
             as: "LokatorBarang",
-            attributes: ["id", "status"], // Include specific attributes if needed
+            attributes: ["id", "status"],
           },
           {
             model: Rak,
             as: "RaksBarang",
             through: { attributes: [] },
-            attributes: ["id", "kode", "letak", "status"], // Include specific attributes if needed
+            attributes: ["id", "kode", "letak", "status"],
           },
         ],
         order: [["namabarang", "ASC"]],
       });
-      console.log(rempahs);
-      response.status(200).json(rempahs);
+      console.log(barang);
+      response.status(200).json(barang);
     } catch (error) {
       console.log(error);
       next(error);
@@ -226,7 +283,7 @@ class BarangController {
 
       // Check if the file exists
       const [exists] = await file.exists();
-
+      res.status(200);
       if (!exists) {
         return res.status(404).send("Image not found.");
       }
@@ -267,6 +324,32 @@ class BarangController {
       response.status(200).json(barang);
     } catch (error) {
       console.log(error);
+      next(error);
+    }
+  }
+
+  static async readbynorak(request, response, next) {
+    try {
+      const { kode } = request.params;
+
+      // Find the Barang items associated with the Rak having the provided kode
+      const barangsOnRak = await Barang.findAll({
+        include: [
+          {
+            model: Lokator,
+            include: [
+              {
+                model: Rak,
+                where: { kode },
+              },
+            ],
+          },
+        ],
+      });
+
+      response.status(200).json(barangsOnRak);
+    } catch (error) {
+      console.error(error);
       next(error);
     }
   }

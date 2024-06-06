@@ -11,6 +11,7 @@ class Controller {
         where: { idResep, idRempah, idSatuan },
       });
       console.log(bahans);
+
       if (bahans == null) {
         const newBahan = await Bahan.create({
           idResep,
@@ -21,7 +22,21 @@ class Controller {
 
         response.status(201).json(newBahan);
       } else {
-        response.status(501).json("bahan sudah pernah dimasukan");
+        const idnya = bahans.id;
+        const rowsUpdated = await Bahan.update(
+          {
+            idSatuan,
+            qty,
+          },
+          {
+            where: { id: idnya },
+          }
+        );
+        if (rowsUpdated) {
+          response
+            .status(200)
+            .json("bahan sudah pernah dimasukan dilakukan update saja");
+        }
       }
     } catch (error) {
       console.log(error);
@@ -32,7 +47,7 @@ class Controller {
   static async update(request, response, next) {
     const { idSatuan, qty, id } = request.body;
     try {
-      const [rowsUpdated] = await Bahan.update(
+      const rowsUpdated = await Bahan.update(
         {
           idSatuan,
           qty,
@@ -42,7 +57,7 @@ class Controller {
         }
       );
 
-      if (rowsUpdated > 0) {
+      if (rowsUpdated) {
         response.status(200).json(`Updated ${rowsUpdated} row(s)`);
       } else {
         response.status(400).json(`Updated ${rowsUpdated} row(s)`);
@@ -53,15 +68,20 @@ class Controller {
   }
 
   static async delete(request, response, next) {
-    const { id } = request.params;
+    const { id } = request.body;
 
     try {
-      const rowsDeleted = await Bahan.destroy({
-        where: { id },
-      });
+      const rowsUpdated = await Bahan.update(
+        {
+          exist: "0",
+        },
+        {
+          where: { id },
+        }
+      );
 
-      if (rowsDeleted > 0) {
-        response.status(200).json(`Deleted ${rowsDeleted} row(s)`);
+      if (rowsUpdated) {
+        response.status(200).json(`Deleted ${rowsUpdated} row(s)`);
       } else {
         response.status(404).json(`Bahan with id ${id} not found`);
       }
@@ -75,7 +95,7 @@ class Controller {
 
     try {
       const bahans = await Bahan.findAll({
-        where: { idResep },
+        where: { idResep, exist: 1 },
       });
 
       if (bahans.length > 0) {
