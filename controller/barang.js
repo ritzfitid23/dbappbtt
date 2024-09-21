@@ -3,6 +3,7 @@ const {
   Rak,
   Lokator,
   Supplier,
+  Satuan,
   Sequelize,
   sequelize,
 } = require("../models");
@@ -62,6 +63,7 @@ class BarangController {
       hargajual,
       hargabeli,
       idSupplier,
+      idSatuan,
     } = request.body;
 
     try {
@@ -77,6 +79,7 @@ class BarangController {
         hargajual,
         hargabeli,
         idSupplier,
+        idSatuan,
       });
       console.log(newBarang);
       response.status(201).json(newBarang);
@@ -96,6 +99,7 @@ class BarangController {
       hargajual,
       hargabeli,
       idSupplier,
+      idSatuan,
       id,
     } = request.body;
     console.log(
@@ -108,6 +112,7 @@ class BarangController {
         hargajual,
         hargabeli,
         idSupplier,
+        idSatuan,
         id,
       },
       "dari sini masuk"
@@ -122,7 +127,8 @@ class BarangController {
           berat,
           hargajual,
           hargabeli,
-          idSupplier, // Replace with the new image URL or file path
+          idSupplier,
+          idSatuan,
         },
         {
           where: {
@@ -255,6 +261,10 @@ class BarangController {
             required: false,
           },
           {
+            model: Satuan,
+            required: false,
+          },
+          {
             model: Lokator,
             as: "LokatorBarang",
             attributes: ["id", "status"],
@@ -308,6 +318,9 @@ class BarangController {
             model: Supplier,
           },
           {
+            model: Satuan,
+          },
+          {
             model: Lokator,
             as: "LokatorBarang",
             attributes: ["id", "status"], // Include specific attributes if needed
@@ -329,27 +342,23 @@ class BarangController {
   }
 
   static async readbynorak(request, response, next) {
+    const { kode } = request.params;
     try {
-      const { kode } = request.params;
-
-      // Find the Barang items associated with the Rak having the provided kode
-      const barangsOnRak = await Barang.findAll({
+      const barangInRak = await Barang.findAll({
         include: [
           {
-            model: Lokator,
-            include: [
-              {
-                model: Rak,
-                where: { kode },
-              },
-            ],
+            model: Rak,
+            through: {
+              model: Lokator,
+            },
+            where: { kode: kode }, // Filter by the kode of the Rak
+            as: "RaksBarang",
           },
         ],
       });
-
-      response.status(200).json(barangsOnRak);
+      response.status(200).json(barangInRak);
     } catch (error) {
-      console.error(error);
+      console.error("Error retrieving barang in rak:", error);
       next(error);
     }
   }

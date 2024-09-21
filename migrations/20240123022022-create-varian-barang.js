@@ -17,11 +17,11 @@ module.exports = {
       },
       idSatuanB: {
         type: Sequelize.INTEGER,
-        references: { model: "Satuans", type: Sequelize.INTEGER, key: "id" },
+        // references: { model: "Satuans", type: Sequelize.INTEGER, key: "id" },
       },
       idSatuanA: {
         type: Sequelize.INTEGER,
-        references: { model: "Satuans", type: Sequelize.INTEGER, key: "id" },
+        // references: { model: "Satuans", type: Sequelize.INTEGER, key: "id" },
       },
       nilaikonversi: {
         type: Sequelize.INTEGER,

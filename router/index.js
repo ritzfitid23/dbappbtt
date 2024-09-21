@@ -12,6 +12,9 @@ const UserController = require("../controller/user.js");
 const SupplierController = require("../controller/supplier.js");
 const RakController = require("../controller/rak.js");
 const BackUpController = require("../controller/backup.js");
+const VarianController = require("../controller/varian.js");
+const HterimaController = require("../controller/hterima.js");
+const DterimaController = require("../controller/dterima.js");
 
 const { errorHandler } = require("../handler");
 const { authN, authZCRall, authZUD } = require("../middleware");
@@ -66,7 +69,24 @@ router.get("/rak", RakController.readAll);
 router.post("/rak", RakController.create);
 router.put("/rak", RakController.update);
 
+//-------VARIAN
+router.post("/varian", VarianController.create);
+router.put("/varian", VarianController.update);
+
+//------HTERIMA
+router.post("/hterima", HterimaController.create);
+router.get("/hterima", HterimaController.readall);
+router.put("/hterima", HterimaController.update);
+
+//------DTERIMA
+router.post("/dterima", DterimaController.create);
+router.put("/dterima", DterimaController.update);
+
 //------------------- 2 slash -------------------------------
+
+//varian
+router.get("/varian/:idBarang", VarianController.getvarianbyidbarang);
+router.post("/varian/setsatuankecil", VarianController.setsatuankecil);
 
 //-----RESEP
 router.get("/resep/all", ResepController.readall);
@@ -106,6 +126,16 @@ router.post("/barang/upload", upload.single("file"), BarangController.upload);
 router.post("/barang/search", BarangController.readsearch);
 router.get("/barang/export", BarangController.exportbarang);
 router.put("/barang/updateimage", BarangController.updateimage);
+
+//--------HTERIMA
+router.post("/hterima/upload", upload.single("file"), HterimaController.upload);
+router.get("/hterima/:id", HterimaController.readbyid);
+router.put("/hterima/updateimage", HterimaController.updateimage);
+router.delete("/hterima/:id", HterimaController.delete);
+
+//-------DTERIMA
+router.get("/dterima/:idHTerimaBarang", DterimaController.read);
+
 //----------------------------- 3 slash -------------------------------------
 
 //rempah
@@ -113,12 +143,32 @@ router.get("/rempah/byid/:id", RempahController.readbyid);
 router.put("/rempah/unstared/:id", RempahController.updaterempahstared);
 router.get("/rempah/norak/:norak", RempahController.readbynorak);
 router.get("/rempah/images/:filename", RempahController.loadimage);
+// router.post("/rempah/download/:filename", RempahController.downloadimage);
 
 //barang
 router.get("/barang/images/:filename", BarangController.loadimage);
 router.get("/barang/byid/:id", BarangController.readbyid);
 router.get("/barang/norak/:kode", BarangController.readbynorak);
 
+//------HTERIMA
+router.get("/nota/images/:filename", HterimaController.loadimage);
+router.post("/nota/search/barang", HterimaController.searchbyidbarang);
+router.post("/nota/search/supplier", HterimaController.searchbysupplier);
+router.post("/nota/search/tanggal", HterimaController.searchbytanggal);
+
+//-----DTERIMA
+router.get("/dterima/getbyid/:id", DterimaController.readbyid);
+
+//-----RESEP
+router.get("/resep/byrempah/:id", ResepController.readbyrempah);
+
+//varian
+router.post(
+  "/varian/fetch/getsatuanexvarian",
+  VarianController.getsatuanexthisvarian
+);
+
+//======BACKUP
 router.get("backup/class/barang", BackUpController.backupbarang);
 router.get("backup/class/resep", BackUpController.backupresep);
 router.get("backup/class/bahan", BackUpController.backupbahan);

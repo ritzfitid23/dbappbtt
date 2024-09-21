@@ -23,10 +23,12 @@ class Controller {
         response.status(201).json(newBahan);
       } else {
         const idnya = bahans.id;
+        const exist = 1;
         const rowsUpdated = await Bahan.update(
           {
             idSatuan,
             qty,
+            exist,
           },
           {
             where: { id: idnya },

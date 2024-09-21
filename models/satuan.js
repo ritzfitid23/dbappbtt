@@ -4,8 +4,7 @@ module.exports = (sequelize, DataTypes) => {
   class Satuan extends Model {
     /**
      * Helper method for defining associations.
-     * This method is not a part of Sequelize lifecycle.
-     * The `models/index` file will call this method automatically.
+     * This method is not a part of Sequelize lifecycle.]
      */
     static associate(models) {
       // define association here
@@ -14,6 +13,9 @@ module.exports = (sequelize, DataTypes) => {
 
       this.hasOne(models.VarianBarang, { foreignKey: "idSatuanA" });
       this.hasOne(models.VarianBarang, { foreignKey: "idSatuanB" });
+
+      this.hasOne(models.Barang, { foreignKey: "idSatuan" });
+      this.hasOne(models.DTerimaBarang, { foreignKey: "idBarang" });
     }
   }
   Satuan.init(

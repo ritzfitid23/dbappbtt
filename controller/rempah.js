@@ -323,6 +323,33 @@ class Controller {
       next(error);
     }
   }
-}
 
+  static async downloadimage(request, response, next) {
+    const filename = request.params.filename;
+    const tempFilePath = path.join(__dirname, filename);
+
+    try {
+      // Download file from Firebase Storage to local temp file
+      await bucket.file(filename).download({ destination: tempFilePath });
+
+      // Send the file to the client
+      response.sendFile(tempFilePath, (err) => {
+        if (err) {
+          console.log("Error sending file:", err);
+          response.status(500).send("Error sending file");
+        } else {
+          // Delete the temporary file after sending
+          fs.unlink(tempFilePath, (err) => {
+            if (err) {
+              console.log("Error deleting temp file:", err);
+            }
+          });
+        }
+      });
+    } catch (error) {
+      console.log("Error downloading file:", error);
+      response.status(500).send("Error downloading file");
+    }
+  }
+}
 module.exports = Controller;

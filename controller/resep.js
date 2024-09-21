@@ -209,6 +209,38 @@ class Controller {
       next(error);
     }
   }
+
+  static async readbyrempah(request, response, next) {
+    const { id } = request.params;
+    try {
+      const recipes = await Resep.findAll({
+        include: [
+          {
+            model: Bahan,
+            required: true,
+            where: {
+              idRempah: id,
+              exist: 1, //kl 0 dihapus dari resep
+            },
+            include: [
+              {
+                model: Rempah,
+                required: true,
+              },
+              {
+                model: Satuan,
+                required: true,
+              },
+            ],
+          },
+        ],
+      });
+      response.status(200).json(recipes);
+    } catch (error) {
+      console.log(error);
+      next(error);
+    }
+  }
 }
 
 module.exports = Controller;

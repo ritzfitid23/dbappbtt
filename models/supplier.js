@@ -9,6 +9,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       this.hasOne(models.Barang, { foreignKey: "idSupplier" });
+      this.hasOne(models.HTerimaBarang, { foreignKey: "idSupplier" });
     }
   }
   Supplier.init(

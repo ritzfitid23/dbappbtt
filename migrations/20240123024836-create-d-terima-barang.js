@@ -34,13 +34,7 @@ module.exports = {
       disc: {
         type: Sequelize.INTEGER,
       },
-      harganett: {
-        type: Sequelize.INTEGER,
-      },
       subtotal: {
-        type: Sequelize.INTEGER,
-      },
-      subtotalnett: {
         type: Sequelize.INTEGER,
       },
       createdAt: {

@@ -1,49 +1,50 @@
-'use strict';
+"use strict";
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('HTerimaBarangs', {
+    await queryInterface.createTable("HTerimaBarangs", {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       tanggal: {
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
       },
       nonota: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       idSupplier: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        references: { model: "Suppliers", type: Sequelize.INTEGER, key: "id" },
       },
       jumlah: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       disc: {
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING,
       },
       jumlahppn: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       totalppn: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       imgnota: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
-      }
+        type: Sequelize.DATE,
+      },
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('HTerimaBarangs');
-  }
+    await queryInterface.dropTable("HTerimaBarangs");
+  },
 };
