@@ -13,6 +13,7 @@ const SupplierController = require("../controller/supplier.js");
 const RakController = require("../controller/rak.js");
 const BackUpController = require("../controller/backup.js");
 const VarianController = require("../controller/varian.js");
+
 const HterimaController = require("../controller/hterima.js");
 const DterimaController = require("../controller/dterima.js");
 
@@ -172,6 +173,7 @@ router.post(
 router.get("backup/class/barang", BackUpController.backupbarang);
 router.get("backup/class/resep", BackUpController.backupresep);
 router.get("backup/class/bahan", BackUpController.backupbahan);
+router.get("backup/class/bahan", BackUpController.exporttokped);
 
 // router.get("backup/class/satuan",BackUpController.backupsatuan);
 // router.get("backup/class/rak");

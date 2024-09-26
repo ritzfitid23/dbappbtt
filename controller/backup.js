@@ -14,6 +14,19 @@ const { bucket } = require("../config/firebaseConfig");
 const fs = require("fs");
 const path = require("path");
 const { format } = require("date-fns");
+const createExcelFile = (data, filePath) => {
+  // Create a new workbook
+  const workbook = XLSX.utils.book_new();
+
+  // Convert the data to a worksheet
+  const worksheet = XLSX.utils.json_to_sheet(data);
+
+  // Append the worksheet to the workbook
+  XLSX.utils.book_append_sheet(workbook, worksheet, "Sheet1");
+
+  // Write the workbook to the given file path
+  XLSX.writeFile(workbook, filePath);
+};
 
 const uploadJsonToFirebaseStorage = async (fileBuffer, filename) => {
   try {
@@ -208,6 +221,40 @@ class BackUpController {
       console.error(error);
       res.status(500).json({ error: "Internal server error." });
     }
+  }
+
+  static async exporttokped(req, res, next) {
+    // Sample data
+    const data = [
+      { name: "John Doe", age: 25, city: "New York" },
+      { name: "Jane Smith", age: 30, city: "Los Angeles" },
+      { name: "Sam Brown", age: 22, city: "Chicago" },
+    ];
+
+    // Define file path (temporary location)
+    const filePath = path.join(__dirname, "exporttokped.xlsx");
+
+    // Create the Excel file
+    createExcelFile(data, filePath);
+
+    // Send the file as a response
+    res.sendFile(filePath, (err) => {
+      if (err) {
+        console.error("Error sending file:", err);
+        res.status(500).send("Error occurred while sending the file.");
+      } else {
+        console.log("File sent successfully!");
+
+        // Optionally, delete the file after sending it
+        fs.unlink(filePath, (unlinkErr) => {
+          if (unlinkErr) {
+            console.error("Error deleting file:", unlinkErr);
+          } else {
+            console.log("File deleted successfully.");
+          }
+        });
+      }
+    });
   }
 }
 
