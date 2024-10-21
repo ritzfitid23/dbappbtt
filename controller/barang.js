@@ -17,6 +17,8 @@ const { format } = require("date-fns");
 const ExcelJS = require("exceljs");
 const { where } = require("sequelize");
 
+const { readImportTokopedia } = require("./func_createworksheet");
+
 const uploadImageToFirebaseStorage = async (fileBuffer, filename) => {
   try {
     // Set the destination path in Firebase Storage
@@ -49,6 +51,9 @@ const uploadImageToFirebaseStorage = async (fileBuffer, filename) => {
   }
 };
 
+//xlsx
+const XLSX = require("xlsx");
+
 class BarangController {
   static async create(request, response, next) {
     const {
@@ -64,6 +69,7 @@ class BarangController {
       hargabeli,
       idSupplier,
       idSatuan,
+      idTokped,
     } = request.body;
 
     try {
@@ -80,6 +86,7 @@ class BarangController {
         hargabeli,
         idSupplier,
         idSatuan,
+        idTokped,
       });
       console.log(newBarang);
       response.status(201).json(newBarang);
@@ -174,6 +181,30 @@ class BarangController {
     }
   }
 
+  static async updatestok(request, response, next) {
+    const { id, stok } = request.body;
+    try {
+      const rowsUpdated = await Barang.update(
+        {
+          stok,
+        },
+        {
+          where: {
+            id,
+          },
+        }
+      );
+
+      if (rowsUpdated) {
+        response.status(200).json("updated");
+      } else {
+        response.status(400).json("not update");
+      }
+    } catch (error) {
+      next(error);
+    }
+  }
+
   static async delete(request, response, next) {
     const { id } = request.params;
     try {
@@ -222,10 +253,16 @@ class BarangController {
   }
 
   static async readsearch(request, response, next) {
-    const { namabarang, supplier } = request.body;
+    const { namabarang, supplier, tokped } = request.body;
     let whereCondition = {};
 
-    if (namabarang != "" && supplier != "-1") {
+    if (tokped) {
+      whereCondition = {
+        idTokped: {
+          [Sequelize.Op.ne]: null, // This checks that 'name' is not NULL
+        },
+      };
+    } else if (namabarang != "" && supplier != "-1") {
       whereCondition = {
         [Op.and]: [
           {
@@ -263,6 +300,7 @@ class BarangController {
           {
             model: Satuan,
             required: false,
+            attributes: ["id", "namahz", "namalain", "konversi"],
           },
           {
             model: Lokator,
@@ -274,9 +312,9 @@ class BarangController {
             as: "RaksBarang",
             through: { attributes: [] },
             attributes: ["id", "kode", "letak", "status"],
+            order: [["id", "ASC"]],
           },
         ],
-        order: [["namabarang", "ASC"]],
       });
       console.log(barang);
       response.status(200).json(barang);
@@ -347,6 +385,12 @@ class BarangController {
       const barangInRak = await Barang.findAll({
         include: [
           {
+            model: Satuan,
+          },
+          {
+            model: Supplier,
+          },
+          {
             model: Rak,
             through: {
               model: Lokator,
@@ -415,6 +459,74 @@ class BarangController {
       .catch((error) => {
         console.error("Error exporting to Excel:", error.message);
       });
+  }
+
+  static async generateNewSku(req, res, next) {
+    try {
+      // Step 1: Find the maximum numeric part of the SKU
+      const maxSku = await Barang.findOne({
+        attributes: [
+          [
+            sequelize.fn(
+              "MAX",
+              sequelize.cast(
+                sequelize.fn("SUBSTRING", sequelize.col("sku"), 2),
+                "INTEGER" // Use INTEGER instead of UNSIGNED for PostgreSQL
+              )
+            ),
+            "max_sku",
+          ],
+        ],
+      });
+
+      // Extract the max SKU number and add 1 to it
+      const maxSkuNumber = maxSku?.get("max_sku") || 0; // Default to 0 if no SKU found
+      const newSkuNumber = parseInt(maxSkuNumber, 10) + 1;
+
+      // Step 2: Create the new SKU by appending the new number to the prefix 'B'
+      const newSku = `B${newSkuNumber.toString().padStart(3, "0")}`;
+
+      console.log("New SKU:", newSku);
+      res.status(200).json(newSku);
+    } catch (err) {
+      next(err);
+    }
+  }
+  static async importtokped(req, res, next) {
+    try {
+      if (!req.file) {
+        return res.status(400).json({ error: "No file uploaded." });
+      }
+
+      const fileBuffer = req.file.buffer;
+      const filename = req.file.originalname;
+
+      const data = await readImportTokopedia(fileBuffer);
+
+      // res.status(200).json({ data: data, filename: filename });
+
+      for (let i = 0; i < data.length; i++) {
+        const element = data[i];
+        const idTokped = element["idTokped"];
+        const sku = element["sku"];
+        await Barang.update(
+          {
+            idTokped,
+          },
+          {
+            where: {
+              sku,
+            },
+          }
+        );
+      }
+      res
+        .status(200)
+        .json({ message: "File uploaded successfully!", data: data });
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({ error: "Internal server error." });
+    }
   }
 }
 

@@ -12,6 +12,7 @@ const UserController = require("../controller/user.js");
 const SupplierController = require("../controller/supplier.js");
 const RakController = require("../controller/rak.js");
 const BackUpController = require("../controller/backup.js");
+const DownloadController = require("../controller/download.js");
 const VarianController = require("../controller/varian.js");
 
 const HterimaController = require("../controller/hterima.js");
@@ -23,6 +24,7 @@ const { authN, authZCRall, authZUD } = require("../middleware");
 //-- start upload file initialization
 const multer = require("multer");
 const { ro } = require("date-fns/locale");
+
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 //--------end upload file initialization
@@ -124,9 +126,16 @@ router.put("/rempah/updateimage", RempahController.updateimage);
 
 //-------BARANG
 router.post("/barang/upload", upload.single("file"), BarangController.upload);
+router.post(
+  "/barang/importtokped",
+  upload.single("file"),
+  BarangController.importtokped
+);
 router.post("/barang/search", BarangController.readsearch);
 router.get("/barang/export", BarangController.exportbarang);
 router.put("/barang/updateimage", BarangController.updateimage);
+router.put("/barang/stok", BarangController.updatestok);
+router.get("/barang/gennewsku", BarangController.generateNewSku);
 
 //--------HTERIMA
 router.post("/hterima/upload", upload.single("file"), HterimaController.upload);
@@ -137,6 +146,8 @@ router.delete("/hterima/:id", HterimaController.delete);
 //-------DTERIMA
 router.get("/dterima/:idHTerimaBarang", DterimaController.read);
 
+//-------DOWNLOAD
+router.get("/download/exporttokped", DownloadController.exporttokped);
 //----------------------------- 3 slash -------------------------------------
 
 //rempah
@@ -173,7 +184,6 @@ router.post(
 router.get("backup/class/barang", BackUpController.backupbarang);
 router.get("backup/class/resep", BackUpController.backupresep);
 router.get("backup/class/bahan", BackUpController.backupbahan);
-router.get("backup/class/bahan", BackUpController.exporttokped);
 
 // router.get("backup/class/satuan",BackUpController.backupsatuan);
 // router.get("backup/class/rak");

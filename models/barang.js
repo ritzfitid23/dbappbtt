@@ -36,8 +36,9 @@ module.exports = (sequelize, DataTypes) => {
       berat: DataTypes.INTEGER,
       hargajual: DataTypes.INTEGER,
       hargabeli: DataTypes.INTEGER,
-      idSupplier: DataTypes.INTEGER,
-      idSatuan: DataTypes.INTEGER,
+      idSupplier: { type: DataTypes.INTEGER, allowNull: true }, // Allow null values},
+      idSatuan: { type: DataTypes.INTEGER, allowNull: true }, // Allow null values},
+      idTokped: { type: DataTypes.INTEGER, allowNull: true },
     },
     {
       sequelize,
@@ -58,6 +59,7 @@ module.exports = (sequelize, DataTypes) => {
               hargajual: barang.hargajual,
               hargabeli: 0,
               qty: barang.stok,
+              minOrder: 0,
             });
           } catch (error) {
             console.error("Error creating VarianBarang:", error);

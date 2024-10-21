@@ -1,9 +1,9 @@
 "use strict";
-const lokator = require("./lokator18jan.json");
+let lokator = require("./lokator-28sept2024.json");
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    lokator.forEach((el) => {
+    lokator.map((el) => {
       el.createdAt = new Date();
       el.updatedAt = new Date();
       return el;

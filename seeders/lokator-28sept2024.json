@@ -100,7 +100,7 @@
     "status": "aktif"
   },
   {
-    "idRak": 2,
+    "idRak": 1,
     "idBarang": 21,
     "status": "aktif"
   },
@@ -240,7 +240,7 @@
     "status": "aktif"
   },
   {
-    "idRak": 3,
+    "idRak": 2,
     "idBarang": 49,
     "status": "aktif"
   },
@@ -295,12 +295,12 @@
     "status": "aktif"
   },
   {
-    "idRak": 4,
+    "idRak": 3,
     "idBarang": 60,
     "status": "aktif"
   },
   {
-    "idRak": 4,
+    "idRak": 3,
     "idBarang": 61,
     "status": "aktif"
   },
@@ -370,12 +370,12 @@
     "status": "aktif"
   },
   {
-    "idRak": 5,
+    "idRak": 4,
     "idBarang": 75,
     "status": "aktif"
   },
   {
-    "idRak": 5,
+    "idRak": 4,
     "idBarang": 76,
     "status": "aktif"
   },
@@ -465,57 +465,57 @@
     "status": "aktif"
   },
   {
-    "idRak": 6,
+    "idRak": 5,
     "idBarang": 94,
     "status": "aktif"
   },
   {
-    "idRak": 6,
+    "idRak": 5,
     "idBarang": 95,
     "status": "aktif"
   },
   {
-    "idRak": 6,
+    "idRak": 5,
     "idBarang": 96,
     "status": "aktif"
   },
   {
-    "idRak": 6,
+    "idRak": 5,
     "idBarang": 97,
     "status": "aktif"
   },
   {
-    "idRak": 7,
+    "idRak": 5,
     "idBarang": 98,
     "status": "aktif"
   },
   {
-    "idRak": 7,
+    "idRak": 5,
     "idBarang": 99,
     "status": "aktif"
   },
   {
-    "idRak": 7,
+    "idRak": 5,
     "idBarang": 100,
     "status": "aktif"
   },
   {
-    "idRak": 7,
+    "idRak": 6,
     "idBarang": 101,
     "status": "aktif"
   },
   {
-    "idRak": 7,
+    "idRak": 6,
     "idBarang": 102,
     "status": "aktif"
   },
   {
-    "idRak": 7,
+    "idRak": 6,
     "idBarang": 103,
     "status": "aktif"
   },
   {
-    "idRak": 7,
+    "idRak": 6,
     "idBarang": 104,
     "status": "aktif"
   },
@@ -775,112 +775,112 @@
     "status": "aktif"
   },
   {
-    "idRak": 8,
+    "idRak": 7,
     "idBarang": 156,
     "status": "aktif"
   },
   {
-    "idRak": 8,
+    "idRak": 7,
     "idBarang": 157,
     "status": "aktif"
   },
   {
-    "idRak": 8,
+    "idRak": 7,
     "idBarang": 158,
     "status": "aktif"
   },
   {
-    "idRak": 9,
+    "idRak": 7,
     "idBarang": 159,
     "status": "aktif"
   },
   {
-    "idRak": 9,
+    "idRak": 7,
     "idBarang": 160,
     "status": "aktif"
   },
   {
-    "idRak": 9,
+    "idRak": 7,
     "idBarang": 161,
     "status": "aktif"
   },
   {
-    "idRak": 9,
+    "idRak": 7,
     "idBarang": 162,
     "status": "aktif"
   },
   {
-    "idRak": 9,
+    "idRak": 7,
     "idBarang": 163,
     "status": "aktif"
   },
   {
-    "idRak": 9,
+    "idRak": 8,
     "idBarang": 164,
     "status": "aktif"
   },
   {
-    "idRak": 10,
+    "idRak": 8,
     "idBarang": 165,
     "status": "aktif"
   },
   {
-    "idRak": 10,
+    "idRak": 8,
     "idBarang": 166,
     "status": "aktif"
   },
   {
-    "idRak": 10,
+    "idRak": 9,
     "idBarang": 167,
     "status": "aktif"
   },
   {
-    "idRak": 10,
+    "idRak": 9,
     "idBarang": 168,
     "status": "aktif"
   },
   {
-    "idRak": 10,
+    "idRak": 9,
     "idBarang": 169,
     "status": "aktif"
   },
   {
-    "idRak": 11,
+    "idRak": 9,
     "idBarang": 170,
     "status": "aktif"
   },
   {
-    "idRak": 11,
+    "idRak": 9,
     "idBarang": 171,
     "status": "aktif"
   },
   {
-    "idRak": 11,
+    "idRak": 9,
     "idBarang": 172,
     "status": "aktif"
   },
   {
-    "idRak": 11,
+    "idRak": 10,
     "idBarang": 173,
     "status": "aktif"
   },
   {
-    "idRak": 11,
+    "idRak": 10,
     "idBarang": 174,
     "status": "aktif"
   },
   {
-    "idRak": 11,
+    "idRak": 10,
     "idBarang": 175,
     "status": "aktif"
   },
   {
-    "idRak": 11,
+    "idRak": 10,
     "idBarang": 176,
     "status": "aktif"
   },
   {
-    "idRak": 11,
+    "idRak": 10,
     "idBarang": 177,
     "status": "aktif"
   },
@@ -910,42 +910,42 @@
     "status": "aktif"
   },
   {
-    "idRak": 12,
+    "idRak": 11,
     "idBarang": 183,
     "status": "aktif"
   },
   {
-    "idRak": 12,
+    "idRak": 11,
     "idBarang": 184,
     "status": "aktif"
   },
   {
-    "idRak": 12,
+    "idRak": 11,
     "idBarang": 185,
     "status": "aktif"
   },
   {
-    "idRak": 12,
+    "idRak": 11,
     "idBarang": 186,
     "status": "aktif"
   },
   {
-    "idRak": 12,
+    "idRak": 11,
     "idBarang": 187,
     "status": "aktif"
   },
   {
-    "idRak": 12,
+    "idRak": 11,
     "idBarang": 188,
     "status": "aktif"
   },
   {
-    "idRak": 12,
+    "idRak": 11,
     "idBarang": 189,
     "status": "aktif"
   },
   {
-    "idRak": 12,
+    "idRak": 11,
     "idBarang": 190,
     "status": "aktif"
   },
@@ -1005,47 +1005,47 @@
     "status": "aktif"
   },
   {
-    "idRak": 13,
+    "idRak": 12,
     "idBarang": 202,
     "status": "aktif"
   },
   {
-    "idRak": 13,
+    "idRak": 12,
     "idBarang": 203,
     "status": "aktif"
   },
   {
-    "idRak": 13,
+    "idRak": 12,
     "idBarang": 204,
     "status": "aktif"
   },
   {
-    "idRak": 13,
+    "idRak": 12,
     "idBarang": 205,
     "status": "aktif"
   },
   {
-    "idRak": 13,
+    "idRak": 12,
     "idBarang": 206,
     "status": "aktif"
   },
   {
-    "idRak": 13,
+    "idRak": 12,
     "idBarang": 207,
     "status": "aktif"
   },
   {
-    "idRak": 13,
+    "idRak": 12,
     "idBarang": 208,
     "status": "aktif"
   },
   {
-    "idRak": 13,
+    "idRak": 12,
     "idBarang": 209,
     "status": "aktif"
   },
   {
-    "idRak": 13,
+    "idRak": 12,
     "idBarang": 210,
     "status": "aktif"
   },
@@ -1140,182 +1140,182 @@
     "status": "aktif"
   },
   {
-    "idRak": 14,
+    "idRak": 13,
     "idBarang": 229,
     "status": "aktif"
   },
   {
-    "idRak": 15,
+    "idRak": 13,
     "idBarang": 230,
     "status": "aktif"
   },
   {
-    "idRak": 15,
+    "idRak": 13,
     "idBarang": 231,
     "status": "aktif"
   },
   {
-    "idRak": 15,
+    "idRak": 13,
     "idBarang": 232,
     "status": "aktif"
   },
   {
-    "idRak": 15,
+    "idRak": 13,
     "idBarang": 233,
     "status": "aktif"
   },
   {
-    "idRak": 15,
+    "idRak": 13,
     "idBarang": 234,
     "status": "aktif"
   },
   {
-    "idRak": 15,
+    "idRak": 13,
     "idBarang": 235,
     "status": "aktif"
   },
   {
-    "idRak": 15,
+    "idRak": 13,
     "idBarang": 236,
     "status": "aktif"
   },
   {
-    "idRak": 15,
+    "idRak": 13,
     "idBarang": 237,
     "status": "aktif"
   },
   {
-    "idRak": 16,
+    "idRak": 13,
     "idBarang": 238,
     "status": "aktif"
   },
   {
-    "idRak": 16,
+    "idRak": 13,
     "idBarang": 239,
     "status": "aktif"
   },
   {
-    "idRak": 16,
+    "idRak": 14,
     "idBarang": 240,
     "status": "aktif"
   },
   {
-    "idRak": 16,
+    "idRak": 15,
     "idBarang": 241,
     "status": "aktif"
   },
   {
-    "idRak": 16,
+    "idRak": 15,
     "idBarang": 242,
     "status": "aktif"
   },
   {
-    "idRak": 16,
+    "idRak": 15,
     "idBarang": 243,
     "status": "aktif"
   },
   {
-    "idRak": 17,
+    "idRak": 15,
     "idBarang": 244,
     "status": "aktif"
   },
   {
-    "idRak": 17,
+    "idRak": 15,
     "idBarang": 245,
     "status": "aktif"
   },
   {
-    "idRak": 17,
+    "idRak": 15,
     "idBarang": 246,
     "status": "aktif"
   },
   {
-    "idRak": 18,
+    "idRak": 15,
     "idBarang": 247,
     "status": "aktif"
   },
   {
-    "idRak": 19,
+    "idRak": 15,
     "idBarang": 248,
     "status": "aktif"
   },
   {
-    "idRak": 19,
+    "idRak": 15,
     "idBarang": 249,
     "status": "aktif"
   },
   {
-    "idRak": 21,
+    "idRak": 16,
     "idBarang": 250,
     "status": "aktif"
   },
   {
-    "idRak": 21,
+    "idRak": 16,
     "idBarang": 251,
     "status": "aktif"
   },
   {
-    "idRak": 21,
+    "idRak": 16,
     "idBarang": 252,
     "status": "aktif"
   },
   {
-    "idRak": 21,
+    "idRak": 16,
     "idBarang": 253,
     "status": "aktif"
   },
   {
-    "idRak": 21,
+    "idRak": 16,
     "idBarang": 254,
     "status": "aktif"
   },
   {
-    "idRak": 21,
+    "idRak": 16,
     "idBarang": 255,
     "status": "aktif"
   },
   {
-    "idRak": 21,
+    "idRak": 34,
     "idBarang": 256,
     "status": "aktif"
   },
   {
-    "idRak": 21,
+    "idRak": 34,
     "idBarang": 257,
     "status": "aktif"
   },
   {
-    "idRak": 21,
+    "idRak": 34,
     "idBarang": 258,
     "status": "aktif"
   },
   {
-    "idRak": 21,
+    "idRak": 17,
     "idBarang": 259,
     "status": "aktif"
   },
   {
-    "idRak": 21,
+    "idRak": 17,
     "idBarang": 260,
     "status": "aktif"
   },
   {
-    "idRak": 21,
+    "idRak": 17,
     "idBarang": 261,
     "status": "aktif"
   },
   {
-    "idRak": 21,
+    "idRak": 17,
     "idBarang": 262,
     "status": "aktif"
   },
   {
-    "idRak": 21,
+    "idRak": 19,
     "idBarang": 263,
     "status": "aktif"
   },
   {
-    "idRak": 21,
+    "idRak": 19,
     "idBarang": 264,
     "status": "aktif"
   },
@@ -1470,137 +1470,137 @@
     "status": "aktif"
   },
   {
-    "idRak": 22,
+    "idRak": 21,
     "idBarang": 295,
     "status": "aktif"
   },
   {
-    "idRak": 22,
+    "idRak": 21,
     "idBarang": 296,
     "status": "aktif"
   },
   {
-    "idRak": 22,
+    "idRak": 21,
     "idBarang": 297,
     "status": "aktif"
   },
   {
-    "idRak": 22,
+    "idRak": 21,
     "idBarang": 298,
     "status": "aktif"
   },
   {
-    "idRak": 22,
+    "idRak": 21,
     "idBarang": 299,
     "status": "aktif"
   },
   {
-    "idRak": 22,
+    "idRak": 21,
     "idBarang": 300,
     "status": "aktif"
   },
   {
-    "idRak": 22,
+    "idRak": 21,
     "idBarang": 301,
     "status": "aktif"
   },
   {
-    "idRak": 22,
+    "idRak": 21,
     "idBarang": 302,
     "status": "aktif"
   },
   {
-    "idRak": 22,
+    "idRak": 21,
     "idBarang": 303,
     "status": "aktif"
   },
   {
-    "idRak": 22,
+    "idRak": 21,
     "idBarang": 304,
     "status": "aktif"
   },
   {
-    "idRak": 22,
+    "idRak": 21,
     "idBarang": 305,
     "status": "aktif"
   },
   {
-    "idRak": 22,
+    "idRak": 21,
     "idBarang": 306,
     "status": "aktif"
   },
   {
-    "idRak": 23,
+    "idRak": 21,
     "idBarang": 307,
     "status": "aktif"
   },
   {
-    "idRak": 23,
+    "idRak": 21,
     "idBarang": 308,
     "status": "aktif"
   },
   {
-    "idRak": 23,
+    "idRak": 21,
     "idBarang": 309,
     "status": "aktif"
   },
   {
-    "idRak": 23,
+    "idRak": 22,
     "idBarang": 310,
     "status": "aktif"
   },
   {
-    "idRak": 23,
+    "idRak": 22,
     "idBarang": 311,
     "status": "aktif"
   },
   {
-    "idRak": 23,
+    "idRak": 22,
     "idBarang": 312,
     "status": "aktif"
   },
   {
-    "idRak": 23,
+    "idRak": 22,
     "idBarang": 313,
     "status": "aktif"
   },
   {
-    "idRak": 23,
+    "idRak": 22,
     "idBarang": 314,
     "status": "aktif"
   },
   {
-    "idRak": 23,
+    "idRak": 22,
     "idBarang": 315,
     "status": "aktif"
   },
   {
-    "idRak": 23,
+    "idRak": 22,
     "idBarang": 316,
     "status": "aktif"
   },
   {
-    "idRak": 23,
+    "idRak": 22,
     "idBarang": 317,
     "status": "aktif"
   },
   {
-    "idRak": 23,
+    "idRak": 22,
     "idBarang": 318,
     "status": "aktif"
   },
   {
-    "idRak": 23,
+    "idRak": 22,
     "idBarang": 319,
     "status": "aktif"
   },
   {
-    "idRak": 23,
+    "idRak": 22,
     "idBarang": 320,
     "status": "aktif"
   },
   {
-    "idRak": 23,
+    "idRak": 22,
     "idBarang": 321,
     "status": "aktif"
   },
@@ -1625,553 +1625,738 @@
     "status": "aktif"
   },
   {
-    "idRak": 24,
+    "idRak": 23,
     "idBarang": 326,
     "status": "aktif"
   },
   {
-    "idRak": 24,
+    "idRak": 23,
     "idBarang": 327,
     "status": "aktif"
   },
   {
-    "idRak": 24,
+    "idRak": 23,
     "idBarang": 328,
     "status": "aktif"
   },
   {
-    "idRak": 24,
+    "idRak": 23,
     "idBarang": 329,
     "status": "aktif"
   },
   {
-    "idRak": 24,
+    "idRak": 23,
     "idBarang": 330,
     "status": "aktif"
   },
   {
-    "idRak": 24,
+    "idRak": 23,
     "idBarang": 331,
     "status": "aktif"
   },
   {
-    "idRak": 24,
+    "idRak": 23,
     "idBarang": 332,
     "status": "aktif"
   },
   {
-    "idRak": 24,
+    "idRak": 23,
     "idBarang": 333,
     "status": "aktif"
   },
   {
-    "idRak": 24,
+    "idRak": 23,
     "idBarang": 334,
     "status": "aktif"
   },
   {
-    "idRak": 24,
+    "idRak": 23,
     "idBarang": 335,
     "status": "aktif"
   },
   {
-    "idRak": 24,
+    "idRak": 23,
     "idBarang": 336,
     "status": "aktif"
   },
   {
-    "idRak": 25,
+    "idRak": 23,
     "idBarang": 337,
     "status": "aktif"
   },
   {
-    "idRak": 25,
+    "idRak": 23,
     "idBarang": 338,
     "status": "aktif"
   },
   {
-    "idRak": 25,
+    "idRak": 23,
     "idBarang": 339,
     "status": "aktif"
   },
   {
-    "idRak": 25,
+    "idRak": 23,
     "idBarang": 340,
     "status": "aktif"
   },
   {
-    "idRak": 25,
+    "idRak": 24,
     "idBarang": 341,
     "status": "aktif"
   },
   {
-    "idRak": 25,
+    "idRak": 24,
     "idBarang": 342,
     "status": "aktif"
   },
   {
-    "idRak": 25,
+    "idRak": 24,
     "idBarang": 343,
     "status": "aktif"
   },
   {
-    "idRak": 25,
+    "idRak": 24,
     "idBarang": 344,
     "status": "aktif"
   },
   {
-    "idRak": 26,
+    "idRak": 24,
     "idBarang": 345,
     "status": "aktif"
   },
   {
-    "idRak": 26,
+    "idRak": 24,
     "idBarang": 346,
     "status": "aktif"
   },
   {
-    "idRak": 27,
+    "idRak": 24,
     "idBarang": 347,
     "status": "aktif"
   },
   {
-    "idRak": 27,
+    "idRak": 24,
     "idBarang": 348,
     "status": "aktif"
   },
   {
-    "idRak": 27,
+    "idRak": 24,
     "idBarang": 349,
     "status": "aktif"
   },
   {
-    "idRak": 27,
+    "idRak": 24,
     "idBarang": 350,
     "status": "aktif"
   },
   {
-    "idRak": 27,
+    "idRak": 24,
     "idBarang": 351,
     "status": "aktif"
   },
   {
-    "idRak": 27,
+    "idRak": 25,
     "idBarang": 352,
     "status": "aktif"
   },
   {
-    "idRak": 27,
+    "idRak": 25,
     "idBarang": 353,
     "status": "aktif"
   },
   {
-    "idRak": 27,
+    "idRak": 25,
     "idBarang": 354,
     "status": "aktif"
   },
   {
-    "idRak": 27,
+    "idRak": 25,
     "idBarang": 355,
     "status": "aktif"
   },
   {
-    "idRak": 27,
+    "idRak": 25,
     "idBarang": 356,
     "status": "aktif"
   },
   {
-    "idRak": 27,
+    "idRak": 25,
     "idBarang": 357,
     "status": "aktif"
   },
   {
-    "idRak": 27,
+    "idRak": 25,
     "idBarang": 358,
     "status": "aktif"
   },
   {
-    "idRak": 27,
+    "idRak": 25,
     "idBarang": 359,
     "status": "aktif"
   },
   {
-    "idRak": 27,
+    "idRak": 26,
     "idBarang": 360,
     "status": "aktif"
   },
   {
-    "idRak": 28,
+    "idRak": 26,
     "idBarang": 361,
     "status": "aktif"
   },
   {
-    "idRak": 28,
+    "idRak": 26,
     "idBarang": 362,
     "status": "aktif"
   },
   {
-    "idRak": 28,
+    "idRak": 26,
     "idBarang": 363,
     "status": "aktif"
   },
   {
-    "idRak": 28,
+    "idRak": 26,
     "idBarang": 364,
     "status": "aktif"
   },
   {
-    "idRak": 28,
+    "idRak": 27,
     "idBarang": 365,
     "status": "aktif"
   },
   {
-    "idRak": 28,
+    "idRak": 27,
     "idBarang": 366,
     "status": "aktif"
   },
   {
-    "idRak": 28,
+    "idRak": 27,
     "idBarang": 367,
     "status": "aktif"
   },
   {
-    "idRak": 28,
+    "idRak": 27,
     "idBarang": 368,
     "status": "aktif"
   },
   {
-    "idRak": 28,
+    "idRak": 27,
     "idBarang": 369,
     "status": "aktif"
   },
   {
-    "idRak": 28,
+    "idRak": 27,
     "idBarang": 370,
     "status": "aktif"
   },
   {
-    "idRak": 28,
+    "idRak": 27,
     "idBarang": 371,
     "status": "aktif"
   },
   {
-    "idRak": 28,
+    "idRak": 27,
     "idBarang": 372,
     "status": "aktif"
   },
   {
-    "idRak": 28,
+    "idRak": 27,
     "idBarang": 373,
     "status": "aktif"
   },
   {
-    "idRak": 28,
+    "idRak": 27,
     "idBarang": 374,
     "status": "aktif"
   },
   {
-    "idRak": 28,
+    "idRak": 27,
     "idBarang": 375,
     "status": "aktif"
   },
   {
-    "idRak": 29,
+    "idRak": 27,
     "idBarang": 376,
     "status": "aktif"
   },
   {
-    "idRak": 29,
+    "idRak": 27,
     "idBarang": 377,
     "status": "aktif"
   },
   {
-    "idRak": 29,
+    "idRak": 27,
     "idBarang": 378,
     "status": "aktif"
   },
   {
-    "idRak": 29,
+    "idRak": 28,
     "idBarang": 379,
     "status": "aktif"
   },
   {
-    "idRak": 29,
+    "idRak": 28,
     "idBarang": 380,
     "status": "aktif"
   },
   {
-    "idRak": 29,
+    "idRak": 28,
     "idBarang": 381,
     "status": "aktif"
   },
   {
-    "idRak": 29,
+    "idRak": 28,
     "idBarang": 382,
     "status": "aktif"
   },
   {
-    "idRak": 29,
+    "idRak": 28,
     "idBarang": 383,
     "status": "aktif"
   },
   {
-    "idRak": 29,
+    "idRak": 28,
     "idBarang": 384,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 28,
     "idBarang": 385,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 28,
     "idBarang": 386,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 28,
     "idBarang": 387,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 28,
     "idBarang": 388,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 28,
     "idBarang": 389,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 28,
     "idBarang": 390,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 28,
     "idBarang": 391,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 28,
     "idBarang": 392,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 28,
     "idBarang": 393,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 28,
     "idBarang": 394,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 29,
     "idBarang": 395,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 29,
     "idBarang": 396,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 29,
     "idBarang": 397,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 29,
     "idBarang": 398,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 29,
     "idBarang": 399,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 29,
     "idBarang": 400,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 29,
     "idBarang": 401,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 29,
     "idBarang": 402,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 29,
     "idBarang": 403,
     "status": "aktif"
   },
   {
-    "idRak": 30,
+    "idRak": 29,
     "idBarang": 404,
     "status": "aktif"
   },
   {
-    "idRak": 31,
+    "idRak": 30,
     "idBarang": 405,
     "status": "aktif"
   },
   {
-    "idRak": 31,
+    "idRak": 30,
     "idBarang": 406,
     "status": "aktif"
   },
   {
-    "idRak": 31,
+    "idRak": 30,
     "idBarang": 407,
     "status": "aktif"
   },
   {
-    "idRak": 31,
+    "idRak": 30,
     "idBarang": 408,
     "status": "aktif"
   },
   {
-    "idRak": 31,
+    "idRak": 30,
     "idBarang": 409,
     "status": "aktif"
   },
   {
-    "idRak": 31,
+    "idRak": 30,
     "idBarang": 410,
     "status": "aktif"
   },
   {
-    "idRak": 32,
+    "idRak": 30,
     "idBarang": 411,
     "status": "aktif"
   },
   {
-    "idRak": 32,
+    "idRak": 30,
     "idBarang": 412,
     "status": "aktif"
   },
   {
-    "idRak": 32,
+    "idRak": 30,
     "idBarang": 413,
     "status": "aktif"
   },
   {
-    "idRak": 32,
+    "idRak": 30,
     "idBarang": 414,
     "status": "aktif"
   },
   {
-    "idRak": 32,
+    "idRak": 30,
     "idBarang": 415,
     "status": "aktif"
   },
   {
-    "idRak": 32,
+    "idRak": 30,
     "idBarang": 416,
     "status": "aktif"
   },
   {
-    "idRak": 32,
+    "idRak": 30,
     "idBarang": 417,
     "status": "aktif"
   },
   {
-    "idRak": 32,
+    "idRak": 30,
     "idBarang": 418,
     "status": "aktif"
   },
   {
-    "idRak": 32,
+    "idRak": 30,
     "idBarang": 419,
     "status": "aktif"
   },
   {
-    "idRak": 33,
+    "idRak": 30,
     "idBarang": 420,
     "status": "aktif"
   },
   {
-    "idRak": 33,
+    "idRak": 30,
     "idBarang": 421,
     "status": "aktif"
   },
   {
-    "idRak": 33,
+    "idRak": 30,
     "idBarang": 422,
     "status": "aktif"
   },
   {
-    "idRak": 33,
+    "idRak": 30,
     "idBarang": 423,
     "status": "aktif"
   },
   {
-    "idRak": 33,
+    "idRak": 30,
     "idBarang": 424,
     "status": "aktif"
   },
   {
-    "idRak": 33,
+    "idRak": 31,
     "idBarang": 425,
     "status": "aktif"
   },
   {
-    "idRak": 33,
+    "idRak": 31,
     "idBarang": 426,
     "status": "aktif"
   },
   {
-    "idRak": 33,
+    "idRak": 31,
     "idBarang": 427,
     "status": "aktif"
   },
   {
-    "idRak": 33,
+    "idRak": 31,
     "idBarang": 428,
     "status": "aktif"
   },
   {
-    "idRak": 33,
+    "idRak": 31,
     "idBarang": 429,
     "status": "aktif"
   },
   {
-    "idRak": 33,
+    "idRak": 31,
     "idBarang": 430,
     "status": "aktif"
   },
   {
-    "idRak": 33,
+    "idRak": 31,
     "idBarang": 431,
     "status": "aktif"
   },
   {
-    "idRak": 33,
+    "idRak": 32,
     "idBarang": 432,
     "status": "aktif"
   },
   {
-    "idRak": 33,
+    "idRak": 32,
     "idBarang": 433,
     "status": "aktif"
   },
   {
-    "idRak": 33,
+    "idRak": 32,
     "idBarang": 434,
     "status": "aktif"
   },
   {
-    "idRak": 33,
+    "idRak": 32,
     "idBarang": 435,
+    "status": "aktif"
+  },
+  {
+    "idRak": 32,
+    "idBarang": 436,
+    "status": "aktif"
+  },
+  {
+    "idRak": 32,
+    "idBarang": 437,
+    "status": "aktif"
+  },
+  {
+    "idRak": 32,
+    "idBarang": 438,
+    "status": "aktif"
+  },
+  {
+    "idRak": 32,
+    "idBarang": 439,
+    "status": "aktif"
+  },
+  {
+    "idRak": 32,
+    "idBarang": 440,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 441,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 442,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 443,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 444,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 445,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 446,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 447,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 448,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 449,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 450,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 451,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 452,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 453,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 454,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 455,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 456,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 457,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 458,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 459,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 460,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 461,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 462,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 463,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 464,
+    "status": "aktif"
+  },
+  {
+    "idRak": 33,
+    "idBarang": 465,
+    "status": "aktif"
+  },
+  {
+    "idRak": 14,
+    "idBarang": 466,
+    "status": "aktif"
+  },
+  {
+    "idRak": 29,
+    "idBarang": 467,
+    "status": "aktif"
+  },
+  {
+    "idRak": 29,
+    "idBarang": 468,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 469,
+    "status": "aktif"
+  },
+  {
+    "idRak": 12,
+    "idBarang": 470,
+    "status": "aktif"
+  },
+  {
+    "idRak": 7,
+    "idBarang": 471,
+    "status": "aktif"
+  },
+  {
+    "idRak": 3,
+    "idBarang": 472,
     "status": "aktif"
   }
 ]

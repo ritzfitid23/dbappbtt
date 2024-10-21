@@ -117,18 +117,37 @@ class Controller {
   }
 
   static async readsearch(request, response, next) {
-    const { namahz, namalain, offset, limit } = request.body;
+    const { namahz, namalain } = request.body;
 
     try {
+      const searchTerm = namalain ? `%${namalain}%` : "%%";
+      const hanzhiTerm = namahz ? `%${namahz}%` : "%%";
       const recipes = await Resep.findAll({
+        include: [
+          {
+            model: Bahan,
+            required: false,
+            where: {
+              exist: 1,
+            },
+            include: [
+              {
+                model: Rempah,
+                required: true,
+              },
+              {
+                model: Satuan,
+                required: true,
+              },
+            ],
+          },
+        ],
         where: {
           [Op.or]: [
-            { namahz: { [Op.like]: `%${namahz}%` } },
-            { namalain: { [Op.like]: `%${namalain}%` } },
+            { namalain: { [Op.like]: searchTerm } },
+            { namahz: { [Op.like]: hanzhiTerm } },
           ],
         },
-        offset: offset, // The number of records to skip
-        limit: limit, // The maximum number of records to return
       });
       response.status(200).json(recipes);
     } catch (error) {
